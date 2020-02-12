@@ -1,148 +1,69 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<!-- This is the true starting point in 2020!!!! -->
 <html xmlns="http://www.w3.org/1999/xhtml">
     <head>
-        <title>Sasha Loobkoff  |  Art Director</title>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-        <meta name="description" content="Sasha Loobkoff |  Art Director" />
-        <meta name="keywords" content="Art, mobile, web, print, design, html, php, css, jquery"/>
+      <title>Sasha Loobkoff  |  Art Director</title>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+      <meta name="description" content="Sasha Loobkoff |  Art Director" />
+      <meta name="keywords" content="Art, mobile, web, print, design, html, php, css, jquery"/>
 
+  		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js" type="text/javascript"></script>
+  		<script src="_js/runonload.js" type="text/javascript"></script>
+  		<script src="_js/nav_bar.js" type="text/javascript"></script><script src="_js/form.js" type="text/javascript"></script>
+  		<script src="_js/portfolio_boxes.js" type="text/javascript"></script>
+  		<script src="_js/shadowbox.js" type="text/javascript"></script>
+  		<script src="_js/jquery.easing.1.3.js" type="text/javascript"></script>
+  		<script src="_js/jquery.innerfade.js" type="text/javascript"></script>
+  		<script src="_js/image_rotation.js" type="text/javascript"></script>
+  		<script src="_js/alert.js" type="text/javascript"></script>
+  		<link href="_css/style.css" media="all" type="text/css" rel="stylesheet" />
+  		<link href="_css/form.css" media="all" type="text/css" rel="stylesheet" />
+  		<link href="_css/buttons.css" media="all" type="text/css" rel="stylesheet" />
+  		<link href="_css/portfolio.css" media="all" type="text/css" rel="stylesheet" />
+  		<link href="_css/shadowbox.css" type="text/css" rel="stylesheet" />
+      <link rel="shortcut icon" href="favicon.ico"/>]
 
-		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js" type="text/javascript"></script>
-		<script src="_js/runonload.js" type="text/javascript"></script>
-		<script src="_js/nav_bar.js" type="text/javascript"></script><script src="_js/form.js" type="text/javascript"></script>
-		<script src="_js/portfolio_boxes.js" type="text/javascript"></script>
-		<script src="_js/shadowbox.js" type="text/javascript"></script>
-		<script src="_js/jquery.easing.1.3.js" type="text/javascript"></script>
-		<script src="_js/jquery.innerfade.js" type="text/javascript"></script>
-		<script src="_js/image_rotation.js" type="text/javascript"></script>
-		<script src="_js/alert.js" type="text/javascript"></script>
-		<link href="_css/style.css" media="all" type="text/css" rel="stylesheet" />
-		<link href="_css/form.css" media="all" type="text/css" rel="stylesheet" />
-		<link href="_css/buttons.css" media="all" type="text/css" rel="stylesheet" />
-		<link href="_css/portfolio.css" media="all" type="text/css" rel="stylesheet" />
-		<!--<link href="_css/ribbon.css" media="all" type="text/css" rel="stylesheet" />-->
-		<link href="_css/shadowbox.css" type="text/css" rel="stylesheet" />
-        <link rel="shortcut icon" href="favicon.ico"/>]
-		<script type="text/javascript">
+  		<script type="text/javascript">
+        	$(document).ready(function() {
+              // make nav_bar and footer invisible initially
+              $('#nav_bar, #footer').fadeOut(0);
 
-			$(document).ready(function() {
-				// make nav_bar and footer invisible initially
-				$('#nav_bar, #footer').fadeOut(0);
+              // scroll all the way to the left for stupid ie
+              $('#viewing_pane').stop().animate({scrollLeft: 0}, 1000,'easeInOutExpo');
 
-				// make background image invisible initially with jQuery NOTE: Now masking background with white div over #center_content_main
-				/*$('#center_content_main').css({backgroundImage:'none'});*/
+              // hide IE alert
+              $('a#close_alert').click( function() { $('div#alert').hide(); });
+        	});
 
+        	// Initialize shadowbox
+        	var options = {
+        		//overlayColor: '#fff',
+        		//counterType: 'skip'
+        	};
 
-				// scroll all the way to the left for stupid ie
-				$('#viewing_pane').stop().animate({scrollLeft: 0}, 1000,'easeInOutExpo');
-
-				// check to see if window is large enough - OLD 2011
-				/*if ($(window).width() < 1000 || $(window).height() < 744) {
-					$('#my_div').twitter_alert({
-							message: '<b>Warning!</b><br />This site was designed to be viewed at 1000px X 744px.<br />Please enlarge your browser window or move to a larger monitor.',
-                        	fadeout_time: 7000,
-							bg_colour: '#000',
-							text_size: '16px',
-							line_height: '20px',
-							text_colour: '#00b4ff',
-							border_colour: '#ff00ab'
-					});
-				};*/
-
-				// if tablet cut row 3, shrink height & move up footer - TEMP 2013 - uses jQuery but decided to use css instead
-				/*
-				if ($(window).height() < 744) {
-					$('div.row3').css({'display':'none'});
-					$('div#viewing_pane').css({'height':'672px'});
-					$('div#center_content_main').css({'height':'672px','margin-top': '-281px', 'background': 'url(../_images/background_1000x753_sm.jpg) no-repeat 0 0'});
-					$('div#footer').css({'top':'530px'});
-					$('div#scrolling_content').css({'height':'524px'});
-				};
-				*/
-
-			// hide IE alert
-			$('a#close_alert').click( function() { $('div#alert').hide(); });
-
-			});
-
-			// Initialize shadowbox
-			var options = {
-				//overlayColor: '#fff',
-				//counterType: 'skip'
-			};
-
-			Shadowbox.init(options);
+        	Shadowbox.init(options);
 		</script>
 
 		<!-- google analytics -->
 		<script type="text/javascript">
+  		  var _gaq = _gaq || [];
+  		  _gaq.push(['_setAccount', 'UA-25456410-1']);
+  		  _gaq.push(['_trackPageview']);
 
-		  var _gaq = _gaq || [];
-		  _gaq.push(['_setAccount', 'UA-25456410-1']);
-		  _gaq.push(['_trackPageview']);
-
-		  (function() {
-			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-			ga.src = ('https:' == document.location.protocol ? 'https #fff://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-		  })();
-
+  		  (function() {
+  			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+  			ga.src = ('https:' == document.location.protocol ? 'https #fff://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+  			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  		  })();
 		</script>
-
-
-        <!--[if IE]>
-        <style type="text/css">
-          div#alert {
-              display: block; // make alert div visible in IE
-          }
-        </style>
-        <![endif]-->
-
-
-        <!-- SASHA just in case -->
-
-        <!--[if IE 6]>
-        <style type="text/css">
-          div#alert {
-              display: block; // make alert div visible in IE
-          }
-        </style>
-        <![endif]-->
-
-        <!--[if IE 7]>
-        <style type="text/css">
-          div#alert {
-              display: block; // make alert div visible in IE
-          }
-        </style>
-        <![endif]-->
-
-        <!--[if IE 8]>
-        <style type="text/css">
-          div#alert {
-              display: block; // make alert div visible in IE
-          }
-        </style>
-        <![endif]-->
-
 
 </head>
 <body>
 
-	<!-- ribbon nav
-	<div id="ribbon">
-		<a href="http://sashaloobkoff.tumblr.com/" class="newProjects" target="Loobie_Window"></a>
-		<a href="http://www.sashaloobkoff.com/Loobkoff_resume_2011.pdf" class="resume"></a>
-		<a href="mailto:sasha@sashaloobkoff.com" class="contact"></a>
-	</div>-->
-
     <div id="alert">
-            <div class="alert"><img src="http://www.sashaloobkoff.com/_images/ie_sm.png" style="float: left;" />Hiya! This site is not currently optimized for Internet Explorer. Please switch to ANY other type of browser. [ <a id="close_alert" href="#">close</a> ] &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+            <div class="alert"><img src="http://www.sashaloobkoff.com/_images/ie_sm.png" style="float: left;" />Hiya! This site is not currently optimized for Internet Explorer. Please use ANY other browser. [ <a id="close_alert" href="#">close</a> ] &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
             <!-- end floats -->
             <div style="clear: both"></div>
     </div>
-
 
 	<!-- top color images -->
 	<div>
@@ -257,7 +178,7 @@
 					</div>
 
 
-                	<!-- if ipad horiz, end/clear floats -->
+        	<!-- if ipad horiz, end/clear floats -->
 					<div id="clear_contact_form" style="clear: both"></div>
 
 
@@ -267,23 +188,23 @@
 						  <form name="contact" method="post" action="">
 							<fieldset>
 
-                            <div id="contact_name">
-							  <label for="name" id="name_label">Name</label>
-							  <input type="text" name="name" id="name" value="" class="text-input" />
-							  <label class="error" for="name" id="name_error">This field is required.</label>
-                            </div>
-                            <div id="contact_email">
-							  <label for="email" id="email_label">Return Email</label>
-							  <input type="text" name="email" id="email" value="" class="text-input" />
-							  <label class="error" for="email" id="email_error">This field is required.</label>
-                            </div>
-                            <div id="contact_message">
-                              <label for="phone" id="phone_label">Message</label>
-							  <textarea name="email_message" id="email_message"  class="message"></textarea>
-                            </div>
-                            <div id="contact_submit_btn">
-							  <input type="submit" name="submit" class="button" id="submit_btn" value=""/>
-                            </div>
+                <div id="contact_name">
+                    <label for="name" id="name_label">Name</label>
+                    <input type="text" name="name" id="name" value="" class="text-input" />
+                    <label class="error" for="name" id="name_error">This field is required.</label>
+                </div>
+                <div id="contact_email">
+                    <label for="email" id="email_label">Return Email</label>
+                    <input type="text" name="email" id="email" value="" class="text-input" />
+                    <label class="error" for="email" id="email_error">This field is required.</label>
+                </div>
+                <div id="contact_message">
+                    <label for="phone" id="phone_label">Message</label>
+                    <textarea name="email_message" id="email_message"  class="message"></textarea>
+                </div>
+                <div id="contact_submit_btn">
+                    <input type="submit" name="submit" class="button" id="submit_btn" value=""/>
+                </div>
 
 							</fieldset>
 						  </form>
@@ -1365,10 +1286,6 @@
 
 				</div>
                 <!-- xxxxxxxxxx motion END xxxxxxxxxx -->
-
-
-
-
 			</div>
 		</div>
 
@@ -1556,8 +1473,7 @@
 			}
         });
 
-
-        </script>
+  </script>
 
 </body>
 </html>
