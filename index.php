@@ -1317,7 +1317,7 @@
 
 		$('.enter_sm_btn').click(function() {
 			$('#mask').animate({opacity:0}, 1000,'easeInOutExpo');
-			$('#viewing_pane').animate({scrollLeft: 1044}, 1000,'easeInOutExpo');
+			$('#viewing_pane').animate({scrollLeft: $('#about').position().left}, 1000,'easeInOutExpo');
 		});
 
 
@@ -1331,7 +1331,7 @@
 			$motion_row_position = 1;
 		}
 
-			$('#viewing_pane').animate({scrollLeft: 1044}, 1000,'easeInOutExpo');
+			$('#viewing_pane').animate({scrollLeft: $('#about').position().left}, 1000,'easeInOutExpo');
 		});
 
 
@@ -1346,7 +1346,7 @@
 			$motion_row_position = 1;
 		}
 
-			$('#viewing_pane').animate({scrollLeft: 2074}, 1000,'easeInOutExpo');
+			$('#viewing_pane').animate({scrollLeft: $('#web').position().left}, 1000,'easeInOutExpo');
 		});
 
 		$('.print_btn, .print_btm_btn').click(function() {
@@ -1359,7 +1359,7 @@
 			$motion_row_position = 1;
 		}
 
-			$('#viewing_pane').animate({scrollLeft: 3118}, 1000,'easeInOutExpo');
+			$('#viewing_pane').animate({scrollLeft: $('#print').position().left}, 1000,'easeInOutExpo');
 		});
 
 		$('.mobile_btn, .mobile_btm_btn').click(function() {
@@ -1371,7 +1371,7 @@
 			$print_row_position = 1;
 			$motion_row_position = 1;
 		}
-			$('#viewing_pane').animate({scrollLeft: 4158}, 1000,'easeInOutExpo');
+			$('#viewing_pane').animate({scrollLeft: $('#mobile').position().left}, 1000,'easeInOutExpo');
 		});
 
 		$('.motion_btn, .motion_btm_btn').click(function() {
@@ -1384,8 +1384,8 @@
 			$motion_row_position = 1;
 		}
 
-			$('#viewing_pane').animate({scrollLeft: 5192}, 1000,'easeInOutExpo');
-            });
+			$('#viewing_pane').animate({scrollLeft: $('#motion').position().left}, 1000,'easeInOutExpo');
+    });
 
 		/****************** vertical scrolling ******************/
 

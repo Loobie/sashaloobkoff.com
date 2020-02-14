@@ -3,7 +3,7 @@
     padding:0;
 }
 
-html, body { 
+html, body {
 	font: 11px/15px "Lucida Grande","Lucida Sans Unicode",Helvetica,Arial,Verdana,sans-serif;
 	color: #888888;
 	/*overflow: hidden;*/
@@ -79,7 +79,6 @@ a#close_alert:active {color:#ffffff;text-decoration:none;}
 	width: 1044px;
 	height:585px;
 	top: 121px;
-	/*margin: auto;*/
 	overflow: hidden;
 	z-index: 3;
 }
@@ -91,12 +90,16 @@ a#close_alert:active {color:#ffffff;text-decoration:none;}
 }
 
 .section {
-	position: relative;
-	margin:0px;
+    position: relative;
+    margin:0px;
     width:1044px;
     float:left;
 }
-    
+
+div#web.section, div#print.section, div#mobile.section, div#motion.section {
+    margin-left:16px !important;
+}
+
 #nav_bar {
 	position: absolute;
 	top:27px;
@@ -119,7 +122,7 @@ p#footer_text {
 	text-align: center;
 	padding: 1px 0px 0px 0px;
 }
-		
+
 #about_box {
 	background: url(../_images/about.jpg) no-repeat 0 0 transparent;
 	width: 648px;
@@ -130,9 +133,9 @@ p#footer_text {
 }
 
 #rotating_image {
-	list-style-type: none; 
-	position: relative; 
-	top: 11px; left: 23px; 
+	list-style-type: none;
+	position: relative;
+	top: 11px; left: 23px;
 	height: 350px;
 }
 
@@ -170,9 +173,9 @@ img.rotate_device {
 	top: 0px;
 	left: 50%;
 	margin-left: -110px;
-	
+
 	}
-	
+
 div.scroll_arrows {
 	display: block;
 	position: absolute;
@@ -182,7 +185,7 @@ div.scroll_arrows {
 	left: 972px;
 	z-index: 10;
 }
-	
+
 a.scroll_arrow_up {
 	display:block;
 	width: 42px;
@@ -216,7 +219,7 @@ a.scroll_arrow_down span.hover {
 	background: url(../_images/scroll_arrows.png);
 	background-position: 42px 44px;
 }
-	
+
 
 div#about_box p {
 		padding: 8px 36px 0px 46px;
@@ -225,50 +228,53 @@ div#about_box p {
 #about_ipad_me_img {
 	 display:none;
 }
-	
+
 #clear_contact_form {
 	display:none;
 }
 
 
 /* iPads (portrait) ----------- */
-@media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px) 
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
 and (orientation : portrait) {
+
 	div.scroll_arrows {
 	  left: 912px;
 	}
+
 }
-	
-/* iPads (landscape) ----------- */	
-@media only screen 
-  and (min-device-width : 768px) 
-and (max-device-width : 1024px) 
-and (orientation : landscape) {
+
+/* iPads (landscape) ----------- */
+@media only screen
+  and (min-device-width : 768px)
+  and (max-device-width : 1024px)
+  and (orientation : landscape) {
+
 	#center_content_main {
 		width: 1000px;
 	}
-	
+
 	div#viewing_pane {
 		width: 1000px;
 	}
-	
+
 	.section {
 		width: 1044px;
 	}
-	
+
 	div#web.section, div#print.section, div#mobile.section, div#motion.section {
 	  /*
 	  height: 390px;
 	  overflow: auto;
 	  */
-	}	
-	
+	}
+
 	a.box:nth-child(n+16) {
 		display:none;
 	}
-	
+
 	div.scroll_arrows {
 	  /*
 	  left: 912px;
@@ -276,17 +282,17 @@ and (orientation : landscape) {
 	  */
 	  display:none;
 	}
-	
+
 	#rotating_image {
-		display:none;	
-	}		
+		display:none;
+	}
 	#about_box {
 		background: url(../_images/about_ipad_horiz.jpg) no-repeat 0 0 transparent;
 		height: 293px;
-	}		
+	}
 	div#about_box p {
 		padding: 8px 240px 0px 46px;
-	}	
+	}
 	#about_ipad_me_img {
 		display:block;
 		 position:absolute;
@@ -294,8 +300,8 @@ and (orientation : landscape) {
 		 right: 17px;
 		 z-index: 3;
 	}
-	
-	
+
+
 	#clear_contact_form {
 		display:block;
 	}
@@ -309,13 +315,13 @@ and (orientation : landscape) {
 		float:none;
 		right: 0px;
 	}
-	
+
 	/* contact form elements START */
 	div#contact_form {
 		padding:12px 20px;
 		width: 1000px;
 	}
-	
+
 	div#contact_name {
 		margin-left: 60px;
 		display:block;
@@ -337,14 +343,14 @@ and (orientation : landscape) {
 		margin-top: 44px;
 		float:left;
 	}
-	
-	
+
+
 	div#message {
 		margin: 6px 0 0 430px;
 	}
-	
+
 	/* contact form elements END */
-	
+
 	div#viewing_pane {
 		height: 772px;
 		margin:0 0 0 0;
@@ -360,7 +366,7 @@ and (orientation : landscape) {
 	div#scrolling_content {
 		height: 524px;
 	}
-	
+
 	div.rotate_device_instructions {
 		display:block;
 		position: relative;
