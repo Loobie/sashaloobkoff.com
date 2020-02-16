@@ -3,6 +3,7 @@
     <head>
       <title>Sasha Loobkoff  |  Art Director</title>
       <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta name="description" content="Sasha Loobkoff |  Art Director" />
       <meta name="keywords" content="Art, mobile, web, print, design, html, php, css, jquery"/>
 
@@ -23,6 +24,28 @@
       <link rel="shortcut icon" href="favicon.ico"/>]
 
   		<script type="text/javascript">
+
+          // create scroll location variable
+          $scrollLocation="home"
+          //console.log("The scroll location is: " + $scrollLocation + ".");
+
+          // set starting browser window width
+          $browserWindowWidth = $(window).width();
+          //console.log("The browser window is: " + $browserWindowWidth + " pixels wide.");
+
+          // using resize function, determine if the browser window has been resized
+          $(window).resize(function() {
+
+              $browserWindowWidth = $(this).width();
+              //console.log("The browser window is: " + $browserWindowWidth + " pixels wide.");
+              //console.log("The scroll location is: " + $scrollLocation + ".");
+
+              $destination = "#" + $scrollLocation;
+              $('#viewing_pane').scrollLeft($($destination).position().left);
+              //console.log("The scroll destination is: " + $destination + ".");
+
+          });
+
         	$(document).ready(function() {
               // make nav_bar and footer invisible initially
               $('#nav_bar, #footer').fadeOut(0);
@@ -32,6 +55,7 @@
 
               // hide IE alert
               $('a#close_alert').click( function() { $('div#alert').hide(); });
+
         	});
 
         	// Initialize shadowbox
@@ -84,7 +108,7 @@
 				<a href="#" class="web_btn"></a>
 				<a href="#" class="print_btn"></a>
 				<a href="#" class="mobile_btn"></a>
-			    <a href="#" class="motion_btn"></a>
+		    <a href="#" class="motion_btn"></a>
 			</div>
 		</div>
 
@@ -97,8 +121,10 @@
 
 				<!-- xxxxxxxxxx home xxxxxxxxxx -->
 				<div class="section" id="home" style="z-index:4">
-					<p><img src="_images/splash_graphic_1000x.jpg" id="splash_me" alt="Sasha Loobkoff"/></p>
-					<p style="position: absolute; top: 160px; left: 780px; z-index:5"><a href="#" class="enter_sm_btn"></a></p>
+					<img src="_images/splash_graphic_1000x.jpg" id="splash_lg" alt="Sasha Loobkoff"/>
+					<img src="_images/splash_graphic_528x.jpg" id="splash_med" alt="Sasha Loobkoff"/>
+					<img src="_images/splash_graphic_301x.jpg" id="splash_sm" alt="Sasha Loobkoff"/>
+					<p id="enter_btn"><a href="#" class="enter_sm_btn"></a></p>
 				</div>
 
 				<!-- xxxxxxxxxx about / links / contact xxxxxxxxxx -->
@@ -111,11 +137,11 @@
 							<li><img src="../_images/about_me_3_613x350.jpg" alt="Sasha 3" /></li>
 						</ul>
 
-                        <!-- img of me for ipad horiz START -->
-                        <div id="about_ipad_me_img">
-                        	<img src="_images/about_ipad_me.jpg" width="220px" height="268" alt="me"/>
-                        </div>
-                        <!-- img of me for ipad horiz END -->
+                  <!-- img of me for ipad horiz START -->
+                  <div id="about_ipad_me_img">
+                  	<img src="_images/about_ipad_me.jpg" width="220px" height="268" alt="me"/>
+                  </div>
+                  <!-- img of me for ipad horiz END -->
 
 						<p style="padding-top: 62px;">Sasha Loobkoff is a multidisciplinary Art Director with a focus on Print, Web and Interactive Media. His design sensibilities run from whimsical to corporate but always clean, clear and intuitive.</p>
 						<p>Most recently, Sasha developed the brand identity for numerous Mobile Video Products at GoTV Networks in Los Angeles; adding Motion Graphics and Mobile Application UI Design to his years of Print and Web Design experience. As Art Director, Sasha oversaw all aspects of GoTV's Art Department from team management to business development to marketing. He was an intregal part of the group nominated for a 2007 Technology Emmy Award.</p>
@@ -222,7 +248,7 @@
 
 
 						<a href="_images/_web/arsonal/colony_1.jpg" class="box WEB_arsonal" rel="shadowbox[arsonal]" title="Arsonal :: Colony :: 970x pushdown (clip editing & design only) :: { <i><a href='/_images/_web/arsonal/Colony_970x90/index.html' target='_newWindow' class='shadowboxLink'>View unit with video</a> }</i>"></a>
-                        <div class="hideMe">
+            <div class="hideMe">
 							<a href="_images/_web/arsonal/colony_takeovers_2.jpg" rel="shadowbox[arsonal]" title="Arsonal :: Colony :: Takeovers and progressives/rich media units"></a>
 							<a href="_images/_web/arsonal/colony_espn_3.jpg" rel="shadowbox[arsonal]" title="Arsonal :: Colony :: ESPN takeover with 350x250 banner"></a>
 							<a href="_images/_web/arsonal/black_sails.jpg" rel="shadowbox[arsonal]" title="Arsonal :: Black Sails :: Static banners"></a>
@@ -233,7 +259,7 @@
 							<a href="_images/_web/arsonal/sunny_1.jpg" rel="shadowbox[arsonal]" title="It's Always Sunny in Philadelphia :: Social media countdown to premiere graphic"></a>
 							<a href="_images/_web/arsonal/sunny_2.jpg" rel="shadowbox[arsonal]" title="It's Always Sunny in Philadelphia :: Pinterest graphics"></a>
 							<a href="_images/_web/arsonal/sunny_3.jpg" rel="shadowbox[arsonal]" title="It's Always Sunny in Philadelphia :: Social media graphics"></a>
-                        </div>
+            </div>
 
 						<a href="_images/_web/avatar_labs/1.jpg" class="box WEB_avatar_labs" rel="shadowbox[avatar_labs]" title="Avatar Labs :: Inherent Vice static banners"></a>
 						<div class="hideMe">
@@ -249,7 +275,7 @@
 							<!-- <a href="_images/_web/avatar_labs/3.jpg" rel="shadowbox[avatar_labs]" title="Avatar Labs :: The Interview site takeover"></a>
 							<a href="_images/_web/avatar_labs/4.jpg" rel="shadowbox[avatar_labs]" title="Avatar Labs :: The Interview statics"></a>
 							<a href="_images/_web/avatar_labs/6.jpg" rel="shadowbox[avatar_labs]" title="Avatar Labs :: Shameless site takeover proposal 2"></a></a> -->
-                        </div>
+            </div>
 
 						<a href="_images/_web/dmsFM/home1.jpg" class="box WEB_dmsFM" rel="shadowbox[dmsFM]" title="dms.FM (Downtown Music) Site Redesign :: Home Page  <i>{ <a href='http://www.dms.fm' class='shadowboxLink'>website</a> }</i>"></a>
 						<div class="hideMe">
@@ -282,7 +308,6 @@
 							<a href="_images/_web/charm_school/5.jpg" rel="shadowbox[charm_school]" title="Charm School :: Brand Marketing Agency :: Site Design/Coding (PHP, MySQL, CSS) - Responsive Wordpress Theme Creation"></a>
 							<a href="_images/_web/charm_school/6.jpg" rel="shadowbox[charm_school]" title="Charm School :: Brand Marketing Agency :: Site Design/Coding (PHP, MySQL, CSS) - Responsive Wordpress Theme Creation"></a>
 							<a href="_images/_web/charm_school/7.jpg" rel="shadowbox[charm_school]" title="Charm School :: Brand Marketing Agency :: Site Design/Coding (PHP, MySQL, CSS) - Responsive Wordpress Theme Creation"></a>
-
 						</div>
 
 
@@ -312,16 +337,16 @@
 						<div class="hideMe">
 							<a href="_images/_web/dmsFM_email_blasts/11.jpg" rel="shadowbox[dmsFM_email]" title="dmsFM eMail Blasts :: Design/Coding"></a>
 							<a href="_images/_web/dmsFM_email_blasts/1.jpg" rel="shadowbox[dmsFM_email]" title="dmsFM eMail Blasts :: Design/Coding"></a>
-                            <a href="_images/_web/dmsFM_email_blasts/12.jpg" rel="shadowbox[dmsFM_email]" title="dmsFM eMail Blasts :: Design/Coding"></a>
+              <a href="_images/_web/dmsFM_email_blasts/12.jpg" rel="shadowbox[dmsFM_email]" title="dmsFM eMail Blasts :: Design/Coding"></a>
 							<a href="_images/_web/dmsFM_email_blasts/7.jpg" rel="shadowbox[dmsFM_email]" title="dmsFM eMail Blasts :: Design/Coding"></a>
 							<a href="_images/_web/dmsFM_email_blasts/4.jpg" rel="shadowbox[dmsFM_email]" title="dmsFM eMail Blasts :: Design/Coding"></a>
 							<a href="_images/_web/dmsFM_email_blasts/10.jpg" rel="shadowbox[dmsFM_email]" title="dmsFM eMail Blasts :: Design/Coding"></a>
 							<a href="_images/_web/dmsFM_email_blasts/8.jpg" rel="shadowbox[dmsFM_email]" title="dmsFM eMail Blasts :: Design/Coding"></a>
-                            <a href="_images/_web/dmsFM_email_blasts/9.jpg" rel="shadowbox[dmsFM_email]" title="dmsFM eMail Blasts :: Design/Coding"></a>
+              <a href="_images/_web/dmsFM_email_blasts/9.jpg" rel="shadowbox[dmsFM_email]" title="dmsFM eMail Blasts :: Design/Coding"></a>
 							<a href="_images/_web/dmsFM_email_blasts/5.jpg" rel="shadowbox[dmsFM_email]" title="dmsFM eMail Blasts :: Design/Coding"></a>
 							<a href="_images/_web/dmsFM_email_blasts/2.jpg" rel="shadowbox[dmsFM_email]" title="dmsFM eMail Blasts :: Design/Coding"></a>
 							<a href="_images/_web/dmsFM_email_blasts/14.jpg" rel="shadowbox[dmsFM_email]" title="dmsFM eMail Blasts :: Design/Coding"></a>
-                            <a href="_images/_web/dmsFM_email_blasts/15.jpg" rel="shadowbox[dmsFM_email]" title="dmsFM eMail Blasts :: Design/Coding"></a>
+              <a href="_images/_web/dmsFM_email_blasts/15.jpg" rel="shadowbox[dmsFM_email]" title="dmsFM eMail Blasts :: Design/Coding"></a>
 						</div>
 
 						<a href="_images/_web/machinima/1.jpg" class="box WEB_machinima" rel="shadowbox[machinima_web]" title="Machinima :: Design for Internaal Content Creator's Console Page"></a>
@@ -354,8 +379,8 @@
 						<div class="hideMe">
 							<a href="_images/_web/LATimesDotCom/LAT_rs2.jpg" rel="shadowbox[Latimes]" title="latimes.com Rockstyle :: 5 pages :: Wordpress (PHP & MySQL), CSS & jQuery"></a>
 							<a href="_images/_web/LATimesDotCom/LAT_Ketel_one.jpg" rel="shadowbox[Latimes]"title="Los Angeles Times / LATimes.com – 2012 Ketel One Special Section"></a>
-                            <a href="_images/_web/LATimesDotCom/ketel_one" rel="shadowbox[Latimes];width=1000;height=700" title="Los Angeles Times / LATimes.com – 2012 Ketel One Special Section DEMO - Click links under Ketel One logo to see more."></a>
-                            <a href="_images/_web/LATimesDotCom/wordGame.swf" rel="shadowbox[Latimes];width=650;height=500" title="Los Angeles Times / LATimes.com – 2005 Oscars Speech Game :: Design/Coding (Flash)"></a>
+              <a href="_images/_web/LATimesDotCom/ketel_one" rel="shadowbox[Latimes];width=1000;height=700" title="Los Angeles Times / LATimes.com – 2012 Ketel One Special Section DEMO - Click links under Ketel One logo to see more."></a>
+              <a href="_images/_web/LATimesDotCom/wordGame.swf" rel="shadowbox[Latimes];width=650;height=500" title="Los Angeles Times / LATimes.com – 2005 Oscars Speech Game :: Design/Coding (Flash)"></a>
 							<a href="_images/_web/LATimesDotCom/box_office_chart.swf" rel="shadowbox[Latimes];width=760;height=500" title="Los Angeles Times / LATimes.com – 2005 Oscars Box Office Chart :: Design/Coding (Flash)"></a>
 							<a href="_images/_web/LATimesDotCom/ncaa_pickem_2011.swf" rel="shadowbox[Latimes];width=750;height=570" title="Los Angeles Times / LATimes.com – 2005 NCAA Final Four User Predictions :: Design/Coding (Flash)"></a>
 							<a href="_images/_web/LATimesDotCom/outdoors_flash_video.swf" rel="shadowbox[Latimes];width=485;height=343" title="Los Angeles Times / LATimes.com – Video Gallery"></a>
@@ -372,11 +397,11 @@
 							<a href="_images/_web/endust/contest1.jpg" rel="shadowbox[endust]" title="Endust Contest Page"></a>
 							<a href="_images/_web/endust/shelf_talker.jpg" rel="shadowbox[endust]" title="Endust Shelf Talker"></a>
 							<a href="_images/_web/endust/2.jpg" rel="shadowbox[endust]" title="Endust Website Slider Graphics <i>(not actual site)</i>"></a>
-                            <!--
+              <!--
 							<a href="_images/_web/endust/contest2.jpg" rel="shadowbox[endust]" title="Endust Contest Page"></a>
 							<a href="_images/_web/endust/contest3.jpg" rel="shadowbox[endust]" title="Endust Contest Page"></a>
-                            -->
-                        </div>
+              -->
+            </div>
 
 						<a href="_images/_web/chocolate_city/1.jpg" class="box WEB_chocolate_city" rel="shadowbox[chocolate_city]" title="Chocolate City Tickets eCommerce Site :: Design"></a>
 						<div class="hideMe">
@@ -386,26 +411,26 @@
 							<a href="_images/_web/chocolate_city/5.jpg" rel="shadowbox[chocolate_city]" title="Chocolate City Tickets eCommerce Site :: Design"></a>
 							<a href="_images/_web/chocolate_city/6.jpg" rel="shadowbox[chocolate_city]" title="Chocolate City Tickets eCommerce Site :: Design"></a>
 							<a href="_images/_web/chocolate_city/7.jpg" rel="shadowbox[chocolate_city]" title="Chocolate City Tickets eCommerce Site :: Design"></a>
-                        </div>
+            </div>
 
 						<a href="_images/_web/NOW/a.jpg" class="box WEB_NOW" rel="shadowbox[NOW]" title="NOW Bunim Murray Production's TV Show Pitch to youTube, Netflix and others (Animated/Online). <i>{ <a href='http://prezi.com/yjnwjmhaf_dj/now-presentation/' class='shadowBoxLink' target='_newWindow'>watch</a> }</i>"></a>
 						<div class="hideMe">
 							<a href="_images/_web/NOW/2.jpg" rel="shadowbox[NOW]" title="NOW Bunim Murray Production's TV Show Pitch to youTube, Netflix and others (Animated/Online). <i>{ <a href='http://prezi.com/yjnwjmhaf_dj/now-presentation/' class='shadowBoxLink' target='_newWindow'>watch</a> }</i>"></a>
 							<a href="_images/_web/NOW/3.jpg" rel="shadowbox[NOW]" title="NOW Bunim Murray Production's TV Show Pitch to youTube, Netflix and others (Animated/Online). <i>{ <a href='http://prezi.com/yjnwjmhaf_dj/now-presentation/' class='shadowBoxLink' target='_newWindow'>watch</a> }</i>"></a>
-                            <a href="_images/_web/NOW/4.jpg" rel="shadowbox[NOW]" title="NOW Bunim Murray Production's TV Show Pitch to youTube, Netflix and others (Animated/Online). <i>{ <a href='http://prezi.com/yjnwjmhaf_dj/now-presentation/' class='shadowBoxLink' target='_newWindow'>watch</a> }</i>"></a>
+              <a href="_images/_web/NOW/4.jpg" rel="shadowbox[NOW]" title="NOW Bunim Murray Production's TV Show Pitch to youTube, Netflix and others (Animated/Online). <i>{ <a href='http://prezi.com/yjnwjmhaf_dj/now-presentation/' class='shadowBoxLink' target='_newWindow'>watch</a> }</i>"></a>
 							<a href="_images/_web/NOW/5.jpg" rel="shadowbox[NOW]" title="NOW Bunim Murray Production's TV Show Pitch to youTube, Netflix and others (Animated/Online). <i>{ <a href='http://prezi.com/yjnwjmhaf_dj/now-presentation/' class='shadowBoxLink' target='_newWindow'>watch</a> }</i>"></a>
 							<a href="_images/_web/NOW/6.jpg" rel="shadowbox[NOW]" title="NOW Bunim Murray Production's TV Show Pitch to youTube, Netflix and others (Animated/Online). <i>{ <a href='http://prezi.com/yjnwjmhaf_dj/now-presentation/' class='shadowBoxLink' target='_newWindow'>watch</a> }</i>"></a>
-							<!--
-                            <a href="_images/_web/NOW/index.html" rel="shadowbox[NOW]" title="NOW Bunim Murray Production's TV Show Pitch to youTube, Netflix and others (Animated/Online). Click for full screen on bottom right."></a>
-							 <a href="_images/_web/NOW/1.jpg" rel="shadowbox[NOW]" title="NOW Bunim Murray Production's TV Show Pitch to youTube, Netflix and others (Animated/Online). <i>{ <a href='http://prezi.com/yjnwjmhaf_dj/now-presentation/' class='shadowBoxLink'>watch</a> }</i>"</a>"></a>
-                            -->
+              <!--
+              <a href="_images/_web/NOW/index.html" rel="shadowbox[NOW]" title="NOW Bunim Murray Production's TV Show Pitch to youTube, Netflix and others (Animated/Online). Click for full screen on bottom right."></a>
+              <a href="_images/_web/NOW/1.jpg" rel="shadowbox[NOW]" title="NOW Bunim Murray Production's TV Show Pitch to youTube, Netflix and others (Animated/Online). <i>{ <a href='http://prezi.com/yjnwjmhaf_dj/now-presentation/' class='shadowBoxLink'>watch</a> }</i>"</a>"></a>
+              -->
 						</div>
 
 						<a href="_images/_web/coding/ballandchain.jpg" class="box WEB_coding" rel="shadowbox[coding]" title="Ball and Chain Restaurant :: Single Page Site - CSS & jQuery"></a>
 						<div class="hideMe">
 							<a href="_images/_web/coding/rachel_1.jpg" rel="shadowbox[coding]" title="Photography Portfolio :: Wordpress (PHP, MySQL & Child Theme Creation), CSS & jQuery"></a>
 							<a href="_images/_web/coding/rachel_2.jpg" rel="shadowbox[coding]" title="Photography Portfolio :: Wordpress (PHP, MySQL & Child Theme Creation), CSS & jQuery"></a>
-                        	<a href="_images/_web/coding/LAT_rs1.jpg"  rel="shadowbox[coding]" title="latimes.com Rockstyle :: 5 pages :: Wordpress (PHP & MySQL), CSS & jQuery"></a>
+            	<a href="_images/_web/coding/LAT_rs1.jpg"  rel="shadowbox[coding]" title="latimes.com Rockstyle :: 5 pages :: Wordpress (PHP & MySQL), CSS & jQuery"></a>
 							<a href="_images/_web/coding/LAT_rs2.jpg" rel="shadowbox[coding]" title="latimes.com Rockstyle :: 5 pages :: Wordpress (PHP & MySQL), CSS & jQuery"></a>
 							<a href="_images/_web/coding/Porterhouse1.jpg" rel="shadowbox[coding]" title="Porterhouse Records eStore :: Some Design - HTML 5, CSS, jQuery"></a>
 							<a href="_images/_web/coding/Porterhouse2.jpg" rel="shadowbox[coding]" title="Porterhouse Records eStore :: Some Design - HTML 5, CSS, jQuery"></a>
@@ -418,7 +443,7 @@
 							<a href="http://sashaloobkoff.com/Heavy_Duty/" rel="shadowbox[coding]" title="Heavy Duty Music - Coming Soon :: HTML 5"></a>
 							<a href="_images/_web/coding/wine_guy.jpg" rel="shadowbox[coding]" title="California Wine Guy :: Minimal Design - Wordpress (PHP & CSS)"></a>
 							<a href="_images/_web/coding/disaster_hunter.jpg" rel="shadowbox[coding]" title="The Disaster Hunter - Tom Viscount :: Minimal Design - Wordpress (PHP & CSS)"></a>
-                        </div>
+            </div>
 
 						<a href="_images/_web/FragD/FragD_1.jpg" class="box WEB_FragD" rel="shadowbox[FragD_site]" title="Frag'D Social Club Website :: Design/Coding (PHP & CSS)"></a>
 						<div class="hideMe">
@@ -469,7 +494,7 @@
 							<a href="_images/_web/Maranatha/5.jpg" rel="shadowbox[Maranatha]" title="MaranathaMobile.com – GoTV's Faith-Based Division"></a>
 						</div>
 
-                        <a href="_images/_web/channel_buyer/1.jpg" class="box WEB_channel_buyer" rel="shadowbox[channel_buyer]" title="GoTV Channel Buyer – How It Works"></a>
+            <a href="_images/_web/channel_buyer/1.jpg" class="box WEB_channel_buyer" rel="shadowbox[channel_buyer]" title="GoTV Channel Buyer – How It Works"></a>
 						<div class="hideMe">
 							<a href="_images/_web/channel_buyer/2.jpg" rel="shadowbox[channel_buyer]" title="GoTV Channel Buyer – GoTVNetworks.com"></a>
 							<a href="_images/_web/channel_buyer/3.jpg" rel="shadowbox[channel_buyer]" title="GoTV Channel Buyer – GoTV Community Site Implementation"></a>
@@ -556,20 +581,20 @@
 					<!-- end floats -->
 					<div style="clear: both"></div>
 
-                    <!-- scroll arrows START -->
-                    <div class="scroll_arrows" id="web">
-                        <a href="#" class="scroll_arrow_up" id="web"></a>
-                        <a href="#" class="scroll_arrow_down" id="web"></a>
-                    </div>
-                    <!-- scroll arrows END -->
+              <!-- scroll arrows START -->
+              <div class="scroll_arrows" id="web">
+                  <a href="#" class="scroll_arrow_up" id="web"></a>
+                  <a href="#" class="scroll_arrow_down" id="web"></a>
+              </div>
+              <!-- scroll arrows END -->
 
-                    <!-- rotate device instruction START -->
+              <!-- rotate device instruction START -->
 
-                    <div class="rotate_device_instructions">
-                        <image src="_images/rotate_device.png" class="rotate_device" width="191px" height="83px" alt="Please Rotate Device">
-                    </div>
+              <div class="rotate_device_instructions">
+                  <image src="_images/rotate_device.png" class="rotate_device" width="191px" height="83px" alt="Please Rotate Device">
+              </div>
 
-                    <!-- rotate device instruction END -->
+              <!-- rotate device instruction END -->
 
 				</div>
 				<!-- xxxxxxxxxx web END xxxxxxxxxx -->
@@ -587,7 +612,7 @@
 							<a href="_images/_print/X/6.jpg" rel="shadowbox[X]" title="X - 20 page 12x12 booklet cover <i>'punk' version</i> <i>{ <a href='_images/_print/X/X_booklet_punk.pdf' class='shadowboxLink' target='_newWindow'>PDF</a> }</i>"></a>
 							<a href="_images/_print/X/7.jpg" rel="shadowbox[X]" title="X - 20 page 12x12 booklet cover <i>'punk' version</i> <i>{ <a href='_images/_print/X/X_booklet_punk.pdf' class='shadowboxLink' target='_newWindow'>PDF</a> }</i>"></a>
 							<a href="_images/_print/X/8.jpg" rel="shadowbox[X]" title="X - 20 page 12x12 booklet cover <i>'punk' version</i> <i>{ <a href='_images/_print/X/X_booklet_punk.pdf' class='shadowboxLink' target='_newWindow'>PDF</a> }</i>"></a>
-                        </div>
+            </div>
 
 						<a href="_images/_print/AL_signage/3b.jpg" class="box PRINT_AL_signage" rel="shadowbox[AL_signage]" title="ArcLight Theaters :: Bus Wrap - Instagram Campaign :: Recognized as 'Cool Campaign of 2013' by CBS Outdoor"></a>
 						<div class="hideMe">
@@ -596,7 +621,7 @@
 							<a href="_images/_print/AL_signage/15.jpg" rel="shadowbox[AL_signage]" title="ArcLight Theaters :: Lg Format In-Theater Stanchions - Maryland Opening Campaign"></a>
 							<a href="_images/_print/AL_signage/swan_bus.jpg" rel="shadowbox[AL_signage]" title="ArcLight Theaters :: Bus Wrap - Maryland Opening Campaign"></a>
 							<a href="_images/_print/AL_signage/4_busses.jpg" rel="shadowbox[AL_signage]" title="ArcLight Theaters :: Bus Wraps - Maryland Opening Campaign"></a>
-                            <a href="_images/_print/AL_signage/14.jpg" rel="shadowbox[AL_signage]" title="ArcLight Theaters :: September Wall-Sized In-Theatre Light Board Campaign"></a>
+              <a href="_images/_print/AL_signage/14.jpg" rel="shadowbox[AL_signage]" title="ArcLight Theaters :: September Wall-Sized In-Theatre Light Board Campaign"></a>
 							<a href="_images/_print/AL_signage/5.jpg" rel="shadowbox[AL_signage]" title="ArcLight Theaters :: Lg Format In-Theater Stanchions - Instagram Campaign"></a>
 							<a href="_images/_print/AL_signage/6.jpg" rel="shadowbox[AL_signage]" title="ArcLight Theaters :: Door Clings - Instagram Campaign"></a>
 							<a href="_images/_print/AL_signage/7.jpg" rel="shadowbox[AL_signage]" title="ArcLight Theaters :: In-Theater Signage - Instagram Campaign"></a>
@@ -610,7 +635,8 @@
 							<a href="_images/_print/AL_signage/12.jpg" rel="shadowbox[AL_signage]" title="ArcLight Theaters :: Cinedome 50th Year Aniversary In-Theater Art Installations"></a>
 							<a href="_images/_print/AL_signage/13.jpg" rel="shadowbox[AL_signage]" title="ArcLight Theaters :: Cinedome 50th Year Aniversary In-Theater Art Installations"></a>
 							<a href="_images/_print/AL_signage/11.jpg" rel="shadowbox[AL_signage]" title="Lg Format Poster :: 'Evolution' Campaign"></a>
-                        </div>
+            </div>
+
 						<a href="_images/_print/bmp/8.jpg" class="box PRINT_bmp" rel="shadowbox[bmp]" title="BMP Television Programming Pitches :: Hanging with Harris Food Show Pitch"></a>
 						<div class="hideMe">
 							<a href="_images/_print/bmp/BMP_MM.jpg" rel="shadowbox[bmp]" title="Joey G. Murder Mystery :: YouTube Star Competition Show Pitch / Logo Design"></a>
@@ -625,7 +651,7 @@
 							<a href="_images/_web/NOW/a.jpg" rel="shadowbox[bmp]" title="BMP Television Programming Pitches :: NOW - Online Pop Culture Show Pitch / Logo Design"></a>
 							<a href="_images/_print/bmp/BMP_UPDating.jpg" rel="shadowbox[bmp]" title="BMP Television Programming Pitches :: UPDATING - Dating Advice Show Pitch / Logo Design"></a>
 							<a href="_images/_print/bmp/BMP_dibs.jpg" rel="shadowbox[bmp]" title="BMP Television Programming Pitches :: dibs - MTV Show Pitch / Logo Design"></a>
-                            <a href="_images/_print/bmp/1.jpg" rel="shadowbox[bmp]" title="Bunim-Murray Productions Television Programming Pitches :: BMP Digital"></a>
+              <a href="_images/_print/bmp/1.jpg" rel="shadowbox[bmp]" title="Bunim-Murray Productions Television Programming Pitches :: BMP Digital"></a>
 							<a href="_images/_print/bmp/6.jpg" rel="shadowbox[bmp]" title="BMP Television Programming Pitches :: Braveheart Bootcamp Show Pitch / Logo Design"></a>
 							<a href="_images/_print/bmp/7.jpg" rel="shadowbox[bmp]" title="BMP Television Programming Pitches :: Braveheart Bootcamp Show Pitch / Logo Design"></a>
 							<a href="_images/_print/bmp/15.jpg" rel="shadowbox[bmp]" title="BMP Television Programming Pitches :: tvGasm.com - Partner Entertainment Website/Programing Pitch"></a>
@@ -640,7 +666,7 @@
 							<a href="_images/_print/bmp/18.jpg" rel="shadowbox[bmp]" title="BMP Television Programming Pitches :: The Campaign - Interactive Multi-Platform Political Show Pitch / Logo Design"></a>
 							<a href="_images/_print/bmp/20.jpg" rel="shadowbox[bmp]" title="BMP Television Programming Pitches :: iMedia - Technology Conference Presentation"></a>
 							<a href="_images/_print/bmp/21.jpg" rel="shadowbox[bmp]" title="BMP Television Programming Pitches :: iMedia - Technology Conference Presentation"></a>
-                        </div>
+            </div>
 
 						<a href="_images/_print/machinima/pres1.jpg" class="box PRINT_machinima" rel="shadowbox[machinima]" title="Machinima :: Corporate Presentations and Show Pitches"></a>
 						<div class="hideMe">
@@ -652,7 +678,7 @@
 							<a href="_images/_print/machinima/realm.jpg" rel="shadowbox[machinima]" title="Realm :: Channel and Sub-Show Brand Design"></a>
 							<a href="_images/_print/machinima/show_branding.jpg" rel="shadowbox[machinima]" title="Machinima :: Show Brand Design"></a>
 							<a href="_images/_print/machinima/FP_ad.jpg" rel="shadowbox[machinima]" title="Machinima :: FP Advertisement"></a>
-                        </div>
+            </div>
 
 						<a href="_images/_print/rich_robinson/6.jpg" class="box PRINT_rich_robinson" rel="shadowbox[rich_robinson]" title="dms.FM/Downtown Music :: Tommy Guerrero CD/DVD Insert"></a>
 						<div class="hideMe">
@@ -662,7 +688,7 @@
 							<a href="_images/_print/rich_robinson/3.jpg" rel="shadowbox[rich_robinson]" title="dms.FM/Downtown Music :: Rich Robinson <i>(The Black Crowes)</i> CD/DVD Packaging"></a>
 							<a href="_images/_print/rich_robinson/4.jpg" rel="shadowbox[rich_robinson]" title="dms.FM/Downtown Music :: Rich Robinson <i>(The Black Crowes)</i> CD/DVD Packaging"></a>
 							<a href="_images/_print/rich_robinson/5.jpg" rel="shadowbox[rich_robinson]" title="dms.FM/Downtown Music :: Rich Robinson <i>(The Black Crowes)</i> CD/DVD Packaging"></a>
-                        </div>
+            </div>
 
 						<a href="_images/_print/book_design/11.jpg" class="box PRINT_book_design" rel="shadowbox[book_design]" title="Book Design – Print, eBook & iBook"></a>
 						<div class="hideMe">
@@ -677,7 +703,7 @@
 							<a href="_images/_print/book_design/1.jpg" rel="shadowbox[book_design]" title="Book Design – Print, eBook & iBook"></a>
 							<a href="_images/_print/book_design/9.jpg" rel="shadowbox[book_design]" title="Book Design – Print, eBook & iBook"></a>
 							<a href="_images/_print/book_design/2.jpg" rel="shadowbox[book_design]" title="Book Design – Print, eBook & iBook"></a>
-                        </div>
+            </div>
 
 						<a href="_images/_print/NOFX/1.jpg" class="box PRINT_NOFX" rel="shadowbox[NOFX]" title="NOFX 7&uml; boxset"></a>
 						<div class="hideMe">
@@ -713,7 +739,7 @@
 							<a href="_images/_print/movie_promotion/9.jpg" rel="shadowbox[movie_promotion]" title="Wreck It Ralph :: Disney :: In-Theater Promotion"></a>
 							<a href="_images/_print/movie_promotion/10.jpg" rel="shadowbox[movie_promotion]" title="Wreck It Ralph :: Disney :: Lg. Door Clings"></a>
 							<a href="_images/_print/movie_promotion/11.jpg" rel="shadowbox[movie_promotion]" title="8' X 8' Banners :: FOX 2000, Columbia, Sony Pictures"></a>
-                        </div>
+            </div>
 
 						<a href="_images/_print/AL_marketing/AL_BS_FP.jpg" class="box PRINT_AL_marketing" rel="shadowbox[AL_marketing]" title="ArcLight Theaters :: FP Ad - Maryland Opening Campaign"></a>
 						<div class="hideMe">
@@ -723,7 +749,7 @@
 							<a href="_images/_print/AL_signage/1.jpg" rel="shadowbox[AL_marketing]" title="ArcLight Theaters :: FP Ad - Instagram Campaign"></a>
 							<a href="_images/_print/AL_signage/2.jpg" rel="shadowbox[AL_marketing]" title="ArcLight Theaters :: FP Ad - Instagram Campaign"></a>
 							<a href="_images/_print/AL_signage/10.jpg" rel="shadowbox[AL_marketing]" title="ArcLight Theaters :: Digital Ticket Kiosk Screen, Instagram GFX, Web Banners - Instagram Campaign"></a>
-                            <a href="_images/_print/AL_marketing/1.jpg" rel="shadowbox[AL_marketing]" title="ArcLight Marketing Campaign :: FP Advertisement"></a>
+              <a href="_images/_print/AL_marketing/1.jpg" rel="shadowbox[AL_marketing]" title="ArcLight Marketing Campaign :: FP Advertisement"></a>
 							<a href="_images/_print/AL_marketing/2.jpg" rel="shadowbox[AL_marketing]" title="ArcLight Marketing Campaign :: FP Advertisement"></a>
 							<a href="_images/_print/AL_marketing/3.jpg" rel="shadowbox[AL_marketing]" title="ArcLight Marketing Campaign :: Direct Marketing"></a>
 							<a href="_images/_print/AL_marketing/5.jpg" rel="shadowbox[AL_marketing]" title="ArcLight Marketing Campaign :: FP Advertisements"></a>
@@ -731,7 +757,7 @@
 							<a href="_images/_print/AL_signage/9.jpg" rel="shadowbox[AL_marketing]" title="ArcLight Theaters :: Event Tent Cards/Menus"></a>
 							<a href="_images/_print/AL_marketing/9.jpg" rel="shadowbox[AL_marketing]" title="ArcLight Marketing Campaign :: Wreck It Ralph Movie Promotion - Stand Alone & Postcard"></a>
 							<a href="_images/_print/AL_marketing/10.jpg" rel="shadowbox[AL_marketing]" title="ArcLight Marketing Campaign :: Wreck It Ralph Movie Promotion - In-Theater Promotion"></a>
-                        </div>
+            </div>
 
 						<a href="_images/_print/VRLA/1.jpg" class="box PRINT_VRLA" rel="shadowbox[VRLA]" title="VRLA :: 2015 Proto Awards Sponsorship Brochures <i>(multple tiers/docs) { <a href='_images/_print/VRLA/VRLA_proto.pdf#view=FitH' target='_target' class='shadowboxLink'>View PDF</a> }</i>"></a>
 						<div class="hideMe">
@@ -742,7 +768,7 @@
 						<a href="_images/_print/aeg/1.jpg" class="box PRINT_aeg" rel="shadowbox[aeg]" title="AEG Digital Media :: Retractable Banner Stands 33 in. x 80 in. "></a>
 						<div class="hideMe">
 							<a href="_images/_print/aeg/2.jpg" rel="shadowbox[aeg]" title="AEG Digital Media :: Retractable Banner Stands 33 in. x 80 in. "></a>
-                        </div>
+            </div>
 
 						<a href="_images/_print/brkdwn/1.jpg" class="box PRINT_brkdwn" rel="shadowbox[brkdwn_print]" title="BRKDWN - Online Entertainment Show :: Bunim-Murray Digital :: A Visual Case Study in Branding/Logo Design"></a>
 						<div class="hideMe">
@@ -755,7 +781,7 @@
 							<a href="_images/_print/brkdwn/8.jpg" rel="shadowbox[brkdwn_print]" title="BRKDWN - Online Entertainment Show :: Bunim-Murray Digital :: A Visual Case Study in Branding/Logo Design"></a>
 							<a href="_images/_print/brkdwn/9.jpg" rel="shadowbox[brkdwn_print]" title="BRKDWN - Online Entertainment Show :: Bunim-Murray Digital :: A Visual Case Study in Branding/Logo Design"></a>
 							<a href="_images/_print/brkdwn/10.jpg" rel="shadowbox[brkdwn_print]" title="BRKDWN - Online Entertainment Show :: Bunim-Murray Digital :: A Visual Case Study in Branding/Logo Design"></a>
-                        </div>
+            </div>
 
 						<a href="_images/_print/cinedigm/1.jpg" class="box PRINT_cinedigm" rel="shadowbox[cinedigm]" title="Cinedigm :: 9 in. x 6 in. Sales Brochure"></a>
 						<div class="hideMe">
@@ -763,7 +789,7 @@
 							<a href="_images/_print/cinedigm/3.jpg" rel="shadowbox[cinedigm]" title="Cinedigm :: FP Ad CineAsia Magazine"></a>
 							<a href="_images/_print/cinedigm/4.jpg" rel="shadowbox[cinedigm]" title="Cinedigm :: 9 in. x 6 in. Sales Brochure Mechanicals"></a>
 							<a href="_images/_print/cinedigm/5.jpg" rel="shadowbox[cinedigm]" title="Cinedigm :: Retractable Banner Stands 33 in. x 80 in."></a>
-                        </div>
+            </div>
 
 						<a href="_images/_print/pdp/2.jpg" class="box PRINT_pdp" rel="shadowbox[pdp]" title="Premier Digital Publishing :: Fall 2013 Presentation Pages"></a>
 						<div class="hideMe">
@@ -780,7 +806,7 @@
 							<a href="_images/_print/skyrose/3.jpg" rel="shadowbox[skyrose]" title="Sky Rose Ranch :: Logo Alternative "></a>
 							<a href="_images/_print/skyrose/2.jpg" rel="shadowbox[skyrose]" title="Sky Rose Ranch :: Logo Alternative "></a>
 							<a href="_images/_print/skyrose/1.jpg" rel="shadowbox[skyrose]" title="Sky Rose Ranch :: Logo Alternative "></a>
-                        </div>
+            </div>
 -->
 
 						<a href="_images/_print/FragD/influencer_printed.jpg" class="box PRINT_FragD" rel="shadowbox[FragD]" title="Frag'D 'Are You An Influencer?' Ad Campaign"></a>
@@ -789,14 +815,15 @@
 							<a href="_images/_print/FragD/influencer_2.jpg" rel="shadowbox[FragD]" title="Frag'D 'Are You An Influencer?' Ad Campaign"></a>
 							<a href="_images/_print/FragD/FragD_lava.jpg" rel="shadowbox[FragD]" title="Frag'D Branding"></a>
 							<a href="_images/_print/FragD/6.jpg" rel="shadowbox[FragD]" title="Frag'D Branding – Marketing Poster"></a>
-                            <a href="_images/_print/FragD/1.jpg" rel="shadowbox[FragD]" title="Frag'D Branding – Business Cards"></a>
+              <a href="_images/_print/FragD/1.jpg" rel="shadowbox[FragD]" title="Frag'D Branding – Business Cards"></a>
 							<a href="_images/_print/FragD/2.jpg" rel="shadowbox[FragD]" title="Frag'D Branding – Presentation Cover Dark"></a>
 							<!--
-                            <a href="_images/_print/FragD/4.jpg" rel="shadowbox[FragD]" title="Frag'D Branding – Website"></a>
-							<a href="_images/_print/FragD/3.jpg" rel="shadowbox[FragD]" title="Frag'D Branding – Presentation Cover Light"></a>
-							<a href="_images/_print/FragD/5.jpg" rel="shadowbox[FragD]" title="Frag'D Branding – Presentation Content Page Template"></a>
-                            -->
+              <a href="_images/_print/FragD/4.jpg" rel="shadowbox[FragD]" title="Frag'D Branding – Website"></a>
+              <a href="_images/_print/FragD/3.jpg" rel="shadowbox[FragD]" title="Frag'D Branding – Presentation Cover Light"></a>
+              <a href="_images/_print/FragD/5.jpg" rel="shadowbox[FragD]" title="Frag'D Branding – Presentation Content Page Template"></a>
+              -->
 						</div>
+
 						<a href="_images/_print/GoTV_Channel_Branding/GoTV_channels.jpg" class="box PRINT_GoTV_branding" rel="shadowbox[GoTV_branding]" title="GoTV Presentation Cover"></a>
 						<div class="hideMe">
 							<a href="_images/_print/GoTV_Channel_Branding/TC.jpg" rel="shadowbox[GoTV_branding]" title="True Country Channel Logo"></a>
@@ -941,22 +968,22 @@
 					<!-- end floats -->
 					<div style="clear: both"></div>
 
-                    <!-- scroll arrows START -->
-                    <div class="scroll_arrows" id="print">
-                        <a href="#" class="scroll_arrow_up" id="print"></a>
-                        <a href="#" class="scroll_arrow_down" id="print"></a>
-                    </div>
-                    <!-- scroll arrows END -->
+                <!-- scroll arrows START -->
+                <div class="scroll_arrows" id="print">
+                    <a href="#" class="scroll_arrow_up" id="print"></a>
+                    <a href="#" class="scroll_arrow_down" id="print"></a>
+                </div>
+                <!-- scroll arrows END -->
 
-                    <!-- rotate device instruction START -->
+                <!-- rotate device instruction START -->
 
-                    <div class="rotate_device_instructions">
-                        <image src="_images/rotate_device.png" class="rotate_device" width="191px" height="83px" alt="Please Rotate Device">
-                    </div>
+                <div class="rotate_device_instructions">
+                    <image src="_images/rotate_device.png" class="rotate_device" width="191px" height="83px" alt="Please Rotate Device">
+                </div>
 
-                    <!-- rotate device instruction END -->
-                    </div>
-                <!-- xxxxxxxxxx print END xxxxxxxxxx -->
+                <!-- rotate device instruction END -->
+                </div>
+            <!-- xxxxxxxxxx print END xxxxxxxxxx -->
 
 				<!-- xxxxxxxxxx mobile START xxxxxxxxxx -->
 				<div class="section" id="mobile">
@@ -965,7 +992,7 @@
 						<div class="hideMe">
 							<a href="_images/_mobile/bettye_lavette/2.jpg" rel="shadowbox[bettye_lavette]" title="Bettye LaVette Promotional iBook :: Anti-/Epitaph Records :: Concept/Design/Coding (iBook Author)"></a>
 							<a href="_images/_mobile/bettye_lavette/3.jpg" rel="shadowbox[bettye_lavette]" title="Bettye LaVette Promotional iBook :: Anti-/Epitaph Records :: Concept/Design/Coding (iBook Author)"></a>
-                        </div>
+            </div>
 
 						<a href="_images/_mobile/GoTV_partners/ESPN_Fantasy_Cast.jpg" class="box MOBILE_GoTV_Partners" rel="shadowbox[GoTV_Partners]" title="ESPN Fantasy Cast (2010)"></a>
 						<div class="hideMe">
@@ -1058,7 +1085,7 @@
 						<div class="hideMe">
 							<a href="_images/_mobile/aquatic_discoveries/2.jpg" rel="shadowbox[aquatic_discoveries]" title="Aquatic Discoveries Photo iBook :: Premier Digital Publishing (100+ images) :: Edit/Design/Coding (iBook Author)"></a>
 							<a href="_images/_mobile/aquatic_discoveries/3.jpg" rel="shadowbox[aquatic_discoveries]" title="Aquatic Discoveries Photo iBook :: Premier Digital Publishing (100+ images) :: Edit/Design/Coding (iBook Author)"></a>
-                        </div>
+            </div>
 
 						<a href="_images/_mobile/yoga_assists/1.jpg" class="box MOBILE_yoga_assists" rel="shadowbox[yoga_assists]" title="Yoga Assists iBook (150+ pages) :: Interactive Charts/Video ::  PDP :: Edit/Design/Coding (iBook Author)"></a>
 						<div class="hideMe">
@@ -1066,13 +1093,13 @@
 							<a href="_images/_mobile/yoga_assists/3.jpg" rel="shadowbox[yoga_assists]" title="Yoga Assists iBook (150+ pages) :: Interactive Charts/Video ::  PDP :: Design/Coding (iBook Author)"></a>
 							<a href="_images/_mobile/yoga_assists/4.jpg" rel="shadowbox[yoga_assists]" title="Yoga Assists iBook (150+ pages) :: Interactive Charts/Video ::  PDP :: Design/Coding (iBook Author)"></a>
 							<a href="_images/_mobile/yoga_assists/5.jpg" rel="shadowbox[yoga_assists]" title="Yoga Assists iBook (150+ pages) :: Interactive Charts/Video ::  PDP :: Design/Coding (iBook Author)"></a>
-                        </div>
+            </div>
 
 						<a href="_images/_motion/motorola/1.html" class="box MOTION_motorola" rel="shadowbox[motorola_mobile]" title="Motorola motoDemo App - A video 'how to' users guide / App"></a>
 						<div class="hideMe">
 							<a href="_images/_motion/motorola/1.jpg" rel="shadowbox[motorola_mobile]" title="Motorola motoDemo App - Product Box (Designed graphic on bottom right)"></a>
 							<a href="_images/_motion/motorola/2.jpg" rel="shadowbox[motorola_mobile]" title="Motorola motoDemo App - Logo Design / Loading Screen"></a>
-                        </div>
+            </div>
 
 						<a href="_images/_mobile/TB_Bucs/A.jpg" class="box MOBILE_TB_Bucs" rel="shadowbox[TB_Bucs]" title="Tampa Bay Buccaneers App"></a>
 						<div class="hideMe">
@@ -1083,7 +1110,7 @@
 							<a href="_images/_mobile/TB_Bucs/5.jpg" rel="shadowbox[TB_Bucs]" title="Tampa Bay Buccaneers App – Video Loading"></a>
 						</div>
 
-						<a width=240;height=260" href="_images/_mobile/demo_pitches/nat_geo_demo.swf" class="box MOBILE_demos" rel="shadowbox[demos]; title="National Geographic App Demo"></a>
+						<a href="_images/_mobile/demo_pitches/nat_geo_demo.swf" class="box MOBILE_demos" rel="shadowbox[demos]; title="National Geographic App Demo"></a>
 						<div class="hideMe">
 							<a rel="shadowbox[demos];width=240;height=260" href="_images/_mobile/demo_pitches/rachael_ray_demo.swf" title="Rachel Ray App Demo"></a>
 						</div>
@@ -1091,20 +1118,20 @@
 					<!-- end floats -->
 					<div style="clear: both"></div>
 
-                    <!-- scroll arrows START -->
-                    <div class="scroll_arrows" id="mobile">
-                        <a href="#" class="scroll_arrow_up" id="mobile"></a>
-                        <a href="#" class="scroll_arrow_down" id="mobile"></a>
-                    </div>
-                    <!-- scroll arrows END -->
+              <!-- scroll arrows START -->
+              <div class="scroll_arrows" id="mobile">
+                  <a href="#" class="scroll_arrow_up" id="mobile"></a>
+                  <a href="#" class="scroll_arrow_down" id="mobile"></a>
+              </div>
+              <!-- scroll arrows END -->
 
-                    <!-- rotate device instruction START -->
+              <!-- rotate device instruction START -->
 
-                    <div class="rotate_device_instructions">
-                        <image src="_images/rotate_device.png" class="rotate_device" width="191px" height="83px" alt="Please Rotate Device">
-                    </div>
+              <div class="rotate_device_instructions">
+                  <image src="_images/rotate_device.png" class="rotate_device" width="191px" height="83px" alt="Please Rotate Device">
+              </div>
 
-                    <!-- rotate device instruction END -->
+              <!-- rotate device instruction END -->
 
 				</div>
                 <!-- xxxxxxxxxx mobile END xxxxxxxxxx -->
@@ -1121,29 +1148,29 @@
 							<a href="_images/_motion/MLG_CSGO/ribbons.html" rel="shadowbox[MLG_CSGO]" title="MLG CSGO :: 13 Large &quot;Ribbons&quot; wrapped this NHL Arena & Displayed Match Ups, Scores, Results & Excitement Building Looping Animations."></a>
 							<a href="_images/_motion/MLG_CSGO/finals_intro.html" rel="shadowbox[MLG_CSGO]" title="MLG CSGO :: Finals Intro Video :: Exhibits Some of The Arena/Fan Experience"></a>
 							<a href="_images/_motion/MLG_CSGO/iphone.html" rel="shadowbox[MLG_CSGO]" title="MLG CSGO :: Crummy iPhone Video That Does A Poor Job Of Showing How Crisp And Bright These Displays Were."></a>
-                        </div>
+            </div>
 
 						<a href="_images/_motion/BID/BID_highlights.html" class="box MOTION_BID" rel="shadowbox[BID]" title="Break It Down :: Disney XD :: Animated Show Graphics - Art Direction/Animation/Concepting"></a>
-						<div class="hideMe">
-							<a href="_images/_motion/BID/BID_extras.html" rel="shadowbox[BID]" title="Break It Down :: Disney XD :: Initial concepting/design exploration"></a>
-                        </div>
+            <div class="hideMe">
+                <a href="_images/_motion/BID/BID_extras.html" rel="shadowbox[BID]" title="Break It Down :: Disney XD :: Initial concepting/design exploration"></a>
+            </div>
 
-                        <!-- Hidden version of Pokebingo
-                        <a href="#" class="box MOTION_pokebingo" rel="shadowbox[pokebingo]" title="Pokebingo :: Network Game Show Pitch :: Bunim Murray Productions :: 3d Virtual Set Design - Logo Design & Digital Scoreboard"></a> -->
+            <!-- Hidden version of Pokebingo
+            <a href="#" class="box MOTION_pokebingo" rel="shadowbox[pokebingo]" title="Pokebingo :: Network Game Show Pitch :: Bunim Murray Productions :: 3d Virtual Set Design - Logo Design & Digital Scoreboard"></a>
+            -->
 
 						<a href="_images/_motion/pokebingor/concepts.html" class="box MOTION_pokebingo" rel="shadowbox[pokebingo]" title="Pokebingo :: Network Game Show Pitch :: Bunim Murray Productions :: Branding, Initial Concepts & 3d Virtual Set Design"></a>
 						<div class="hideMe">
-                            <a href="_images/_motion/pokebingo/hightlights.html" rel="shadowbox[pokebingo]" title="Pokebingo :: Network Game Show Pitch :: Bunim Murray Productions :: Highlights from Final show"></a>
-                            <a href="_images/_motion/pokebingo/1.jpg" rel="shadowbox[pokebingo]" title="Pokebingo :: Network Game Show Pitch :: Bunim Murray Productions :: 3d Virtual Set Design - Logo Design & Digital Scoreboard"></a>
-							<a href="_images/_motion/pokebingor/2.jpg" rel="shadowbox[pokebingo]" title="Pokebingo :: Network Game Show Pitch :: Bunim Murray Productions :: 3d Virtual Set Design - Podiums"></a>
-							<a href="_images/_motion/pokebingor/3.jpg" rel="shadowbox[pokebingo]" title="Pokebingo :: Network Game Show Pitch :: Bunim Murray Productions :: 3d Virtual Set Design - Podiums - side view"></a>
-							<a href="_images/_motion/pokebingor/4.jpg" rel="shadowbox[pokebingo]" title="Pokebingo :: Network Game Show Pitch :: Bunim Murray Productions :: Final Show Screenshots"></a>
-
-							<a href="_images/_motion/pokebingor/5.jpg" rel="shadowbox[pokebingo]" title="Pokebingo :: Network Game Show Pitch :: Bunim Murray Productions :: Shots from the Set"></a>
-							<a href="_images/_motion/pokebingor/6.jpg" rel="shadowbox[pokebingo]" title="Pokebingo :: Network Game Show Pitch :: Bunim Murray Productions :: Shots from the Set"></a>
-							<a href="_images/_motion/pokebingor/7.jpg" rel="shadowbox[pokebingo]" title="Pokebingo :: Network Game Show Pitch :: Bunim Murray Productions :: Points Graphic"></a>
-							<a href="_images/_motion/pokebingor/8.jpg" rel="shadowbox[pokebingo]" title="Pokebingo :: Network Game Show Pitch :: Bunim Murray Productions :: Show Typography"></a>
-							<a href="_images/_motion/pokebingor/9.jpg" rel="shadowbox[pokebingo]" title="Pokebingo :: Network Game Show Pitch :: Bunim Murray Productions :: Branding Exploration"></a>
+              <a href="_images/_motion/pokebingo/hightlights.html" rel="shadowbox[pokebingo]" title="Pokebingo :: Network Game Show Pitch :: Bunim Murray Productions :: Highlights from Final show"></a>
+              <a href="_images/_motion/pokebingo/1.jpg" rel="shadowbox[pokebingo]" title="Pokebingo :: Network Game Show Pitch :: Bunim Murray Productions :: 3d Virtual Set Design - Logo Design & Digital Scoreboard"></a>
+              <a href="_images/_motion/pokebingor/2.jpg" rel="shadowbox[pokebingo]" title="Pokebingo :: Network Game Show Pitch :: Bunim Murray Productions :: 3d Virtual Set Design - Podiums"></a>
+              <a href="_images/_motion/pokebingor/3.jpg" rel="shadowbox[pokebingo]" title="Pokebingo :: Network Game Show Pitch :: Bunim Murray Productions :: 3d Virtual Set Design - Podiums - side view"></a>
+              <a href="_images/_motion/pokebingor/4.jpg" rel="shadowbox[pokebingo]" title="Pokebingo :: Network Game Show Pitch :: Bunim Murray Productions :: Final Show Screenshots"></a>
+              <a href="_images/_motion/pokebingor/5.jpg" rel="shadowbox[pokebingo]" title="Pokebingo :: Network Game Show Pitch :: Bunim Murray Productions :: Shots from the Set"></a>
+              <a href="_images/_motion/pokebingor/6.jpg" rel="shadowbox[pokebingo]" title="Pokebingo :: Network Game Show Pitch :: Bunim Murray Productions :: Shots from the Set"></a>
+              <a href="_images/_motion/pokebingor/7.jpg" rel="shadowbox[pokebingo]" title="Pokebingo :: Network Game Show Pitch :: Bunim Murray Productions :: Points Graphic"></a>
+              <a href="_images/_motion/pokebingor/8.jpg" rel="shadowbox[pokebingo]" title="Pokebingo :: Network Game Show Pitch :: Bunim Murray Productions :: Show Typography"></a>
+              <a href="_images/_motion/pokebingor/9.jpg" rel="shadowbox[pokebingo]" title="Pokebingo :: Network Game Show Pitch :: Bunim Murray Productions :: Branding Exploration"></a>
 						</div>
 
 						<a href="_images/_motion/the_controller/1.jpg" class="box MOTION_controller" rel="shadowbox[controller_motion]" title="The Controller (2 Seasons) :: Online Reality Series (EA/BMP/Gamestop/Machinima :: Art Direction/Animation/Design)"></a>
@@ -1156,7 +1183,7 @@
 							<a href="_images/_motion/the_controller/4.jpg" rel="shadowbox[controller_motion]" title="The Controller (2 Seasons) :: Online Reality Series (EA/BMP/Gamestop/Machinima:: Art Direction/Animation/Design"></a>
 							<a href="_images/_motion/the_controller/bingo.jpg" rel="shadowbox[controller_motion]" title="The Controller (S. 1 & 2) :: Bingo Challenge Graphic"></a>
 							<a href="_images/_motion/the_controller/8.jpg" rel="shadowbox[controller_motion]" title="The Controller (2 Seasons) :: Online Reality Series (EA/BMP/Gamestop/Machinima:: Art Direction/Animation/Design"></a>
-							<!-- <a href="_images/_motion/the_controller/5.jpg" rel="shadowbox[controller_motion]" title="The Controller (2 Seasons) :: Online Reality Series (EA/BMP/Gamestop/Machinima:: Art Direction/Animation/Design' class='shadowBoxLink'></i>"></a> -->
+							<!-- <a href="_images/_motion/the_controller/5.jpg" rel="shadowbox[controller_motion]" title="The Controller (2 Seasons) :: Online Reality Series (EA/BMP/Gamestop/Machinima:: Art Direction/Animation/Design"></a> -->
 							<a href="_images/_motion/the_controller/6.jpg" rel="shadowbox[controller_motion]" title="The Controller (2 Seasons) :: Online Reality Series (EA/BMP/Gamestop/Machinima:: Art Direction/Animation/Design"></a>
 							<a href="_images/_motion/the_controller/1.html" rel="shadowbox[controller_motion]" title="The Controller :: Season 1 Episode 8 (Full) "></a>
 							<!--<a href="_images/_motion/the_controller/2.html" rel="shadowbox[controller_motion]" title="The Controller :: Season 2 Episode 1 (Full)"></a>
@@ -1180,18 +1207,18 @@
 							<a href="_images/_motion/xology/6.jpg" rel="shadowbox[xology]" title="X-ology :: Disney XD :: Show Branding / Design"></a>
 							<a href="_images/_motion/xology/7.jpg" rel="shadowbox[xology]" title="X-ology :: Disney XD :: Show Branding / Design"></a>
 							<a href="_images/_motion/xology/1.html" rel="shadowbox[xology]" title="X-ology :: Disney XD :: Show Branding / Design"></a>
-                        </div>
+            </div>
 
-                        <a href="_images/_motion/kingdom/index.html" class="box MOTION_kingdom" rel="shadowbox[kingdom]" title="Kingdom :: Reality Competition TV Show Pitch :: Bunim Murray Productions"></a>
+              <a href="_images/_motion/kingdom/index.html" class="box MOTION_kingdom" rel="shadowbox[kingdom]" title="Kingdom :: Reality Competition TV Show Pitch :: Bunim Murray Productions"></a>
 
-                        <a href="_images/_motion/family_business/index.html" class="box MOTION_family_business" rel="shadowbox[family_business]" title="Family Business :: Family Competition TV Show Pitch :: Bunim Murray Productions"></a>
+              <a href="_images/_motion/family_business/index.html" class="box MOTION_family_business" rel="shadowbox[family_business]" title="Family Business :: Family Competition TV Show Pitch :: Bunim Murray Productions"></a>
 
   						<a href="_images/_motion/crazy_heart/1.html" class="box MOTION_crazy_heart" rel="shadowbox[crazy_heart]" title="The Profiler :: Crazy Heart Media :: Title Card Animation"></a>
 
   						<a href="_images/_motion/music_promo/lake_effect.html" class="box MOTION_music_promo" rel="shadowbox[music_promo]" title="Lake Effect :: Indie Rock Band Teaser Video"></a>
-                        <div class="hideMe">
-							<a href="_images/_motion/music_promo/cutlass_supreme.html" class="box MOTION_music_promo" rel="shadowbox[music_promo]" title="Cutlass Supreme :: Indie Rock Band Teaser Video"></a>
-                        </div>
+              <div class="hideMe">
+                <a href="_images/_motion/music_promo/cutlass_supreme.html" class="box MOTION_music_promo" rel="shadowbox[music_promo]" title="Cutlass Supreme :: Indie Rock Band Teaser Video"></a>
+              </div>
 
 
 						<a href="_images/_motion/machinima/machinima.html" class="box MOTION_machinima" rel="shadowbox[machinima_motion]" title="Machinima Branded Animations (intro, backplate, lower thirds, statistics & title card)"></a>
@@ -1201,12 +1228,12 @@
 							<a href="_images/_motion/sprint/1.jpg" rel="shadowbox[sprint]" title="Sprint Exclusive Entertainment :: Mobile Video Network"></a>
 							<a href="_images/_motion/sprint/2.jpg" rel="shadowbox[sprint]" title="Sprint Exclusive Entertainment :: Mobile Video Network :: Example of Virtual Set Design"></a>
 							<a href="_images/_motion/sprint/3.jpg" rel="shadowbox[sprint]" title="Sprint Exclusive Entertainment :: Mobile Video Network :: More Shows and Set Examples"></a>
-                        </div>
+            </div>
 
 						<a href="_images/_motion/plutoTV/index.html" class="box MOTION_plutoTV" rel="shadowbox[plutoTV]" title="Pluto TV Sizzle Reel Animations"></a>
 						<div class="hideMe">
 							<a href="_images/_motion/plutoTV/plutoTV_pg.jpg" rel="shadowbox[plutoTV]" title="Pluto TV :: Show Pages"></a>
-                        </div>
+            </div>
 
 						<a href="_images/_motion/gotv/1.html" class="box MOTION_gotv" rel="shadowbox[gotv]" title="GoTV Networks :: Sample Branding/Animations"></a>
 						<div class="hideMe">
@@ -1214,14 +1241,14 @@
 							<a href="_images/_motion/gotv/VCAST_today_set.jpg" rel="shadowbox[gotv]" title="GoTV Networks :: Show - VCast Today :: Daily Entertainment Show <i>(Verizon)</i> :: Virtual Set"></a>
 							<a href="_images/_motion/gotv/la_charla.jpg" rel="shadowbox[gotv]" title="GoTV Networks :: Show - La Charla :: Channel - Es Musica <i>(Latin Music)</i> :: Screen Shot/Virtual Set"></a>
 							<a href="_images/_motion/gotv/breves_diarios.jpg" rel="shadowbox[gotv]" title="GoTV Networks :: Show - Breves Diarios :: Channel - Es Musica <i>(Latin Music) :: Screen Shot/Virtual Set</i>"></a>
-                        </div>
+            </div>
 
 						<a href="_images/_motion/TVGasm/1.html" class="box MOTION_TVGasm" rel="shadowbox[TVGasm]" title="TVGasm.com :: Parent of the Week"></a>
 						<div class="hideMe">
 							<a href="_images/_motion/TVGasm/2.html" rel="shadowbox[TVGasm]" title="TVGasm.com :: Parent of the Week"></a>
 							<a href="_images/_motion/TVGasm/3.html" rel="shadowbox[TVGasm]" title="TVGasm.com :: Parent of the Week"></a>
 							<a href="_images/_motion/TVGasm/4.html" rel="shadowbox[TVGasm]" title="TVGasm.com :: Parent of the Week"></a>
-                        </div>
+            </div>
 
 						<a href="_images/_motion/cambio/1.html" class="box MOTION_cambio" rel="shadowbox[cambio]" title="cambio.com :: Cambio Live Show Animations"></a>
 
@@ -1237,14 +1264,14 @@
 							<a href="_images/_print/brkdwn/8.jpg" rel="shadowbox[brkdwn]" title="BRKDWN - Online Entertainment Show :: Bunim-Murray Digital :: A Visual Case Study in Branding/Logo Design"></a>
 							<a href="_images/_print/brkdwn/9.jpg" rel="shadowbox[brkdwn]" title="BRKDWN - Online Entertainment Show :: Bunim-Murray Digital :: A Visual Case Study in Branding/Logo Design"></a>
 							<a href="_images/_print/brkdwn/10.jpg" rel="shadowbox[brkdwn]" title="BRKDWN - Online Entertainment Show :: Bunim-Murray Digital :: A Visual Case Study in Branding/Logo Design"></a>
-                        </div>
+            </div>
 
 						<a href="_images/_motion/big_joe/1.jpg" class="box MOTION_big_joe" rel="shadowbox[big_joe]" title="Big Joe's Tattoo Faceoff :: Best Ink - Oxygen Network :: Branding / Design"></a>
 						<div class="hideMe">
 							<a href="_images/_motion/big_joe/2.jpg" rel="shadowbox[big_joe]" title="Big Joe's Tattoo Faceoff :: Best Ink - Oxygen Network :: Branding / Design"></a>
 							<a href="_images/_motion/big_joe/3.jpg" rel="shadowbox[big_joe]" title="Big Joe's Tattoo Faceoff :: Best Ink - Oxygen Network :: Branding / Design"></a>
 							<a href="_images/_motion/big_joe/4.jpg" rel="shadowbox[big_joe]" title="Big Joe's Tattoo Faceoff :: Best Ink - Oxygen Network :: Branding / Design"></a>
-                        </div>
+            </div>
 
 						<a href="_images/_motion/dyatlov_pass/1.html" class="box MOTION_dyatlov_pass" rel="shadowbox[dyatlov_pass]" title="Dyatlov Pass (AKA The Devil's Pass) :: Int'l Motion Picture Trailor Graphics"></a>
 
@@ -1252,7 +1279,7 @@
 						<div class="hideMe">
 							<a href="_images/_motion/motorola/1.jpg" rel="shadowbox[motorola]" title="Motorola motoDemo App - Product Box (Designed graphic on bottom right)"></a>
 							<a href="_images/_motion/motorola/2.jpg" rel="shadowbox[motorola]" title="Motorola motoDemo App - Logo Design / Loading Screen"></a>
-                        </div>
+            </div>
 
 						<a href="_images/_motion/inside_track/1.html" class="box MOTION_inside_track" rel="shadowbox[inside_track]" title="Verizon Championship Racing :: Branding/Animation for Weekly Racing Show - Inside Track"></a>
 
@@ -1267,22 +1294,22 @@
 
 					<div style="clear: both"></div>
 
-                    <!-- scroll arrows START -->
+                <!-- scroll arrows START -->
 
-                    <div class="scroll_arrows" id="motion">
-                        <a href="#" class="scroll_arrow_up" id="motion"></a>
-                        <a href="#" class="scroll_arrow_down" id="motion"></a>
-                    </div>
+                <div class="scroll_arrows" id="motion">
+                    <a href="#" class="scroll_arrow_up" id="motion"></a>
+                    <a href="#" class="scroll_arrow_down" id="motion"></a>
+                </div>
 
-                    <!-- scroll arrows END -->
+                <!-- scroll arrows END -->
 
-                    <!-- rotate device instruction START -->
+                <!-- rotate device instruction START -->
 
-                    <div class="rotate_device_instructions">
-                        <image src="_images/rotate_device.png" class="rotate_device" width="191px" height="83px" alt="Please Rotate Device">
-                    </div>
+                <div class="rotate_device_instructions">
+                    <image src="_images/rotate_device.png" class="rotate_device" width="191px" height="83px" alt="Please Rotate Device">
+                </div>
 
-                    <!-- rotate device instruction END -->
+                <!-- rotate device instruction END -->
 
 				</div>
                 <!-- xxxxxxxxxx motion END xxxxxxxxxx -->
@@ -1291,26 +1318,33 @@
 
 		<!-- footer -->
 		<div id="footer">
-			<p id="footer_text">Welcome to SashaLoobkoff.com | <a href="#" class="home_btm_btn">Home</a> | <a href="#" class="about_btm_btn">About/Links/Contact</a> | <a href="#"
-			class="web_btm_btn">Web</a> | <a href="#" class="print_btm_btn">Print</a> | <a href="#" class="mobile_btm_btn">Mobile</a>  | <a href="#" class="motion_btm_btn">Motion</a> | &copy; <?php echo date("Y"); ?> <a href="mailto:sasha@sashaloobkoff.com">Sasha Loobkoff</a></p>
+			<p id="footer_text">
+        <span id="footer_text_welcome">Welcome to SashaLoobkoff.com | &nbsp;</span><a href="#" class="home_btm_btn">Home</a> | <a href="#" class="about_btm_btn">About/Links/Contact</a> | <a href="#"
+			class="web_btm_btn">Web</a> | <a href="#" class="print_btm_btn">Print</a><span id="footer_print_pipe">&nbsp;|&nbsp;</span><a href="#" class="mobile_btm_btn"><span id="footer_soft_return"><br></span>Mobile</a> | <a href="#" class="motion_btm_btn">Motion</a> | &copy; <?php echo date("Y"); ?> <a href="mailto:sasha@sashaloobkoff.com">Sasha Loobkoff</a>
+    </p><!-- #end footer_text -->
 		</div>
 	</div>
 
-	<!-- Scrolling JavaScript -->
+	<!-- Scrolling & Browser Resizing JavaScript -->
 	<script type="text/javascript">
 
 		$('.home_btn, .home_btm_btn').click(function() {
-		if ($('#viewing_pane').scrollTop()!='0') {
-			$('#viewing_pane').animate({scrollTop: '0'}, 1000,'easeInOutExpo');
-			$('div.scroll_arrows').animate({top: '486'}, 1000,'easeInOutExpo');
-			$web_row_position = 1;
-			$mobile_row_position = 1;
-			$print_row_position = 1;
-			$motion_row_position = 1;
-		}
+
+  		if ($('#viewing_pane').scrollTop()!='0') {
+  			$('#viewing_pane').animate({scrollTop: '0'}, 1000,'easeInOutExpo');
+  			$('div.scroll_arrows').animate({top: '486'}, 1000,'easeInOutExpo');
+  			$web_row_position = 1;
+  			$mobile_row_position = 1;
+  			$print_row_position = 1;
+  			$motion_row_position = 1;
+  		}
 
 			$('#mask').animate({opacity:1}, 1000,'easeInOutExpo');
 			$('#viewing_pane').animate({scrollLeft: 0}, 1000,'easeInOutExpo');
+
+      // set scroll location variable
+      $scrollLocation="home";
+
 		});
 
 
@@ -1318,6 +1352,9 @@
 		$('.enter_sm_btn').click(function() {
 			$('#mask').animate({opacity:0}, 1000,'easeInOutExpo');
 			$('#viewing_pane').animate({scrollLeft: $('#about').position().left}, 1000,'easeInOutExpo');
+
+      // set scroll location variable
+      $scrollLocation="about";
 		});
 
 
@@ -1332,6 +1369,13 @@
 		}
 
 			$('#viewing_pane').animate({scrollLeft: $('#about').position().left}, 1000,'easeInOutExpo');
+
+      // set scroll location variable
+      $scrollLocation="about";
+      /*
+      $msg="You have scrolled to " + $scrollLocation + ".";
+      window.alert($msg);
+      */
 		});
 
 
@@ -1347,6 +1391,10 @@
 		}
 
 			$('#viewing_pane').animate({scrollLeft: $('#web').position().left}, 1000,'easeInOutExpo');
+
+      // set scroll location variable
+      $scrollLocation="web";
+
 		});
 
 		$('.print_btn, .print_btm_btn').click(function() {
@@ -1360,6 +1408,9 @@
 		}
 
 			$('#viewing_pane').animate({scrollLeft: $('#print').position().left}, 1000,'easeInOutExpo');
+
+      // set scroll location variable
+      $scrollLocation="print";
 		});
 
 		$('.mobile_btn, .mobile_btm_btn').click(function() {
@@ -1372,6 +1423,10 @@
 			$motion_row_position = 1;
 		}
 			$('#viewing_pane').animate({scrollLeft: $('#mobile').position().left}, 1000,'easeInOutExpo');
+
+      // set scroll location variable
+      $scrollLocation="mobile";
+
 		});
 
 		$('.motion_btn, .motion_btm_btn').click(function() {
@@ -1385,14 +1440,59 @@
 		}
 
 			$('#viewing_pane').animate({scrollLeft: $('#motion').position().left}, 1000,'easeInOutExpo');
+
+      // set scroll location variable
+      $scrollLocation="motion";
+
     });
 
 		/****************** vertical scrolling ******************/
 
+    /***** #1 function to count # of first child elements in section *****/
+    /* example - $(#web.section:first > a).length */
+
+    function countSectionElements(sectionName) {
+      var x = $(sectionName + '.section:first > a').length;
+
+      /* DATA DUMP: display all elements in section in console
+      $(sectionName + '.section:first > a').each(function () {
+          console.log($(this).attr('class'));
+      });
+      */
+
+      /* for some reason this function counts the scroll arrows so subtract 2 */
+      x = x-2;
+      console.log('There are ' + x + ' items in the ' + sectionName + ' section.');
+
+      return x;
+    }
+
+
+    /***** #2 function to set # of extra section columns that limits the number of down scroll clicks *****/
+    function getExtraRowCount(sectionElementCount) {
+        if ($browserWindowWidth > 1060) {
+          var extra_row_count = Math.ceil(sectionElementCount/4) - 3;  // # of rows below the fold on 4 col
+          console.log(extra_row_count + ' extra rows');
+          return extra_row_count;
+        } else if ($browserWindowWidth < 1061 && $browserWindowWidth > 800) {
+          var extra_row_count = Math.ceil(sectionElementCount/3) - 3;  // # of rows below the fold on 3 col
+          console.log(extra_row_count + ' extra rows');
+          return extra_row_count;
+        } else if ($browserWindowWidth < 801 && $browserWindowWidth > 570) {
+          var extra_row_count = Math.ceil(sectionElementCount/2) - 3;  // # of rows below the fold on 2 col
+          console.log(extra_row_count + ' extra rows');
+          return extra_row_count;
+        } else if ($browserWindowWidth < 571) {
+          var extra_row_count = Math.ceil(sectionElementCount/1) - 3;  // # of rows below the fold on 2 col
+          console.log(extra_row_count + ' extra rows');
+          return extra_row_count;
+        }
+    }
+
 		/****************** web ******************/
 		/* make sure go to far up or down*/
-			var $web_extra_row_count = 5;  // set this everytime you increase the row count
-			var $web_row_position = 1;
+
+    var $web_row_position = 1;
 
 		$('a#web.scroll_arrow_up').click(function() {
 			if ($web_row_position > 1) {
@@ -1400,15 +1500,22 @@
 			  $('div#web.scroll_arrows').animate({top: '-=197'}, 1000,'easeInOutExpo');
 			  $web_row_position -=1;
 			}
-        });
+    });
 
 		$('a#web.scroll_arrow_down').click(function() {
+
+      // call function to get the # of elements in this section
+      var webSectionElementCount = countSectionElements('#web');
+
+      // call function (with element count) to get # of extra rows so it stops scrolling at right place
+      var $web_extra_row_count = getExtraRowCount(webSectionElementCount);
+
 			if ($web_row_position < ($web_extra_row_count + 1)) {
 			  $('#viewing_pane').animate({scrollTop: '+=197'}, 1000,'easeInOutExpo');
 			  $('div#web.scroll_arrows').animate({top: '+=197'}, 1000,'easeInOutExpo');
 			  $web_row_position +=1;
 			}
-        });
+    });
 
 		/****************** print ******************/
 		/* make sure go to far up or down*/
@@ -1421,15 +1528,22 @@
 			  $('div#print.scroll_arrows').animate({top: '-=197'}, 1000,'easeInOutExpo');
 			  $print_row_position -=1;
 			}
-        });
+    });
 
 		$('a#print.scroll_arrow_down').click(function() {
+
+      // call function to get the # of elements in this section
+      var printSectionElementCount = countSectionElements('#print');
+
+      // call function (with element count) to get # of extra rows so it stops scrolling at right place
+      var $print_extra_row_count = getExtraRowCount(printSectionElementCount);
+
 			if ($print_row_position < ($print_extra_row_count + 1)) {
 			  $('#viewing_pane').animate({scrollTop: '+=197'}, 1000,'easeInOutExpo');
 			  $('div#print.scroll_arrows').animate({top: '+=197'}, 1000,'easeInOutExpo');
 			  $print_row_position +=1;
 			}
-        });
+    });
 
 		/****************** mobile ******************/
 		/* make sure go to far up or down*/
@@ -1442,15 +1556,22 @@
 			  $('div#mobile.scroll_arrows').animate({top: '-=197'}, 1000,'easeInOutExpo');
 			  $mobile_row_position -=1;
 			}
-        });
+    });
 
 		$('a#mobile.scroll_arrow_down').click(function() {
+
+      // call function to get the # of elements in this section
+      var mobileSectionElementCount = countSectionElements('#mobile');
+
+      // call function (with element count) to get # of extra rows so it stops scrolling at right place
+      var $mobile_extra_row_count = getExtraRowCount(mobileSectionElementCount);
+
 			if ($mobile_row_position < ($mobile_extra_row_count + 1)) {
 			  $('#viewing_pane').animate({scrollTop: '+=197'}, 1000,'easeInOutExpo');
 			  $('div#mobile.scroll_arrows').animate({top: '+=197'}, 1000,'easeInOutExpo');
 			  $mobile_row_position +=1;
 			}
-        });
+    });
 
 		/****************** motion ******************/
 		/* make sure go to far up or down*/
@@ -1463,15 +1584,22 @@
 			  $('div#motion.scroll_arrows').animate({top: '-=197'}, 1000,'easeInOutExpo');
 			  $motion_row_position -=1;
 			}
-        });
+    });
 
 		$('a#motion.scroll_arrow_down').click(function() {
+
+      // call function to get the # of elements in this section
+      var motionSectionElementCount = countSectionElements('#motion');
+
+      // call function (with element count) to get # of extra rows so it stops scrolling at right place
+      var $motion_extra_row_count = getExtraRowCount(motionSectionElementCount);
+
 			if ($motion_row_position < ($motion_extra_row_count + 1)) {
 			  $('#viewing_pane').animate({scrollTop: '+=197'}, 1000,'easeInOutExpo');
 			  $('div#motion.scroll_arrows').animate({top: '+=197'}, 1000,'easeInOutExpo');
 			  $motion_row_position +=1;
 			}
-        });
+    });
 
   </script>
 
