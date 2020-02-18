@@ -2,16 +2,19 @@
 /*
 * { margin:0; padding:0; outline:none; }
 
-body { 
+body {
 	font: 11px/15px "Lucida Grande","Lucida Sans Unicode",Helvetica,Arial,Verdana,sans-serif;
 	background: url(http://www.sashaloobkoff.com/_images/contact.jpg) no-repeat;
 	 }
 */
-#contact_form { 
-	position:relative; top: 68px; left:26px; width:300px;
-	border:1px;
+#contact_form {
+	position: relative;
+	top: 20px;
+	left: 14px;
+	width: 300px;
+	border: 1px;
 	font: 11px/15px "Lucida Grande","Lucida Sans Unicode",Helvetica,Arial,Verdana,sans-serif;
-	}
+}
 
 form fieldset {
 	position:relative;
@@ -19,7 +22,7 @@ form fieldset {
 	display:block;
 	padding:0px;
 	}
-	
+
 form fieldset legend {
 	border-width:1px;
 	border-style:solid;
@@ -32,17 +35,17 @@ form fieldset legend {
 	margin:0px 0px 10px 0px;
 	position:relative;
 	top: -12px;
-	background:white; 
+	background:white;
 	}
-	
+
 label {
 	display:block;
 	text-align:left;
 	color:#888888;
 	margin:0 px 2px; }
-	
+
 label.error
-	{ 
+	{
         background: transparent url(../_images/cancel.png) no-repeat scroll left bottom;
 		color:red;
         float: right;
@@ -59,9 +62,9 @@ input.text-input {
 		margin: 0px 0px 4px 0px;
 		padding: 0px 4px;
 	}
-		
+
 		.message {
-			width:284px;
+			width:279px;
 			height:60px;
 			background:#fefefe;
 			border:1px double #dddddd;
@@ -70,7 +73,7 @@ input.text-input {
 			overflow: auto;
 		}
 
-input.button { 
+input.button {
 		position:relative;
 		background: transparent url(../_images/submit_btn.jpg) no-repeat scroll left top;
 		top:0px;
@@ -81,24 +84,23 @@ input.button {
 		border:0px;
 		}
 
-input.button:hover { 
+input.button:hover {
 		background: transparent url(../_images/submit_btn.jpg) no-repeat scroll left -44px;
 		}
 
-#message { 
+#message {
 		width:200px;
 		margin:82px 0 0 90px; }
 
-#message h2 { 
+#message h2 {
 		font-size:120%;
 		color:#888888;
 		margin: 0px 0px 2px 0px;
 		}
 
-#message p { 
+#message p {
 		color:#888888;
 		margin:0px 0px 4px 0px;
 		}
 
 #checkmark { position:relative;top:-46px;left:-60px; }
-

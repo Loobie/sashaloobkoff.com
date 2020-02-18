@@ -108,6 +108,15 @@ div#web.section, div#print.section, div#mobile.section, div#motion.section {
     margin-left:16px !important;
 }
 
+.content_box {
+    position: absolute;
+    border-radius: 7px;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.25);  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+    -moz-box-shadow:    0px 0px 5px 0px rgba(0, 0, 0, 0.25);  /* Firefox 3.5 - 3.6 */
+    box-shadow:         0px 0px 5px 0px rgba(0, 0, 0, 0.25);  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+
+}
+
 #enter_btn {
     position: absolute;
     top: 160px;
@@ -124,164 +133,8 @@ span#footer_soft_return {
   display:none;
 }
 
-@media screen and (max-width: 1060px) {
-
-  #viewing_pane,
-  #mask
-  {
-      width:785px !important;
-  }
-
-  img#splash_lg {
-    clip-path: inset(0px 230px 0px 0px);
-  }
-
-  .section,
-  #center_content_main
-  {
-      width:771px !important;
-  }
-
-  #footer
-  {
-      width:750px !important;
-  }
-
-  #nav_bar {
-    left: 388px !important;
-  }
-
-  #center_content_main {
-      margin-left: -385.5px;
-    	background: url(../_images/background_661x753.jpg) no-repeat 0 0 !important;
-  }
-
-  .scroll_arrows {
-    left: 729px !important;
-  }
-
-  #enter_btn {
-      top: 334px;
-      left: 204px;
-  }
-
-}
-
-@media screen and (max-width: 800px) {
-
-  #viewing_pane,
-  #mask
-  {
-      width:542px !important;
-  }
-
-  .section,
-  #center_content_main
-  {
-      width:528px !important;
-  }
-
-  img#splash_med {
-    display:block;
-  }
-
-  img#splash_lg,
-  img#splash_sm {
-    display:none;
-  }
-
-  #footer
-  {
-      width:508px !important;
-  }
-
-  #center_content_main {
-      margin-left: -257px;
-    	background: url(../_images/background_506x753.jpg) no-repeat 0 0 !important;
-  }
-
-  #nav_bar {
-    left: 140px !important;
-  }
-
-  .scroll_arrows {
-    left: 486px !important;
-  }
-
-  #enter_btn {
-      top: 334px;
-      left: 200px;
-  }
-
-  span#footer_text_welcome {
-    display:none;
-  }
-
-}
-
-@media screen and (max-width: 570px) {
-
-  #viewing_pane
-  {
-      width:301px !important;
-  }
-
-  #mask
-  {
-      width:306px !important;
-  }
-
-  .section,
-  #center_content_main
-  {
-      width:281px !important;
-  }
-
-  img#splash_sm {
-    display:block;
-  }
-
-  img#splash_lg,
-  img#splash_med {
-    display:none;
-  }
-
-  #footer
-  {
-      width:261px !important;
-  }
-
-  #center_content_main {
-      margin-left: -140px;
-    	background: url(../_images/background_286x753.jpg) no-repeat 0 0 !important;
-  }
-
-  #nav_bar {
-    left: 0px !important;
-  }
-
-  .scroll_arrows {
-    left: 242px !important;
-  }
-
-  #enter_btn {
-      top: 360px;
-      left: 74px;
-  }
-
-  span#footer_text_welcome,
-  span#footer_print_pipe {
-    display:none;
-  }
-
-  span#footer_soft_return {
-    display:inline;
-  }
-
-}
-
 div#about.section {
-    background-color: red;
+    /* background-color: red; */
 }
 
 div#web.section {
@@ -321,37 +174,77 @@ p#footer_text {
 }
 
 #about_box {
-	background: url(../_images/about.jpg) no-repeat 0 0 transparent;
-	width: 648px;
-	height: 586px;
+	width: 620px;
+	height: 579px;
 	position: relative;
-	float:left;
-	/*top: 121px;*/
+	top: 3px;
+	left: 18px;
+}
+
+#about_head {
+	margin-bottom: 0px !important;
+}
+
+div#about_box p {
+		margin-bottom: 8px;
+}
+
+#about_text {
+    position: relative;
+    top: 20px;
+    left: 30px;
+    width: 560px;
+}
+
+#about_ipad_me_img {
+	 display:none;
 }
 
 #rotating_image {
 	list-style-type: none;
-	position: relative;
-	top: 11px; left: 23px;
-	height: 350px;
+	top: 8px;
+  left: 4px;
+  height: 357px;
 }
 
 #links_box {
-	background: url(../_images/links.jpg) no-repeat 0 0 transparent;
-	width: 352px;
-	height: 293px;
-	position: relative;
-	float:right;
-	right: 16px;
+  top: 3px;
+  right: 36px;
+	width: 320px;
+	height: 280px;
+  background: right top no-repeat url("../../_images/links_eye.png");
+}
+
+#link_head,
+#contact_head {
+    display: block;
+    position: relative;
+    top: 14px;
+    left: 14px;
+}
+
+#link_box_1,
+#link_box_2 {
+  position: relative;
+  top: 24px;
+  left: 14px;
+  width: 142px;
+  float: left;
+}
+#link_box_2 {
+  left: 46px !important
 }
 
 #contact_box {
-	background: url(../_images/contact.jpg) no-repeat 0 0 transparent;
-	width: 352px;
-	height: 293px;
-	position: relative;
-	float:right;
-	right: 16px;
+  top: 302px;
+  right: 36px;
+	width: 320px;
+	height: 280px;
+  background: right top no-repeat url("../../_images/contact_mouth.png");
+}
+
+#clear_contact_form {
+	display:none;
 }
 
 p.link {
@@ -417,158 +310,279 @@ a.scroll_arrow_down span.hover {
 	background-position: 42px 44px;
 }
 
+@media screen and (max-width: 1060px) {
 
-div#about_box p {
-		padding: 8px 36px 0px 46px;
+  #viewing_pane,
+  #mask
+  {
+      width:785px !important;
+  }
+
+  img#splash_lg {
+    clip-path: inset(0px 230px 0px 0px);
+  }
+
+  .section,
+  #center_content_main
+  {
+      width:771px !important;
+  }
+
+  #nav_bar {
+    left: 388px !important;
+  }
+
+  #center_content_main {
+      margin-left: -385.5px;
+    	background: url(../_images/background_661x753.jpg) no-repeat 0 0 !important;
+  }
+
+  .scroll_arrows {
+    left: 729px !important;
+  }
+
+  #enter_btn {
+    top: 334px;
+    left: 204px;
+  }
+
+  #about_box {
+  	width: 381px !important;
+  }
+
+  #rotating_image {
+    height: 230px !important;
+  }
+
+  .about_img {
+    width:373px;
+  }
+
+  #links_box,
+  #contact_box {
+  	width: 316px;
+  }
+
+  #about_text {
+  	position: relative;
+  	top: 20px;
+  	left: 30px;
+  	width: 320px;
+  }
+
+  #footer
+  {
+      width:750px !important;
+  }
+
 }
 
-#about_ipad_me_img {
-	 display:none;
+@media screen and (max-width: 799px) {
+
+  #viewing_pane,
+  #mask
+  {
+      width:541px !important;
+  }
+
+  #center_content_main {
+      margin-left: -257px;
+    	background: url(../_images/background_506x753.jpg) no-repeat 0 0 !important;
+  }
+
+  .section,
+  #center_content_main
+  {
+      width:528px !important;
+  }
+
+  #center_content_main {
+      margin-left: -257px;
+    	background: url(../_images/background_506x753.jpg) no-repeat 0 0 !important;
+  }
+
+  #nav_bar {
+    left: 140px !important;
+  }
+
+  .scroll_arrows {
+    left: 486px !important;
+  }
+
+  #enter_btn {
+      top: 334px;
+      left: 200px;
+  }
+
+  img#splash_med {
+    display:block;
+  }
+
+  img#splash_lg,
+  img#splash_sm {
+    display:none;
+  }
+
+  #about_box {
+  	width: 474px !important;
+  	height: 279px !important;
+  }
+
+  #rotating_image {
+    display:none;
+  }
+
+  #about_text {
+  	position: relative;
+  	top: 20px;
+  	left: 20px;
+  	width: 430px;
+  }
+
+  #links_box,
+  #contact_box {
+    top: 300px !important;
+  	height: 283px;
+  }
+
+  #links_box {
+  	left: 16px;
+  	width: 150px !important;
+  	background: none !important;
+  }
+
+  #link_box_2 {
+    display: none;
+  }
+
+  #contact_box {
+  	right: 36px;
+  	width: 306px !important;
+    background: right top no-repeat url("../../_images/contact_mouth.png") !important;
+    background-size: 46% 30% !important;
+  }
+
+  .message {
+  	width: 269px !important;
+  }
+
+  input.button {
+  	left: 83px !important;
+  }
+
+  #footer
+  {
+      width:508px !important;
+  }
+
+  span#footer_text_welcome {
+    display:none;
+  }
+
 }
 
-#clear_contact_form {
-	display:none;
-}
+@media screen and (max-width: 570px) {
 
+  #viewing_pane
+  {
+      width:298px !important;
+  }
 
-/* iPads (portrait) ----------- */
-@media only screen
-and (min-device-width : 768px)
-and (max-device-width : 1024px)
-and (orientation : portrait) {
+  #mask
+  {
+      width:306px !important;
+  }
 
-	div.scroll_arrows {
-	  left: 912px;
-	}
+  .section,
+  #center_content_main
+  {
+      width:281px !important;
+  }
 
-}
+  img#splash_sm {
+    display:block;
+  }
 
-/* iPads (landscape) ----------- */
-@media only screen
-  and (min-device-width : 768px)
-  and (max-device-width : 1024px)
-  and (orientation : landscape) {
+  img#splash_lg,
+  img#splash_med {
+    display:none;
+  }
 
-	#center_content_main {
-		width: 1000px;
-	}
+  #about_box,
+  #links_box,
+  #contact_box {
+    position:relative;
+    left: 23px;
+  	width: 230px !important;
+  }
 
-	div#viewing_pane {
-		width: 1000px;
-	}
+  #about_box {
+    top: 3px !important;
+    height: 116px !important;
+  }
 
-	.section {
-		width: 1044px;
-	}
+  #links_box {
+    top: 20px !important;
+    height: 145px !important;
+    background: right top no-repeat url("../../_images/links_eye.png") !important;
+    background-size: 57% !important;
+  }
 
-	div#web.section, div#print.section, div#mobile.section, div#motion.section {
-	  /*
-	  height: 390px;
-	  overflow: auto;
-	  */
-	}
+  #contact_box {
+    top: 36px !important;
+    height: 286px !important;
+  	background: none !important;
+  }
 
-	a.box:nth-child(n+16) {
-		display:none;
-	}
+  .message {
+  	width: 193px !important;
+  }
 
-	div.scroll_arrows {
-	  /*
-	  left: 912px;
-	  top: 380px;
-	  */
-	  display:none;
-	}
+  input.button {
+  	left: 50px !important;
+  }
 
-	#rotating_image {
-		display:none;
-	}
-	#about_box {
-		background: url(../_images/about_ipad_horiz.jpg) no-repeat 0 0 transparent;
-		height: 293px;
-	}
-	div#about_box p {
-		padding: 8px 240px 0px 46px;
-	}
-	#about_ipad_me_img {
-		display:block;
-		 position:absolute;
-		 top:10px;
-		 right: 17px;
-		 z-index: 3;
-	}
+  #about_text {
+  	top: 10px;
+  	left: 12px;
+  	width: 210px;
+  }
 
+  .about_text_more,
+  #links_more {
+    display:none;
+  }
 
-	#clear_contact_form {
-		display:block;
-	}
-	#contact_box {
-		display:block;
-		background: url(../_images/contact_ipad.jpg) no-repeat 0 0 transparent;
-		width: 1000px;
-		height: 185px;
-		position: relative;
-		margin-top: 2px;
-		float:none;
-		right: 0px;
-	}
+  #footer
+  {
+      width:261px !important;
+  }
 
-	/* contact form elements START */
-	div#contact_form {
-		padding:12px 20px;
-		width: 1000px;
-	}
+  #center_content_main {
+      margin-left: -140px;
+    	background: url(../_images/background_286x753.jpg) no-repeat 0 0 !important;
+  }
 
-	div#contact_name {
-		margin-left: 60px;
-		display:block;
-		float:left;
-	}
-	div#contact_email {
-		display:block;
-		margin-left: 20px;
-		float:left;
-	}
-	div#contact_message {
-		display:block;
-		margin-left: 20px;
-		float:left;
-	}
-	div#contact_submit_btn {
-		display:block;
-		margin-left: -70px;
-		margin-top: 44px;
-		float:left;
-	}
+  #nav_bar {
+    left: 0px !important;
+  }
 
+  .scroll_arrows {
+    left: 242px !important;
+  }
 
-	div#message {
-		margin: 6px 0 0 430px;
-	}
+  #enter_btn {
+      top: 360px;
+      left: 74px;
+  }
 
-	/* contact form elements END */
+  span#footer_text_welcome,
+  span#footer_print_pipe {
+    display:none;
+  }
 
-	div#viewing_pane {
-		height: 772px;
-		margin:0 0 0 0;
-	}
-	div#center_content_main {
-		height: 772px;
-		margin-top: -320px;
-		background: url(../_images/background_1000x753_sm.jpg) no-repeat 0 0;
-	}
-	div#footer {
-		top: 620px;
-	}
-	div#scrolling_content {
-		height: 524px;
-	}
+  span#footer_soft_return {
+    display:inline;
+  }
 
-	div.rotate_device_instructions {
-		display:block;
-		position: relative;
-		width: 1000px;
-		height: 83px;
-		top: 2px;
-	}
 }

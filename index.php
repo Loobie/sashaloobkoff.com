@@ -130,11 +130,11 @@
 				<!-- xxxxxxxxxx about / links / contact xxxxxxxxxx -->
 				<div class="section" id="about">
 					<!-- About -->
-					<div id="about_box">
+					<div id="about_box" class="content_box">
 						<ul id="rotating_image">
-							<li><img src="../_images/about_me_1_613x350.jpg" alt="Sasha 1" /></li>
-							<li><img src="../_images/about_me_2_613x350.jpg" alt="Sasha 2" /></li>
-							<li><img src="../_images/about_me_3_613x350.jpg" alt="Sasha 3" /></li>
+							<li><img src="../_images/about_me_1_613x350.jpg" alt="Sasha 1" class="about_img" /></li>
+							<li><img src="../_images/about_me_2_613x350.jpg" alt="Sasha 2" class="about_img" /></li>
+							<li><img src="../_images/about_me_3_613x350.jpg" alt="Sasha 3" class="about_img" /></li>
 						</ul>
 
                   <!-- img of me for ipad horiz START -->
@@ -143,14 +143,20 @@
                   </div>
                   <!-- img of me for ipad horiz END -->
 
-						<p style="padding-top: 62px;">Sasha Loobkoff is a multidisciplinary Art Director with a focus on Print, Web and Interactive Media. His design sensibilities run from whimsical to corporate but always clean, clear and intuitive.</p>
-						<p>Most recently, Sasha developed the brand identity for numerous Mobile Video Products at GoTV Networks in Los Angeles; adding Motion Graphics and Mobile Application UI Design to his years of Print and Web Design experience. As Art Director, Sasha oversaw all aspects of GoTV's Art Department from team management to business development to marketing. He was an intregal part of the group nominated for a 2007 Technology Emmy Award.</p>
-						<p>Prior to GoTV, Sasha designed for numerous publications and ad agencies, working with a diverse client list which included Apple, Wells Fargo, Palm, The Los Angeles Times, Intel, PG&amp;E, and more.</p>
+            <div id="about_text">
+                <p id="about_head"><img src="../_images/about.png" /></p>
+    						<p>Sasha Loobkoff is a multidisciplinary Art Director with a focus on Print, Web and Interactive Media. <span class="about_text_more">His design sensibilities run from whimsical to corporate but always clean, clear and intuitive.</span></p>
+                <div class="about_text_more">
+        						<p>Most recently, Sasha developed the brand identity for numerous Mobile Video Products at GoTV Networks in Los Angeles; adding Motion Graphics and Mobile Application UI Design to his years of Print and Web Design experience. As Art Director, Sasha oversaw all aspects of GoTV's Art Department from team management to business development to marketing. He was an intregal part of the group nominated for a 2007 Technology Emmy Award.</p>
+        						<p>Prior to GoTV, Sasha designed for numerous publications and ad agencies, working with a diverse client list which included Apple, Wells Fargo, Palm, The Los Angeles Times, Intel, PG&amp;E, and more.</p>
+                </div>
+            </div>
 					</div>
 
 					<!-- Links -->
-					<div id="links_box">
-						<div style="position: relative; top: 70px; left: 24px; width: 142px; float: left;">
+					<div id="links_box" class="content_box">
+            <img id="link_head" src="../_images/links.png" />
+						<div id="link_box_1">
 							<p class="link"><a href="http://www.sashaloobkoff.com/Loobkoff_resume_2015.pdf" onclick="this.target='_blank';">My Resume</a></p>
 
 							<p class="link"><a href="http://www.sashaloobkoff.com/_guitar" onclick="this.target='_blank';">My guitar theory site</a></p>
@@ -158,24 +164,25 @@
 							<p class="link"><a href="http://www.sashaloobkoff.com/store/frameset.php" onclick="this.target='_blank';">My online record store</a></p>
 
 							<p class="link"><a href="http://www.sashaloobkoff.com/japan" onclick="this.target='_blank';">My trip to Japan</a></p>
+              <div id="links_more">
+    							<p class="link"><a href="http://soundcloud.com/tracks/search?q=sasha+loobkoff" onclick="this.target='_blank';">My SoundCloud</a></p>
 
-							<p class="link"><a href="http://soundcloud.com/tracks/search?q=sasha+loobkoff" onclick="this.target='_blank';">My SoundCloud</a></p>
+    							<p class="link"><a href="http://www.w3schools.com/css/" onclick="this.target='_blank';">wc3 schools</a></p>
 
-							<p class="link"><a href="http://www.w3schools.com/css/" onclick="this.target='_blank';">wc3 schools</a></p>
+    							<p class="link"><a href="http://jquery.com/" onclick="this.target='_blank';">jQuery</a></p>
 
-							<p class="link"><a href="http://jquery.com/" onclick="this.target='_blank';">jQuery</a></p>
+    							<p class="link"><a href="http://tympanus.net/codrops/" onclick="this.target='_blank';">codrops</a></p>
 
-							<p class="link"><a href="http://tympanus.net/codrops/" onclick="this.target='_blank';">codrops</a></p>
+    							<p class="link"><a href="http://www.premiumpixels.com/tag-index/" onclick="this.target='_blank';">Premium Pixels</a></p>
 
-							<p class="link"><a href="http://www.premiumpixels.com/tag-index/" onclick="this.target='_blank';">Premium Pixels</a></p>
+    							<p class="link"><a href="http://www.smashingmagazine.com" onclick="this.target='_blank';">Smashing Magazine</a></p>
 
-							<p class="link"><a href="http://www.smashingmagazine.com" onclick="this.target='_blank';">Smashing Magazine</a></p>
+    							<p class="link"><a href="http://www.banksy.co.uk/" onclick="this.target='_blank';">Banksy</a></p>
 
-							<p class="link"><a href="http://www.banksy.co.uk/" onclick="this.target='_blank';">Banksy</a></p>
-
-							<p class="link"><a href="http://www.pbs.org/art21/artists/mcgee" onclick="this.target='_blank';">Barry McGee</a></p>
+    							<p class="link"><a href="http://www.pbs.org/art21/artists/mcgee" onclick="this.target='_blank';">Barry McGee</a></p>
+              </div><!-- end #links_more -->
 						</div>
-						<div style="position: relative; float: right; top: 70px; right: 23px; width: 142px;">
+						<div id="link_box_2">
 
 							<p class="link"><a href="http://www.davidchoe.com/" onclick="this.target='_blank';">David Choe</a></p>
 
@@ -205,11 +212,12 @@
 
 
         	<!-- if ipad horiz, end/clear floats -->
-					<div id="clear_contact_form" style="clear: both"></div>
+					<div id="clear_contact_form" class="content_box" style="clear: both"></div>
 
 
 					<!-- Contact Form START-->
-					<div id="contact_box">
+					<div id="contact_box" class="content_box">
+            <img id="contact_head" src="../_images/contact.png" />
 						<div id="contact_form">
 						  <form name="contact" method="post" action="">
 							<fieldset>
@@ -1474,11 +1482,11 @@
           var extra_row_count = Math.ceil(sectionElementCount/4) - 3;  // # of rows below the fold on 4 col
           console.log(extra_row_count + ' extra rows');
           return extra_row_count;
-        } else if ($browserWindowWidth < 1061 && $browserWindowWidth > 800) {
+        } else if ($browserWindowWidth < 1061 && $browserWindowWidth > 799) {
           var extra_row_count = Math.ceil(sectionElementCount/3) - 3;  // # of rows below the fold on 3 col
           console.log(extra_row_count + ' extra rows');
           return extra_row_count;
-        } else if ($browserWindowWidth < 801 && $browserWindowWidth > 570) {
+        } else if ($browserWindowWidth < 800 && $browserWindowWidth > 570) {
           var extra_row_count = Math.ceil(sectionElementCount/2) - 3;  // # of rows below the fold on 2 col
           console.log(extra_row_count + ' extra rows');
           return extra_row_count;
