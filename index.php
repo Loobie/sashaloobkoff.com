@@ -29,9 +29,43 @@
           $scrollLocation="home"
           //console.log("The scroll location is: " + $scrollLocation + ".");
 
-          // set starting browser window width
-          $browserWindowWidth = $(window).width();
-          //console.log("The browser window is: " + $browserWindowWidth + " pixels wide.");
+          // set starting browser window width & height
+          function getBrowserDimensions() {
+            $browserWindowWidth = $(window).width();
+            $browserWindowHeight = $(window).height();
+            //console.log("The browser window is: " + $browserWindowWidth + " pixels wide & " + $browserWindowHeight + " pixels tall.");
+          }
+
+          function getNumberOfVisibleRows() {
+
+            // get browser window dimensions from function
+            getBrowserDimensions();
+
+            if ($browserWindowHeight >= 741) {
+              $numberOfVisibleRows = 3;
+              $scrollArrowLocation=486;
+            } else if (($browserWindowHeight <= 740) && ($browserWindowHeight >= 537)) {
+              $numberOfVisibleRows = 2;
+              $scrollArrowLocation=298;
+            } else if ($browserWindowHeight <= 536) {
+              $numberOfVisibleRows = 1;
+              $scrollArrowLocation=100;
+            }
+            //console.log("The number of visible rows is: " + $numberOfVisibleRows + ".");
+
+          }
+
+          function resetScrolling() {
+            if ($('#viewing_pane').scrollTop()!='0') {
+              $('#viewing_pane').stop().animate({scrollTop: '0'}, 1000,'easeInOutExpo');
+            }
+              $('div.scroll_arrows').css({top: $scrollArrowLocation});
+              // console.log('the scroll location is ' + $scrollArrowLocation + '.')
+              $web_row_position = 1;
+              $mobile_row_position = 1;
+              $print_row_position = 1;
+              $motion_row_position = 1;
+          }
 
           // using resize function, determine if the browser window has been resized
           $(window).resize(function() {
@@ -44,6 +78,12 @@
               $('#viewing_pane').scrollLeft($($destination).position().left);
               //console.log("The scroll destination is: " + $destination + ".");
 
+              // get number of visible rows
+              getNumberOfVisibleRows();
+
+              //place scroll arrows in proper location vertically on resize
+              resetScrolling();
+
           });
 
         	$(document).ready(function() {
@@ -55,6 +95,9 @@
 
               // hide IE alert
               $('a#close_alert').click( function() { $('div#alert').hide(); });
+
+              // get number of visible rows
+              getNumberOfVisibleRows();
 
         	});
 
@@ -95,7 +138,7 @@
 
 		<img src="_images/middle_color.png" alt="middle color streak" id="middle_color_streak" style="position:absolute; top:0px; left:150px; width:175px; height:51px; z-index:20;" />
 
-		<img src="_images/right_color.png" alt="right color streak"  style="position:absolute; top:0px; right:0px; width:146px; height:289px; z-index:20;" />
+		<img src="_images/right_color.png" alt="right color streak"  id="top_right_img" />
 	</div>
 
 	<!-- nav bar, scrollable content & footer -->
@@ -122,8 +165,11 @@
 				<!-- xxxxxxxxxx home xxxxxxxxxx -->
 				<div class="section" id="home" style="z-index:4">
 					<img src="_images/splash_graphic_1000x.jpg" id="splash_lg" alt="Sasha Loobkoff"/>
+					<img src="_images/splash_graphic_1000x192.jpg" id="splash_lg_1r" alt="Sasha Loobkoff"/>
 					<img src="_images/splash_graphic_528x.jpg" id="splash_med" alt="Sasha Loobkoff"/>
+					<img src="_images/splash_graphic_541x192.jpg" id="splash_med_1r" alt="Sasha Loobkoff"/>
 					<img src="_images/splash_graphic_301x.jpg" id="splash_sm" alt="Sasha Loobkoff"/>
+					<img src="_images/splash_graphic_298x192.jpg" id="splash_sm_1r" alt="Sasha Loobkoff"/>
 					<p id="enter_btn"><a href="#" class="enter_sm_btn"></a></p>
 				</div>
 
@@ -137,50 +183,53 @@
 							<li><img src="../_images/about_me_3_613x350.jpg" alt="Sasha 3" class="about_img" /></li>
 						</ul>
 
-                  <!-- img of me for ipad horiz START -->
-                  <div id="about_ipad_me_img">
-                  	<img src="_images/about_ipad_me.jpg" width="220px" height="268" alt="me"/>
-                  </div>
-                  <!-- img of me for ipad horiz END -->
-
             <div id="about_text">
                 <p id="about_head"><img src="../_images/about.png" /></p>
-    						<p>Sasha Loobkoff is a multidisciplinary Art Director with a focus on Print, Web and Interactive Media. <span class="about_text_more">His design sensibilities run from whimsical to corporate but always clean, clear and intuitive.</span></p>
-                <div class="about_text_more">
-        						<p>Most recently, Sasha developed the brand identity for numerous Mobile Video Products at GoTV Networks in Los Angeles; adding Motion Graphics and Mobile Application UI Design to his years of Print and Web Design experience. As Art Director, Sasha oversaw all aspects of GoTV's Art Department from team management to business development to marketing. He was an intregal part of the group nominated for a 2007 Technology Emmy Award.</p>
-        						<p>Prior to GoTV, Sasha designed for numerous publications and ad agencies, working with a diverse client list which included Apple, Wells Fargo, Palm, The Los Angeles Times, Intel, PG&amp;E, and more.</p>
-                </div>
-            </div>
-					</div>
+    						<p>Sasha Loobkoff is a multidisciplinary Art Director with a focus on Print, Web and Interactive Media.<span id="about_text_resume"> >> <a href="Loobkoff_resume.pdf">Resume</a></span> <span class="about_text_more">His design sensibilities run from whimsical to corporate but always clean, clear and intuitive.</span><span id="about_text_resume_2"> >> <a href="Loobkoff_resume.pdf">Resume</a></span></p>
+
+                <div id="about_text_1c_1r">
+                  <p>>> <a href="Loobkoff_resume.pdf">Resume</a></p>
+                  <p>>> <a href="mailto:sasha@sashaloobkoff.com">Email</a></p>
+                </div><!-- End #about_text_1c_1r -->
+
+      						<p>Most recently, Sasha developed the brand identity for numerous Mobile Video Products at GoTV Networks in Los Angeles; adding Motion Graphics and Mobile Application UI Design to his years of Print and Web Design experience. As Art Director, Sasha oversaw all aspects of GoTV's Art Department from team management to business development to marketing. He was an intregal part of the group nominated for a 2007 Tech Emmy Award.</p>
+      						<p>Prior to GoTV, Sasha designed for numerous publications and ad agencies, working with a diverse client list which included Apple, Wells Fargo, Palm, The Los Angeles Times, Intel, PG&amp;E, and more.</p>
+
+                  <div id="about_text_1c_1r_2">
+                    <p>>> <a href="Loobkoff_resume.pdf">Resume</a></p>
+                    <p>>> <a href="mailto:sasha@sashaloobkoff.com">Email</a></p>
+                  </div><!-- End #about_text_1c_1r_2 -->
+            </div><!-- End #about_text -->
+					</div><!-- End #about_box-->
 
 					<!-- Links -->
 					<div id="links_box" class="content_box">
             <img id="link_head" src="../_images/links.png" />
 						<div id="link_box_1">
-							<p class="link"><a href="http://www.sashaloobkoff.com/Loobkoff_resume_2015.pdf" onclick="this.target='_blank';">My Resume</a></p>
+							<p class="link">>> <a href="http://www.sashaloobkoff.com/Loobkoff_resume.pdf" onclick="this.target='_blank';">Resume</a></p>
 
 							<p class="link"><a href="http://www.sashaloobkoff.com/_guitar" onclick="this.target='_blank';">My guitar theory site</a></p>
 
-							<p class="link"><a href="http://www.sashaloobkoff.com/store/frameset.php" onclick="this.target='_blank';">My online record store</a></p>
+							<p class="link"><a href="http://www.sashaloobkoff.com/store/frameset.php" onclick="this.target='_blank';">My record store (2009)</a></p>
 
-							<p class="link"><a href="http://www.sashaloobkoff.com/japan" onclick="this.target='_blank';">My trip to Japan</a></p>
-              <div id="links_more">
-    							<p class="link"><a href="http://soundcloud.com/tracks/search?q=sasha+loobkoff" onclick="this.target='_blank';">My SoundCloud</a></p>
+							<p class="link"><a href="http://www.sashaloobkoff.com/japan" onclick="this.target='_blank';">My trip to Japan (Flash)</a></p>
 
-    							<p class="link"><a href="http://www.w3schools.com/css/" onclick="this.target='_blank';">wc3 schools</a></p>
+							<p class="link"><a href="http://soundcloud.com/tracks/search?q=sasha+loobkoff" onclick="this.target='_blank';">My SoundCloud</a></p>
 
-    							<p class="link"><a href="http://jquery.com/" onclick="this.target='_blank';">jQuery</a></p>
+							<p class="link"><a href="http://www.w3schools.com/css/" onclick="this.target='_blank';">wc3 schools</a></p>
 
-    							<p class="link"><a href="http://tympanus.net/codrops/" onclick="this.target='_blank';">codrops</a></p>
+							<p class="link"><a href="http://jquery.com/" onclick="this.target='_blank';">jQuery</a></p>
 
-    							<p class="link"><a href="http://www.premiumpixels.com/tag-index/" onclick="this.target='_blank';">Premium Pixels</a></p>
+							<p class="link"><a href="http://tympanus.net/codrops/" onclick="this.target='_blank';">codrops</a></p>
 
-    							<p class="link"><a href="http://www.smashingmagazine.com" onclick="this.target='_blank';">Smashing Magazine</a></p>
+							<p class="link"><a href="http://www.premiumpixels.com/tag-index/" onclick="this.target='_blank';">Premium Pixels</a></p>
 
-    							<p class="link"><a href="http://www.banksy.co.uk/" onclick="this.target='_blank';">Banksy</a></p>
+							<p class="link"><a href="http://www.smashingmagazine.com" onclick="this.target='_blank';">Smashing Magazine</a></p>
 
-    							<p class="link"><a href="http://www.pbs.org/art21/artists/mcgee" onclick="this.target='_blank';">Barry McGee</a></p>
-              </div><!-- end #links_more -->
+							<p class="link"><a href="http://www.banksy.co.uk/" onclick="this.target='_blank';">Banksy</a></p>
+
+							<p class="link"><a href="http://www.pbs.org/art21/artists/mcgee" onclick="this.target='_blank';">Barry McGee</a></p>
+
 						</div>
 						<div id="link_box_2">
 
@@ -589,20 +638,12 @@
 					<!-- end floats -->
 					<div style="clear: both"></div>
 
-              <!-- scroll arrows START -->
-              <div class="scroll_arrows" id="web">
-                  <a href="#" class="scroll_arrow_up" id="web"></a>
-                  <a href="#" class="scroll_arrow_down" id="web"></a>
-              </div>
-              <!-- scroll arrows END -->
-
-              <!-- rotate device instruction START -->
-
-              <div class="rotate_device_instructions">
-                  <image src="_images/rotate_device.png" class="rotate_device" width="191px" height="83px" alt="Please Rotate Device">
-              </div>
-
-              <!-- rotate device instruction END -->
+          <!-- scroll arrows START -->
+          <div class="scroll_arrows" id="web">
+              <a href="#" class="scroll_arrow_up" id="web"></a>
+              <a href="#" class="scroll_arrow_down" id="web"></a>
+          </div>
+          <!-- scroll arrows END -->
 
 				</div>
 				<!-- xxxxxxxxxx web END xxxxxxxxxx -->
@@ -983,15 +1024,8 @@
                 </div>
                 <!-- scroll arrows END -->
 
-                <!-- rotate device instruction START -->
-
-                <div class="rotate_device_instructions">
-                    <image src="_images/rotate_device.png" class="rotate_device" width="191px" height="83px" alt="Please Rotate Device">
-                </div>
-
-                <!-- rotate device instruction END -->
-                </div>
-            <!-- xxxxxxxxxx print END xxxxxxxxxx -->
+        </div>
+        <!-- xxxxxxxxxx print END xxxxxxxxxx -->
 
 				<!-- xxxxxxxxxx mobile START xxxxxxxxxx -->
 				<div class="section" id="mobile">
@@ -1126,23 +1160,15 @@
 					<!-- end floats -->
 					<div style="clear: both"></div>
 
-              <!-- scroll arrows START -->
-              <div class="scroll_arrows" id="mobile">
-                  <a href="#" class="scroll_arrow_up" id="mobile"></a>
-                  <a href="#" class="scroll_arrow_down" id="mobile"></a>
-              </div>
-              <!-- scroll arrows END -->
-
-              <!-- rotate device instruction START -->
-
-              <div class="rotate_device_instructions">
-                  <image src="_images/rotate_device.png" class="rotate_device" width="191px" height="83px" alt="Please Rotate Device">
-              </div>
-
-              <!-- rotate device instruction END -->
+          <!-- scroll arrows START -->
+          <div class="scroll_arrows" id="mobile">
+              <a href="#" class="scroll_arrow_up" id="mobile"></a>
+              <a href="#" class="scroll_arrow_down" id="mobile"></a>
+          </div>
+          <!-- scroll arrows END -->
 
 				</div>
-                <!-- xxxxxxxxxx mobile END xxxxxxxxxx -->
+        <!-- xxxxxxxxxx mobile END xxxxxxxxxx -->
 
 				<!-- xxxxxxxxxx motion START xxxxxxxxxx -->
 				<div class="section" id="motion">
@@ -1302,30 +1328,26 @@
 
 					<div style="clear: both"></div>
 
-                <!-- scroll arrows START -->
+        <!-- scroll arrows START -->
 
-                <div class="scroll_arrows" id="motion">
-                    <a href="#" class="scroll_arrow_up" id="motion"></a>
-                    <a href="#" class="scroll_arrow_down" id="motion"></a>
-                </div>
+        <div class="scroll_arrows" id="motion">
+            <a href="#" class="scroll_arrow_up" id="motion"></a>
+            <a href="#" class="scroll_arrow_down" id="motion"></a>
+        </div>
 
-                <!-- scroll arrows END -->
-
-                <!-- rotate device instruction START -->
-
-                <div class="rotate_device_instructions">
-                    <image src="_images/rotate_device.png" class="rotate_device" width="191px" height="83px" alt="Please Rotate Device">
-                </div>
-
-                <!-- rotate device instruction END -->
+        <!-- scroll arrows END -->
 
 				</div>
-                <!-- xxxxxxxxxx motion END xxxxxxxxxx -->
+        <!-- xxxxxxxxxx motion END xxxxxxxxxx -->
 			</div>
 		</div>
 
 		<!-- footer -->
 		<div id="footer">
+      <img id="bottom_rule_4c" src="_images/bottom_rule_1000x.jpg" />
+      <img id="bottom_rule_3c" src="_images/bottom_rule_661x.jpg" />
+      <img id="bottom_rule_2c" src="_images/bottom_rule_506x.jpg" />
+      <img id="bottom_rule_1c" src="_images/bottom_rule_286x.jpg" />
 			<p id="footer_text">
         <span id="footer_text_welcome">Welcome to SashaLoobkoff.com | &nbsp;</span><a href="#" class="home_btm_btn">Home</a> | <a href="#" class="about_btm_btn">About/Links/Contact</a> | <a href="#"
 			class="web_btm_btn">Web</a> | <a href="#" class="print_btm_btn">Print</a><span id="footer_print_pipe">&nbsp;|&nbsp;</span><a href="#" class="mobile_btm_btn"><span id="footer_soft_return"><br></span>Mobile</a> | <a href="#" class="motion_btm_btn">Motion</a> | &copy; <?php echo date("Y"); ?> <a href="mailto:sasha@sashaloobkoff.com">Sasha Loobkoff</a>
@@ -1340,7 +1362,7 @@
 
   		if ($('#viewing_pane').scrollTop()!='0') {
   			$('#viewing_pane').animate({scrollTop: '0'}, 1000,'easeInOutExpo');
-  			$('div.scroll_arrows').animate({top: '486'}, 1000,'easeInOutExpo');
+  			$('div.scroll_arrows').animate({top: $scrollArrowLocation}, 1000,'easeInOutExpo');
   			$web_row_position = 1;
   			$mobile_row_position = 1;
   			$print_row_position = 1;
@@ -1369,7 +1391,7 @@
 		$('.about_btn, .about_btm_btn').click(function() {
 		if ($('#viewing_pane').scrollTop()!='0') {
 			$('#viewing_pane').animate({scrollTop: '0'}, 1000,'easeInOutExpo');
-			$('div.scroll_arrows').animate({top: '486'}, 1000,'easeInOutExpo');
+			$('div.scroll_arrows').animate({top: $scrollArrowLocation}, 1000,'easeInOutExpo');
 			$web_row_position = 1;
 			$mobile_row_position = 1;
 			$print_row_position = 1;
@@ -1391,7 +1413,7 @@
 		$('.web_btn, .web_btm_btn').click(function() {
 		if ($('#viewing_pane').scrollTop()!='0') {
 			$('#viewing_pane').animate({scrollTop: '0'}, 1000,'easeInOutExpo');
-			$('div.scroll_arrows').animate({top: '486'}, 1000,'easeInOutExpo');
+			$('div.scroll_arrows').animate({top: $scrollArrowLocation}, 1000,'easeInOutExpo');
 			$web_row_position = 1;
 			$mobile_row_position = 1;
 			$print_row_position = 1;
@@ -1408,7 +1430,7 @@
 		$('.print_btn, .print_btm_btn').click(function() {
 		if ($('#viewing_pane').scrollTop()!='0') {
 			$('#viewing_pane').animate({scrollTop: '0'}, 1000,'easeInOutExpo');
-			$('div.scroll_arrows').animate({top: '486'}, 1000,'easeInOutExpo');
+			$('div.scroll_arrows').animate({top: $scrollArrowLocation}, 1000,'easeInOutExpo');
 			$web_row_position = 1;
 			$mobile_row_position = 1;
 			$print_row_position = 1;
@@ -1424,7 +1446,7 @@
 		$('.mobile_btn, .mobile_btm_btn').click(function() {
 		if ($('#viewing_pane').scrollTop()!='0') {
 			$('#viewing_pane').animate({scrollTop: '0'}, 1000,'easeInOutExpo');
-			$('div.scroll_arrows').animate({top: '486'}, 1000,'easeInOutExpo');
+			$('div.scroll_arrows').animate({top: $scrollArrowLocation}, 1000,'easeInOutExpo');
 			$web_row_position = 1;
 			$mobile_row_position = 1;
 			$print_row_position = 1;
@@ -1440,7 +1462,7 @@
 		$('.motion_btn, .motion_btm_btn').click(function() {
 		if ($('#viewing_pane').scrollTop()!='0') {
 			$('#viewing_pane').animate({scrollTop: '0'}, 1000,'easeInOutExpo');
-			$('div.scroll_arrows').animate({top: '486'}, 1000,'easeInOutExpo');
+			$('div.scroll_arrows').animate({top: $scrollArrowLocation}, 1000,'easeInOutExpo');
 			$web_row_position = 1;
 			$mobile_row_position = 1;
 			$print_row_position = 1;
@@ -1470,7 +1492,7 @@
 
       /* for some reason this function counts the scroll arrows so subtract 2 */
       x = x-2;
-      console.log('There are ' + x + ' items in the ' + sectionName + ' section.');
+      //console.log('There are ' + x + ' items in the ' + sectionName + ' section.');
 
       return x;
     }
@@ -1478,21 +1500,21 @@
 
     /***** #2 function to set # of extra section columns that limits the number of down scroll clicks *****/
     function getExtraRowCount(sectionElementCount) {
-        if ($browserWindowWidth > 1060) {
-          var extra_row_count = Math.ceil(sectionElementCount/4) - 3;  // # of rows below the fold on 4 col
-          console.log(extra_row_count + ' extra rows');
+        if ($browserWindowWidth > 1080) {
+          var extra_row_count = Math.ceil(sectionElementCount/4) - $numberOfVisibleRows;  // # of rows below the fold on 4 col
+          //console.log(extra_row_count + ' extra rows');
           return extra_row_count;
         } else if ($browserWindowWidth < 1061 && $browserWindowWidth > 799) {
-          var extra_row_count = Math.ceil(sectionElementCount/3) - 3;  // # of rows below the fold on 3 col
-          console.log(extra_row_count + ' extra rows');
+          var extra_row_count = Math.ceil(sectionElementCount/3) - $numberOfVisibleRows;  // # of rows below the fold on 3 col
+          //console.log(extra_row_count + ' extra rows');
           return extra_row_count;
-        } else if ($browserWindowWidth < 800 && $browserWindowWidth > 570) {
-          var extra_row_count = Math.ceil(sectionElementCount/2) - 3;  // # of rows below the fold on 2 col
-          console.log(extra_row_count + ' extra rows');
+        } else if ($browserWindowWidth < 800 && $browserWindowWidth > 567) {
+          var extra_row_count = Math.ceil(sectionElementCount/2) - $numberOfVisibleRows;  // # of rows below the fold on 2 col
+          //console.log(extra_row_count + ' extra rows');
           return extra_row_count;
-        } else if ($browserWindowWidth < 571) {
-          var extra_row_count = Math.ceil(sectionElementCount/1) - 3;  // # of rows below the fold on 2 col
-          console.log(extra_row_count + ' extra rows');
+        } else if ($browserWindowWidth < 568) {
+          var extra_row_count = Math.ceil(sectionElementCount/1) - $numberOfVisibleRows;  // # of rows below the fold on 2 col
+          //console.log(extra_row_count + ' extra rows');
           return extra_row_count;
         }
     }
@@ -1504,8 +1526,8 @@
 
 		$('a#web.scroll_arrow_up').click(function() {
 			if ($web_row_position > 1) {
-			  $('#viewing_pane').animate({scrollTop: '-=197'}, 1000,'easeInOutExpo');
-			  $('div#web.scroll_arrows').animate({top: '-=197'}, 1000,'easeInOutExpo');
+        $('#viewing_pane').stop().animate({scrollTop: '-=197'}, 1000,'easeInOutExpo');
+        $('div#web.scroll_arrows').stop().animate({top: '-=197'}, 1000,'easeInOutExpo');
 			  $web_row_position -=1;
 			}
     });
@@ -1519,8 +1541,8 @@
       var $web_extra_row_count = getExtraRowCount(webSectionElementCount);
 
 			if ($web_row_position < ($web_extra_row_count + 1)) {
-			  $('#viewing_pane').animate({scrollTop: '+=197'}, 1000,'easeInOutExpo');
-			  $('div#web.scroll_arrows').animate({top: '+=197'}, 1000,'easeInOutExpo');
+			  $('#viewing_pane').stop().animate({scrollTop: '+=197'}, 1000,'easeInOutExpo');
+        $('div#web.scroll_arrows').stop().animate({top: '+=197'}, 1000,'easeInOutExpo');
 			  $web_row_position +=1;
 			}
     });

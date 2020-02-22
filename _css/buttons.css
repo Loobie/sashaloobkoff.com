@@ -48,7 +48,7 @@
 	margin-left: 16px;
 	margin-bottom: 3px;
 	display: block;
-	background-image: url(../_images/nav_bar.jpg);
+	background-image: url(../_images/nav_bar.png);
 	background-position: 0px 0px;
 }
 
@@ -57,7 +57,7 @@
 	display: block;
 	width:73px;
 	height:23px;
-	background-image:url(../_images/nav_bar.jpg);
+	background-image:url(../_images/nav_bar.png);
 	background-position: 0px -23px;
 }
 
@@ -67,7 +67,7 @@
 	width: 229px;
 	height: 23px;
 	display: block;
-	background-image: url(../_images/nav_bar.jpg);
+	background-image: url(../_images/nav_bar.png);
 	background-position: -73px 0px;
 }
 
@@ -76,7 +76,7 @@
 	display: block;
 	width: 229px;
 	height: 23px;
-	background-image: url(../_images/nav_bar.jpg);
+	background-image: url(../_images/nav_bar.png);
 	background-position: -73px -23px;
 }
 
@@ -86,7 +86,7 @@
 	width:66px;
 	height:23px;
 	display:block;
-	background-image:url(../_images/nav_bar.jpg);
+	background-image:url(../_images/nav_bar.png);
 	background-position: -377px 0px;
 }
 
@@ -95,7 +95,7 @@
 	display: block;
 	width:66px;
 	height:23px;
-	background-image:url(../_images/nav_bar.jpg);
+	background-image:url(../_images/nav_bar.png);
 	background-position: -377px -23px;
 }
 
@@ -104,7 +104,7 @@
 	width:87px;
 	height:23px;
 	display:block;
-	background-image:url(../_images/nav_bar.jpg);
+	background-image:url(../_images/nav_bar.png);
 	background-position: -442px 0px;
 }
 
@@ -113,7 +113,7 @@
 	display: block;
 	width:87px;
 	height:23px;
-	background-image:url(../_images/nav_bar.jpg);
+	background-image:url(../_images/nav_bar.png);
 	background-position: -442px -23px;
 }
 
@@ -122,7 +122,7 @@
 	width:76px;
 	height:23px;
 	display:block;
-	background-image:url(../_images/nav_bar.jpg);
+	background-image:url(../_images/nav_bar.png);
 	background-position: -301px 0px;
 }
 
@@ -131,7 +131,7 @@
 	display: block;
 	width:76px;
 	height:23px;
-	background-image:url(../_images/nav_bar.jpg);
+	background-image:url(../_images/nav_bar.png);
 	background-position: -301px -23px;
 }
 
@@ -140,7 +140,7 @@
 	width:87px;
 	height:23px;
 	display:block;
-	background-image:url(../_images/nav_bar.jpg);
+	background-image:url(../_images/nav_bar.png);
 	background-position: -529px 0px;
 }
 
@@ -149,11 +149,11 @@
 	display: block;
 	width:87px;
 	height:23px;
-	background-image:url(../_images/nav_bar.jpg);
+	background-image:url(../_images/nav_bar.png);
 	background-position: -529px -23px;
 }
 
-@media screen and (max-width: 570px) {
+@media screen and (max-width: 567px) {
 
   /* shrink nav bar */
 

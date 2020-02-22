@@ -42,17 +42,17 @@ label {
 	display:block;
 	text-align:left;
 	color:#888888;
-	margin:0 px 2px; }
+	margin:0px 2px; }
 
 label.error
 	{
-        background: transparent url(../_images/cancel.png) no-repeat scroll left bottom;
+		background: transparent url(../_images/cancel.png) no-repeat scroll left bottom;
 		color:red;
-        float: right;
+		float: right;
 		font-weight:normal;
 		padding:3px 0px 0px 19px;
 		text-align:left;
-    }
+	}
 
 input.text-input {
 		width:148px;
