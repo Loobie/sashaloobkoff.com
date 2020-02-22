@@ -899,6 +899,12 @@ a.scroll_arrow_down span.hover {
     height: 115px;
   }
 
+  #about_text {
+  	top: 10px;
+  	left: 9px;
+  	width: 210px;
+  }
+
   #about_text p:nth-child(n+3),
   span.about_text_more {
     display:none !important;
