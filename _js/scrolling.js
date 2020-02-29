@@ -15,9 +15,8 @@ _gaq.push(['_trackPageview']);
 //////////////////////////////////////////////////
 // Scrolling & Browser Resizing JavaScript
 
-// create scroll location variable
-$scrollLocation="home"
-//console.log("The scroll location is: " + $scrollLocation + ".");
+//////////////////////////////////////////////////
+// some initial functions
 
 // set starting browser window width & height
 function getBrowserDimensions() {
@@ -57,6 +56,30 @@ function resetScrolling() {
     $motion_row_position = 1;
 }
 
+//////////////////////////////////////////////////
+// set up some stuff on page load
+
+$(document).ready(function() {
+  // make nav_bar and footer invisible initially
+  $('#nav_bar, #footer').fadeOut(0);
+
+  // scroll all the way to the left for stupid ie
+  $('#viewing_pane').stop().animate({scrollLeft: 0}, 1000,'easeInOutExpo');
+
+  // hide IE alert
+  $('a#close_alert').click( function() { $('div#alert').hide(); });
+
+  // create scroll location variable at start
+  $scrollLocation="home"
+  //console.log("The scroll location is: " + $scrollLocation + ".");
+
+  // get number of visible rows
+  getNumberOfVisibleRows();
+
+  // $('#country').hide();
+
+});
+
 // using resize function, determine if the browser window has been resized
 $(window).resize(function() {
 
@@ -75,24 +98,6 @@ $(window).resize(function() {
     resetScrolling();
 
 });
-
-$(document).ready(function() {
-    // make nav_bar and footer invisible initially
-    $('#nav_bar, #footer').fadeOut(0);
-
-    // scroll all the way to the left for stupid ie
-    $('#viewing_pane').stop().animate({scrollLeft: 0}, 1000,'easeInOutExpo');
-
-    // hide IE alert
-    $('a#close_alert').click( function() { $('div#alert').hide(); });
-
-    // get number of visible rows
-    getNumberOfVisibleRows();
-
-    // $('#country').hide();
-
-});
-
 
 
 (function() {
