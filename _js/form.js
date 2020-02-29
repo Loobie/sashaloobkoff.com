@@ -12,7 +12,7 @@ $(function() {
 		// validate and process form
 		// first hide any error messages
     $('.error').hide();
-		
+
 	  var name = $("input#name").val();
 		if (name == "") {
       $("label#name_error").show();
@@ -20,17 +20,27 @@ $(function() {
       return false;
     }
 		var email = $("input#email").val();
-		if (email == "") {
+
+    function IsEmail(email) {
+     var regex = /^([a-zA-Z0-9_\.\-\+])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+     if(!regex.test(email)) {
+        return false;
+     }else{
+        return true;
+     }
+    }
+
+  	if ( (email == "") || IsEmail(email)==false ) {
       $("label#email_error").show();
       $("input#email").focus();
       return false;
     }
+
 		var email_msg = $("textarea#email_message").val();
-		
-		
+
 		var dataString = 'name='+ name + '&email=' + email + '&email_msg=' + email_msg;
 		//alert (dataString);return false;
-		
+
 		$.ajax({
       type: "POST",
       url: "bin/process.php",
