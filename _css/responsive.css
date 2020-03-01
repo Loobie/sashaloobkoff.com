@@ -180,7 +180,8 @@
   }
 
   span#footer_text_welcome,
-  span#footer_print_pipe {
+  span#footer_print_pipe,
+  span#longContactText {
     display:none;
   }
 
@@ -215,6 +216,10 @@
 
   .about_img {
     width:373px;
+  }
+
+  .message {
+    width: 278px;
   }
 
   #links_box,
@@ -292,6 +297,10 @@
   	width: 269px !important;
   }
 
+  div#message {
+    margin: 82px 0 0 80px;
+  }
+
   input.button {
   	left: 83px !important;
   }
@@ -356,6 +365,10 @@
 
   .message {
   	width: 193px !important;
+  }
+
+  div#message {
+    margin: 82px 0 0 80px;
   }
 
   input.button {
@@ -462,7 +475,8 @@
       display: inline;
   }
 
-  #links_box {
+  #links_box,
+  span#longContactText {
     display:none;
   }
 
@@ -476,6 +490,10 @@
   .message {
   	height: 158px !important;
   	width: 193px !important;
+  }
+
+  #message {
+    margin: 132px 0 0 76px;
   }
 
   input.button {
@@ -555,6 +573,10 @@
     height: 62px !important;
   }
 
+  div#message {
+    margin: 84px 0 0 56px;
+  }
+
   input.button {
     left: 33px !important;
   }
@@ -612,6 +634,10 @@
   .message {
   	height: 28px !important;
   	width: 193px !important;
+  }
+
+  div#message {
+    margin: 68px 0 0 80px;
   }
 
   input.button {
@@ -811,7 +837,8 @@
   }
 
   #about_text p:nth-child(n+4),
-  span.about_text_more {
+  span.about_text_more,
+  span#longContactText {
     display:none;
   }
 
@@ -865,7 +892,8 @@
     display: none !important;
   }
 
-  span#about_text_resume {
+  span#about_text_resume,
+  span#longContactText {
     display: none !important;
   }
 

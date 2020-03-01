@@ -47,8 +47,8 @@ $(function() {
       data: dataString,
       success: function() {
         $('#contact_form').html("<div id='message'></div>");
-        $('#message').html("<h2>Contact Form Submitted!</h2>")
-        .append("<p>We will be in touch soon.</p>")
+        $('#message').html("<h2><span id='longContactText'>Contact Form </span>Submitted!</h2>")
+        .append("<p>We will be in touch.</p>")
         .append("<img id='checkmark' src='_images/check.png' />")
         .hide()
         .fadeIn(1500, function() {

@@ -24,6 +24,14 @@ a.shadowBoxLink:visited, a.shadowboxLink:visited {color: #bbbbbb; text-decoratio
 a.shadowBoxLink:hover, a.shadowboxLink:hover {color:#f60093; text-decoration:underline;}
 a.shadowBoxLink:active, a.shadowboxLink:active {color:#f60093;text-decoration:none;}
 
+#mask {
+  position:absolute;
+	background-color: #FFF;
+	width: 1000px;
+	height: 230px;
+	z-index: 2;
+}
+
 #top_right_img {
   position:absolute;
   top:0px;
@@ -89,14 +97,6 @@ a#close_alert:active {color:#ffffff;text-decoration:none;}
 	margin: -381px 0px 0px -500px;
 	background: url(../_images/background_1000x.jpg) no-repeat 0 0;
 	/*overflow: hidden;*/
-}
-
-#mask {
-	background-color: #FFF;
-	width: 1000px;
-	height: 230px;
-	position:absolute;
-	z-index: 2;
 }
 
 #viewing_pane {
