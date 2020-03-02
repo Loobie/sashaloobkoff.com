@@ -94,12 +94,11 @@
                   <p>>> <a href="mailto:sasha@sashaloobkoff.com">Email</a></p>
                 </div><!-- End #about_text_1c_1r -->
 
-      						<p>Most recently, Sasha developed the brand identity for numerous Mobile Video Products at GoTV Networks in Los Angeles; adding Motion Graphics and Mobile Application UI Design to his years of Print and Web Design experience. As Art Director, Sasha oversaw all aspects of GoTV's Art Department from team management to business development to marketing. He was an intregal part of the group nominated for a 2007 Tech Emmy Award.</p>
-      						<p>Prior to GoTV, Sasha designed for numerous publications and ad agencies, working with a diverse client list which included Apple, Wells Fargo, Palm, The Los Angeles Times, Intel, PG&amp;E, and more.</p>
+      						<p>Sasha's greatest strength is his flexibility – utilizing decades of Print, Web, Mobile & Motion experience to provide clients with a "Full Service Agency" list of capabilities. His recent focus has largely been in emerging tech markets (Gaming/Esports, Mobile Television & Virtual Reality), But he has also maintained a solid clientele rooted in traditional entertainment (Record Industry & Television Development).</p>
+      						<p>Prior to his most recent role as Creative Director at UMV, Sasha designed for numerous publications and ad agencies, working with diverse clients such as Apple, Wells Fargo, Palm, The Los Angeles Times, Intel, PG&E, and more.</p>
 
                   <div id="about_text_1c_1r_2">
-                    <p>>> <a href="Loobkoff_resume.pdf">Resume</a></p>
-                    <p>>> <a href="mailto:sasha@sashaloobkoff.com">Email</a></p>
+                    <p>>> <a href="Loobkoff_resume.pdf">Resume</a>&nbsp;&nbsp;&nbsp;&nbsp;>> <a href="mailto:sasha@sashaloobkoff.com">Email</a></p>
                   </div><!-- End #about_text_1c_1r_2 -->
             </div><!-- End #about_text -->
 					</div><!-- End #about_box-->
