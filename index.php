@@ -211,8 +211,8 @@
 							<a href="_images/_web/arsonal/colony_espn_3.jpg" rel="shadowbox[arsonal]" title="Arsonal :: Colony :: ESPN takeover with 350x250 banner"></a>
 							<a href="_images/_web/arsonal/black_sails.jpg" rel="shadowbox[arsonal]" title="Arsonal :: Black Sails :: Static banners"></a>
 							<a href="_images/_web/arsonal/child_genius_takeover.jpg" rel="shadowbox[arsonal]" title="Arsonal :: Child Genius :: Take over with progressive banners"></a>
-							<a href="_images/_web/arsonal/child_genius_1.jpg" rel="shadowbox[arsonal]" title="Child Genius :: 300x250 Progressive (animation & design only) :: { <i><a href='/_images/_web/arsonal/CG_300x250/' target='_newWindow' class='shadowboxLink'>View unit with quiz</a> }</i>"></a>
-							<a href="_images/_web/arsonal/child_genius_2.jpg" rel="shadowbox[arsonal]" title="Child Genius :: 300x600 Progressive (animation & design only) :: { <i><a href='/_images/_web/arsonal/CG_300x600/' target='_newWindow' class='shadowboxLink'>View unit with quiz</a> }</i>"></a>
+							<a href="_images/_web/arsonal/child_genius_1.jpg" rel="shadowbox[arsonal]" title="Child Genius :: 300x250 Progressive (animation & design only) :: { <i><a href='/_images/_web/arsonal/CG_300x250/' target='_newWindow' class='shadowboxLink'>View unit with quiz</a></i> }"></a>
+							<a href="_images/_web/arsonal/child_genius_2.jpg" rel="shadowbox[arsonal]" title="Child Genius :: 300x600 Progressive (animation & design only) :: { <i><a href='/_images/_web/arsonal/CG_300x600/' target='_newWindow' class='shadowboxLink'>View unit with quiz</a></i> }"></a>
 							<a href="_images/_web/arsonal/sunny_4.jpg" rel="shadowbox[arsonal]" title="It's Always Sunny in Philadelphia :: Social media countdown to premiere graphic"></a>
 							<a href="_images/_web/arsonal/sunny_1.jpg" rel="shadowbox[arsonal]" title="It's Always Sunny in Philadelphia :: Social media countdown to premiere graphic"></a>
 							<a href="_images/_web/arsonal/sunny_2.jpg" rel="shadowbox[arsonal]" title="It's Always Sunny in Philadelphia :: Pinterest graphics"></a>
@@ -551,6 +551,20 @@
 
 				<!-- xxxxxxxxxx print START xxxxxxxxxx -->
 				<div class="section" id="print">
+
+						<a href="_images/_print/ult/ult_contact_sheet_1.jpg" class="box PRINT_ult" rel="shadowbox[ult_print]" title="ULT – Esports Inspired Streetwear"></a>
+						<div class="hideMe">
+                <a href="_images/_print/ult/tanks.jpg" rel="shadowbox[ult_print]" title="ULT – Esports Inspired Streetwear :: Ladies Tanks"></a>
+                <a href="_images/_print/ult/ult_collection.jpg" rel="shadowbox[ult_print]" title="ULT – Esports Inspired Streetwear"></a>
+                <a href="_images/_print/ult/players.jpg" rel="shadowbox[ult_print]" title="ULT – Esports Inspired Streetwear :: EUnited COD Team Camo Hoodies"></a>
+                <a href="_images/_print/ult/fusion_hoodie.jpg" rel="shadowbox[ult_print]" title="ULT – Esports Inspired Streetwear :: Fusion Team Hoodie"></a>
+                <a href="_images/_print/ult/camo_snapback.jpg" rel="shadowbox[ult_print]" title="ULT – Esports Inspired Streetwear :: Camo Snapback"></a>
+                <a href="_images/_print/ult/ult_contact_sheet_2.jpg" rel="shadowbox[ult_print]" title="ULT – Esports Inspired Streetwear"></a>
+                <a href="_images/_print/ult/grey_close_up.jpg" rel="shadowbox[ult_print]" title="ULT – Esports Inspired Streetwear"></a>
+                <a href="_images/_print/ult/bomber.jpg" rel="shadowbox[ult_print]" title="ULT – Esports Inspired Streetwear :: ULT Bomber Jacket & Patches"></a>
+                <a href="_images/_print/ult/army_design_mockups.jpg" rel="shadowbox[ult_print]" title="ULT – Esports Inspired Streetwear :: Jersey Design and Production for he US Army"></a>
+                <a href="_images/_print/ult/EU_tech_pack.png" rel="shadowbox[ult_print]" title="ULT – Sample Tech Pack :: EU Hoodie { <a href='/_images/_print/ult/EU Black Hoodie Tech Pack.pdf' target='_newWindow' class='shadowboxLink'>PDF</a> }"></a>
+            </div>
 
 						<a href="_images/_print/X/1_box.jpg" class="box PRINT_X" rel="shadowbox[X]" title="X - The Masterpiece Collection box - Extras: foils, decals, varnishes & spot colors"></a>
 						<div class="hideMe">

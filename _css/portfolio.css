@@ -485,6 +485,16 @@
 
 /* xxxxxxxxxx Print xxxxxxxxxx */
 
+.PRINT_ult {
+	background:url(../_images/_print/_nav/ult.jpg) no-repeat;
+	background-position:0px 0px;
+}
+
+.PRINT_ult span.hover {
+	background: url(../_images/_print/_nav/ult.jpg) no-repeat;
+	background-position:0px -195px;
+}
+
 .PRINT_movie_promotion {
 	background:url(../_images/_print/_nav/movie_promotion.jpg) no-repeat;
 	background-position:0px 0px;
