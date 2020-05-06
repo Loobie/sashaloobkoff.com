@@ -27,6 +27,16 @@
 
 /* xxxxxxxxxx Web xxxxxxxxxx */
 
+.WEB_ult {
+	background: url(../_images/_web/_nav/ult.jpg) no-repeat;
+	background-position:0px 0px;
+}
+
+.WEB_ult span.hover {
+	background: url(../_images/_web/_nav/ult.jpg) no-repeat;
+	background-position:0px -195px;
+}
+
 .WEB_pacific_natural_spices {
 	background: url(../_images/_web/_nav/pacific_natural_spices.jpg) no-repeat;
 	background-position:0px 0px;

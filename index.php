@@ -205,6 +205,21 @@
 				<div class="section" id="web">
 
 
+						<a href="_images/_web/ult/ULT_Home_1.jpg" class="box WEB_ult" rel="shadowbox[ult]" title="ULT Esports :: Ecommerce (Shopify) Coding, Management & Design :: Home Page"></a>
+            <div class="hideMe">
+              <a href="_images/_web/ult/ULT_Home_2.jpg" class="box WEB_ult" rel="shadowbox[ult]" title="ULT Esports :: Ecommerce (Shopify) Coding, Management & Design :: Home Page 2"></a>
+              <a href="_images/_web/ult/ULT_Banners_1.jpg" class="box WEB_ult" rel="shadowbox[ult]" title="ULT Esports :: Ecommerce (Shopify) Coding, Management & Design :: Home Page Banners 1"></a>
+              <a href="_images/_web/ult/ULT_Product.jpg" class="box WEB_ult" rel="shadowbox[ult]" title="ULT Esports :: Ecommerce (Shopify) Coding, Management & Design :: Product Page"></a>
+              <a href="_images/_web/ult/ULT_Menus.jpg" class="box WEB_ult" rel="shadowbox[ult]" title="ULT Esports :: Ecommerce (Shopify) Coding, Management & Design :: Drop Down Menus"></a>
+              <a href="_images/_web/ult/ULT_Footer.jpg" class="box WEB_ult" rel="shadowbox[ult]" title="ULT Esports :: Ecommerce (Shopify) Coding, Management & Design :: Footer"></a>
+              <a href="_images/_web/ult/ULT_Cart.jpg" class="box WEB_ult" rel="shadowbox[ult]" title="ULT Esports :: Ecommerce (Shopify) Coding, Management & Design :: Shopping Cart"></a>
+              <a href="_images/_web/ult/ULT_Home_3.jpg" class="box WEB_ult" rel="shadowbox[ult]" title="ULT Esports :: Ecommerce (Shopify) Coding, Management & Design :: Home Page 3"></a>
+              <a href="_images/_web/ult/ULT_Home_4.jpg" class="box WEB_ult" rel="shadowbox[ult]" title="ULT Esports :: Ecommerce (Shopify) Coding, Management & Design :: Home Page 4"></a>
+              <a href="_images/_web/ult/ULT_Banners_2.jpg" class="box WEB_ult" rel="shadowbox[ult]" title="ULT Esports :: Ecommerce (Shopify) Coding, Management & Design :: Home Page Banners 2"></a>
+              <a href="_images/_web/ult/ULT_Banners_3.jpg" class="box WEB_ult" rel="shadowbox[ult]" title="ULT Esports :: Ecommerce (Shopify) Coding, Management & Design :: Home Page Banners 3"></a>
+  						</div>
+
+
 						<a href="_images/_web/arsonal/colony_1.jpg" class="box WEB_arsonal" rel="shadowbox[arsonal]" title="Arsonal :: Colony :: 970x pushdown (clip editing & design only) :: { <i><a href='/_images/_web/arsonal/Colony_970x90/index.html' target='_newWindow' class='shadowboxLink'>View unit with video</a> }</i>"></a>
             <div class="hideMe">
 							<a href="_images/_web/arsonal/colony_takeovers_2.jpg" rel="shadowbox[arsonal]" title="Arsonal :: Colony :: Takeovers and progressives/rich media units"></a>
@@ -235,16 +250,16 @@
 							<a href="_images/_web/avatar_labs/6.jpg" rel="shadowbox[avatar_labs]" title="Avatar Labs :: Shameless site takeover proposal 2"></a></a> -->
             </div>
 
-						<a href="_images/_web/dmsFM/home1.jpg" class="box WEB_dmsFM" rel="shadowbox[dmsFM]" title="dms.FM (Downtown Music) Site Redesign :: Home Page  <i>{ <a href='http://www.dms.fm' class='shadowboxLink'>website</a> }</i>"></a>
+						<a href="_images/_web/dmsFM/home1.jpg" class="box WEB_dmsFM" rel="shadowbox[dmsFM]" title="dms.FM (Downtown Music) Site Redesign :: Home Page"></a>
 						<div class="hideMe">
-							<a href="_images/_web/dmsFM/home2.jpg" rel="shadowbox[dmsFM]" title="dmsFM (Downtown Music) Site Redesign :: Home Page  <i>{ <a href='http://www.dms.fm' class='shadowboxLink'>website</a> }</i>"></a>
-							<a href="_images/_web/dmsFM/featured.jpg" rel="shadowbox[dmsFM]" title="dmsFM (Downtown Music) Site Redesign :: Featured Artists  <i>{ <a href='http://www.dms.fm' class='shadowboxLink'>website</a> }</i>"></a>
-							<a href="_images/_web/dmsFM/composer.jpg" rel="shadowbox[dmsFM]" title="dmsFM (Downtown Music) Site Redesign :: Composer Series  <i>{ <a href='http://www.dms.fm' class='shadowboxLink'>website</a> }</i>"></a>
-							<a href="_images/_web/dmsFM/sliders.jpg" rel="shadowbox[dmsFM]" title="dmsFM (Downtown Music) Site Redesign :: Slider Designs  <i>{ <a href='http://www.dms.fm' class='shadowboxLink'>website</a> }</i>"></a>
-							<a href="_images/_web/dmsFM/genres.jpg" rel="shadowbox[dmsFM]" title="dmsFM (Downtown Music) Site Redesign :: Genre Graphics  <i>{ <a href='http://www.dms.fm' class='shadowboxLink'>website</a> }</i>"></a>
-							<a href="_images/_web/dmsFM/search.jpg" rel="shadowbox[dmsFM]" title="dmsFM (Downtown Music) Site Redesign :: Search Bar  <i>{ <a href='http://www.dms.fm' class='shadowboxLink'>website</a> }</i>"></a>
-							<a href="_images/_web/dmsFM/sign_in.jpg" rel="shadowbox[dmsFM]" title="dmsFM (Downtown Music) Site Redesign :: Sign-in Pop-up  <i>{ <a href='http://www.dms.fm' class='shadowboxLink'>website</a> }</i>"></a>
-							<a href="_images/_web/dmsFM/register.jpg" rel="shadowbox[dmsFM]" title="dmsFM (Downtown Music) Site Redesign :: Register Page  <i>{ <a href='http://www.dms.fm' class='shadowboxLink'>website</a> }</i>"></a>
+							<a href="_images/_web/dmsFM/home2.jpg" rel="shadowbox[dmsFM]" title="dmsFM (Downtown Music) Site Redesign :: Home Page"></a>
+							<a href="_images/_web/dmsFM/featured.jpg" rel="shadowbox[dmsFM]" title="dmsFM (Downtown Music) Site Redesign :: Featured Artists"></a>
+							<a href="_images/_web/dmsFM/composer.jpg" rel="shadowbox[dmsFM]" title="dmsFM (Downtown Music) Site Redesign :: Composer Series"></a>
+							<a href="_images/_web/dmsFM/sliders.jpg" rel="shadowbox[dmsFM]" title="dmsFM (Downtown Music) Site Redesign :: Slider Designs"></a>
+							<a href="_images/_web/dmsFM/genres.jpg" rel="shadowbox[dmsFM]" title="dmsFM (Downtown Music) Site Redesign :: Genre Graphics"></a>
+							<a href="_images/_web/dmsFM/search.jpg" rel="shadowbox[dmsFM]" title="dmsFM (Downtown Music) Site Redesign :: Search Bar"></a>
+							<a href="_images/_web/dmsFM/sign_in.jpg" rel="shadowbox[dmsFM]" title="dmsFM (Downtown Music) Site Redesign :: Sign-in Pop-up"></a>
+							<a href="_images/_web/dmsFM/register.jpg" rel="shadowbox[dmsFM]" title="dmsFM (Downtown Music) Site Redesign :: Register Page"></a>
 						</div>
 
 
