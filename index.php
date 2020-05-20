@@ -205,6 +205,34 @@
 				<div class="section" id="web">
 
 
+						<a href="_images/_web/player_omega/po_home_1.jpg" class="box WEB_player_omega" rel="shadowbox[player_omega]" title="Player Omega :: Esports Event / Tournamet :: Branding, Design, UX/UI, Concepting :: Home Page"></a>
+            <div class="hideMe">
+              <a href="_images/_web/player_omega/po_home_2.jpg" class="box WEB_player_omega" rel="shadowbox[player_omega]" title="Player Omega :: Esports Event / Tournamet :: Branding, Design, UX/UI, Concepting :: Home Page"></a>
+              <a href="_images/_web/player_omega/po_home_3.jpg" class="box WEB_player_omega" rel="shadowbox[player_omega]" title="Player Omega :: Esports Event / Tournamet :: Branding, Design, UX/UI, Concepting :: Home Page"></a>
+              <a href="_images/_web/player_omega/po_experience.jpg" class="box WEB_player_omega" rel="shadowbox[player_omega]" title="Player Omega :: Esports Event / Tournamet :: Branding, Design, UX/UI, Concepting :: Experience Page & Drop Down Menu"></a>
+              <a href="_images/_web/player_omega/po_partners.jpg" class="box WEB_player_omega" rel="shadowbox[player_omega]" title="Player Omega :: Esports Event / Tournamet :: Branding, Design, UX/UI, Concepting :: Partners Page"></a>
+              <a href="_images/_web/player_omega/po_privacy.jpg" class="box WEB_player_omega" rel="shadowbox[player_omega]" title="Player Omega :: Esports Event / Tournamet :: Branding, Design, UX/UI, Concepting :: Privacy Page"></a>
+              <a href="_images/_web/player_omega/po_404.jpg" class="box WEB_player_omega" rel="shadowbox[player_omega]" title="Player Omega :: Esports Event / Tournamet :: Branding, Design, UX/UI, Concepting :: 404 Error Page"></a>
+              <a href="_images/_web/player_omega/po_company.jpg" class="box WEB_player_omega" rel="shadowbox[player_omega]" title="Player Omega :: Esports Event / Tournamet :: Branding, Design, UX/UI, Concepting :: Company Page"></a>
+              <a href="_images/_web/player_omega/po_tos.jpg" class="box WEB_player_omega" rel="shadowbox[player_omega]" title="Player Omega :: Esports Event / Tournamet :: Branding, Design, UX/UI, Concepting :: Terms of Service Page"></a>
+            </div>
+
+
+						<a href="_images/_web/fat/fat_home_1.jpg" class="box WEB_fat" rel="shadowbox[fat]" title="Fatwreck.com :: Ecommerce (Shopify) Design, UX/UI, Concepting :: Home Page"></a>
+            <div class="hideMe">
+              <a href="_images/_web/fat/fat_home_2.jpg" class="box WEB_fat" rel="shadowbox[fat]" title="Fatwreck.com :: Ecommerce (Shopify) Design, UX/UI, Concepting :: Home Page 2"></a>
+              <a href="_images/_web/fat/fat_moble.jpg" class="box WEB_fat" rel="shadowbox[fat]" title="Fatwreck.com :: Ecommerce (Shopify) Design, UX/UI, Concepting :: Mobile"></a>
+              <a href="_images/_web/fat/fat_store.jpg" class="box WEB_fat" rel="shadowbox[fat]" title="Fatwreck.com :: Ecommerce (Shopify) Design, UX/UI, Concepting :: Store Page"></a>
+              <a href="_images/_web/fat/fat_product_page.jpg" class="box WEB_fat" rel="shadowbox[fat]" title="Fatwreck.com :: Ecommerce (Shopify) Design, UX/UI, Concepting :: Individual Product Page"></a>
+              <a href="_images/_web/fat/fat_artists.jpg" class="box WEB_fat" rel="shadowbox[fat]" title="Fatwreck.com :: Ecommerce (Shopify) Design, UX/UI, Concepting :: Artists Page"></a>
+              <a href="_images/_web/fat/fat_artist_page.jpg" class="box WEB_fat" rel="shadowbox[fat]" title="Fatwreck.com :: Ecommerce (Shopify) Design, UX/UI, Concepting :: Individual Artist Page"></a>
+              <a href="_images/_web/fat/fat_news.jpg" class="box WEB_fat" rel="shadowbox[fat]" title="Fatwreck.com :: Ecommerce (Shopify) Design, UX/UI, Concepting :: News Page"></a>
+              <a href="_images/_web/fat/fat_tour.jpg" class="box WEB_fat" rel="shadowbox[fat]" title="Fatwreck.com :: Ecommerce (Shopify) Design, UX/UI, Concepting :: Tour Page"></a>
+              <a href="_images/_web/fat/fat_cart.jpg" class="box WEB_fat" rel="shadowbox[fat]" title="Fatwreck.com :: Ecommerce (Shopify) Design, UX/UI, Concepting :: Cart"></a>
+              <a href="_images/_web/fat/fat_my_account.jpg" class="box WEB_fat" rel="shadowbox[fat]" title="Fatwreck.com :: Ecommerce (Shopify) Design, UX/UI, Concepting :: My Account Page"></a>
+            </div>
+
+
 						<a href="_images/_web/ult/ULT_Home_1.jpg" class="box WEB_ult" rel="shadowbox[ult]" title="ULT Esports :: Ecommerce (Shopify) Coding, Management & Design :: Home Page"></a>
             <div class="hideMe">
               <a href="_images/_web/ult/ULT_Home_2.jpg" class="box WEB_ult" rel="shadowbox[ult]" title="ULT Esports :: Ecommerce (Shopify) Coding, Management & Design :: Home Page 2"></a>
@@ -217,7 +245,7 @@
               <a href="_images/_web/ult/ULT_Home_4.jpg" class="box WEB_ult" rel="shadowbox[ult]" title="ULT Esports :: Ecommerce (Shopify) Coding, Management & Design :: Home Page 4"></a>
               <a href="_images/_web/ult/ULT_Banners_2.jpg" class="box WEB_ult" rel="shadowbox[ult]" title="ULT Esports :: Ecommerce (Shopify) Coding, Management & Design :: Home Page Banners 2"></a>
               <a href="_images/_web/ult/ULT_Banners_3.jpg" class="box WEB_ult" rel="shadowbox[ult]" title="ULT Esports :: Ecommerce (Shopify) Coding, Management & Design :: Home Page Banners 3"></a>
-  						</div>
+						</div>
 
 
 						<a href="_images/_web/arsonal/colony_1.jpg" class="box WEB_arsonal" rel="shadowbox[arsonal]" title="Arsonal :: Colony :: 970x pushdown (clip editing & design only) :: { <i><a href='/_images/_web/arsonal/Colony_970x90/index.html' target='_newWindow' class='shadowboxLink'>View unit with video</a> }</i>"></a>

@@ -27,6 +27,26 @@
 
 /* xxxxxxxxxx Web xxxxxxxxxx */
 
+.WEB_player_omega {
+	background: url(../_images/_web/_nav/player_omega.jpg) no-repeat;
+	background-position:0px 0px;
+}
+
+.WEB_player_omega span.hover {
+	background: url(../_images/_web/_nav/player_omega.jpg) no-repeat;
+	background-position:0px -195px;
+}
+
+.WEB_fat {
+	background: url(../_images/_web/_nav/fat.jpg) no-repeat;
+	background-position:0px 0px;
+}
+
+.WEB_fat span.hover {
+	background: url(../_images/_web/_nav/fat.jpg) no-repeat;
+	background-position:0px -195px;
+}
+
 .WEB_ult {
 	background: url(../_images/_web/_nav/ult.jpg) no-repeat;
 	background-position:0px 0px;
