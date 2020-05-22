@@ -9,7 +9,8 @@
 
   		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js" type="text/javascript"></script>
   		<script src="_js/runonload.js" type="text/javascript"></script>
-  		<script src="_js/nav_bar.js" type="text/javascript"></script><script src="_js/form.js" type="text/javascript"></script>
+  		<script src="_js/nav_bar.js" type="text/javascript"></script>
+      <script src="_js/form.js" type="text/javascript"></script>
   		<script src="_js/shadowbox.js" type="text/javascript"></script>
   		<script src="_js/jquery.easing.1.3.js" type="text/javascript"></script>
   		<script src="_js/jquery.innerfade.js" type="text/javascript"></script>
@@ -182,6 +183,11 @@
                     <input type="text" name="email" id="email" value="" class="text-input" />
                     <label class="error" for="email" id="email_error">Valid email required.</label>
                 </div>
+                <div id="contact_url">
+                    <label for="url" id="url_label">Website URL</label>
+                    <input type="text" name="url" id="url" value="" class="text-input" />
+                    <label class="error" for="url" id="url_error">Valid URL required.</label>
+                </div>
                 <div id="contact_message">
                     <label for="phone" id="phone_label">Message</label>
                     <textarea name="email_message" id="email_message"  class="message"></textarea>
@@ -205,16 +211,16 @@
 				<div class="section" id="web">
 
 
-						<a href="_images/_web/player_omega/po_home_1.jpg" class="box WEB_player_omega" rel="shadowbox[player_omega]" title="Player Omega :: Esports Event / Tournamet :: Branding, Design, UX/UI, Concepting :: Home Page"></a>
+						<a href="_images/_web/player_omega/po_home_1.jpg" class="box WEB_player_omega" rel="shadowbox[player_omega]" title="Player Omega :: Esports Event / Tournament :: Branding, Design, UX/UI, Concepting :: Home Page :: { <i><a href='https://xd.adobe.com/view/d8b9c41a-866b-49d6-6fd6-8d3282e58e83-ae88/grid' target='_newWindow' class='shadowboxLink'>View in Adobe XD</a></i> }"></a>
             <div class="hideMe">
-              <a href="_images/_web/player_omega/po_home_2.jpg" class="box WEB_player_omega" rel="shadowbox[player_omega]" title="Player Omega :: Esports Event / Tournamet :: Branding, Design, UX/UI, Concepting :: Home Page"></a>
-              <a href="_images/_web/player_omega/po_home_3.jpg" class="box WEB_player_omega" rel="shadowbox[player_omega]" title="Player Omega :: Esports Event / Tournamet :: Branding, Design, UX/UI, Concepting :: Home Page"></a>
-              <a href="_images/_web/player_omega/po_experience.jpg" class="box WEB_player_omega" rel="shadowbox[player_omega]" title="Player Omega :: Esports Event / Tournamet :: Branding, Design, UX/UI, Concepting :: Experience Page & Drop Down Menu"></a>
-              <a href="_images/_web/player_omega/po_partners.jpg" class="box WEB_player_omega" rel="shadowbox[player_omega]" title="Player Omega :: Esports Event / Tournamet :: Branding, Design, UX/UI, Concepting :: Partners Page"></a>
-              <a href="_images/_web/player_omega/po_privacy.jpg" class="box WEB_player_omega" rel="shadowbox[player_omega]" title="Player Omega :: Esports Event / Tournamet :: Branding, Design, UX/UI, Concepting :: Privacy Page"></a>
-              <a href="_images/_web/player_omega/po_404.jpg" class="box WEB_player_omega" rel="shadowbox[player_omega]" title="Player Omega :: Esports Event / Tournamet :: Branding, Design, UX/UI, Concepting :: 404 Error Page"></a>
-              <a href="_images/_web/player_omega/po_company.jpg" class="box WEB_player_omega" rel="shadowbox[player_omega]" title="Player Omega :: Esports Event / Tournamet :: Branding, Design, UX/UI, Concepting :: Company Page"></a>
-              <a href="_images/_web/player_omega/po_tos.jpg" class="box WEB_player_omega" rel="shadowbox[player_omega]" title="Player Omega :: Esports Event / Tournamet :: Branding, Design, UX/UI, Concepting :: Terms of Service Page"></a>
+              <a href="_images/_web/player_omega/po_home_2.jpg" class="box WEB_player_omega" rel="shadowbox[player_omega]" title="Player Omega :: Esports Event / Tournament :: Branding, Design, UX/UI, Concepting :: Home Page :: { <i><a href='https://xd.adobe.com/view/d8b9c41a-866b-49d6-6fd6-8d3282e58e83-ae88/grid' target='_newWindow' class='shadowboxLink'>View in Adobe XD</a></i> }"></a>
+              <a href="_images/_web/player_omega/po_home_3.jpg" class="box WEB_player_omega" rel="shadowbox[player_omega]" title="Player Omega :: Esports Event / Tournament :: Branding, Design, UX/UI, Concepting :: Home Page :: { <i><a href='https://xd.adobe.com/view/d8b9c41a-866b-49d6-6fd6-8d3282e58e83-ae88/grid' target='_newWindow' class='shadowboxLink'>View in Adobe XD</a></i> }"></a>
+              <a href="_images/_web/player_omega/po_experience.jpg" class="box WEB_player_omega" rel="shadowbox[player_omega]" title="Player Omega :: Esports Event / Tournament :: Branding, Design, UX/UI, Concepting :: Experience Page & Drop Down Menu :: { <i><a href='https://xd.adobe.com/view/d8b9c41a-866b-49d6-6fd6-8d3282e58e83-ae88/grid' target='_newWindow' class='shadowboxLink'>View in Adobe XD</a></i> }"></a>
+              <a href="_images/_web/player_omega/po_partners.jpg" class="box WEB_player_omega" rel="shadowbox[player_omega]" title="Player Omega :: Esports Event / Tournament :: Branding, Design, UX/UI, Concepting :: Partners Page :: { <i><a href='https://xd.adobe.com/view/d8b9c41a-866b-49d6-6fd6-8d3282e58e83-ae88/grid' target='_newWindow' class='shadowboxLink'>View in Adobe XD</a></i> }"></a>
+              <a href="_images/_web/player_omega/po_privacy.jpg" class="box WEB_player_omega" rel="shadowbox[player_omega]" title="Player Omega :: Esports Event / Tournament :: Branding, Design, UX/UI, Concepting :: Privacy Page :: { <i><a href='https://xd.adobe.com/view/d8b9c41a-866b-49d6-6fd6-8d3282e58e83-ae88/grid' target='_newWindow' class='shadowboxLink'>View in Adobe XD</a></i> }"></a>
+              <a href="_images/_web/player_omega/po_404.jpg" class="box WEB_player_omega" rel="shadowbox[player_omega]" title="Player Omega :: Esports Event / Tournament :: Branding, Design, UX/UI, Concepting :: 404 Error Page"></a>
+              <a href="_images/_web/player_omega/po_company.jpg" class="box WEB_player_omega" rel="shadowbox[player_omega]" title="Player Omega :: Esports Event / Tournament :: Branding, Design, UX/UI, Concepting :: Company Page :: { <i><a href='https://xd.adobe.com/view/d8b9c41a-866b-49d6-6fd6-8d3282e58e83-ae88/grid' target='_newWindow' class='shadowboxLink'>View in Adobe XD</a></i> }"></a>
+              <a href="_images/_web/player_omega/po_tos.jpg" class="box WEB_player_omega" rel="shadowbox[player_omega]" title="Player Omega :: Esports Event / Tournament :: Branding, Design, UX/UI, Concepting :: Terms of Service Page :: { <i><a href='https://xd.adobe.com/view/d8b9c41a-866b-49d6-6fd6-8d3282e58e83-ae88/grid' target='_newWindow' class='shadowboxLink'>View in Adobe XD</a></i> }"></a>
             </div>
 
 
@@ -255,7 +261,7 @@
 							<a href="_images/_web/arsonal/black_sails.jpg" rel="shadowbox[arsonal]" title="Arsonal :: Black Sails :: Static banners"></a>
 							<a href="_images/_web/arsonal/child_genius_takeover.jpg" rel="shadowbox[arsonal]" title="Arsonal :: Child Genius :: Take over with progressive banners"></a>
 							<a href="_images/_web/arsonal/child_genius_1.jpg" rel="shadowbox[arsonal]" title="Child Genius :: 300x250 Progressive (animation & design only) :: { <i><a href='/_images/_web/arsonal/CG_300x250/' target='_newWindow' class='shadowboxLink'>View unit with quiz</a></i> }"></a>
-							<a href="_images/_web/arsonal/child_genius_2.jpg" rel="shadowbox[arsonal]" title="Child Genius :: 300x600 Progressive (animation & design only) :: { <i><a href='/_images/_web/arsonal/CG_300x600/' target='_newWindow' class='shadowboxLink'>View unit with quiz</a></i> }"></a>
+							<a href="_images/_web/arsonal/child_genius_2.jpg" rel="shadowbox[arsonal]" title="Child Genius :: 300x600 Progressive (animation & design only) :: <i>{ <a href='/_images/_web/arsonal/CG_300x600/' target='_newWindow' class='shadowboxLink'>View unit with quiz</a></i> }"></a>
 							<a href="_images/_web/arsonal/sunny_4.jpg" rel="shadowbox[arsonal]" title="It's Always Sunny in Philadelphia :: Social media countdown to premiere graphic"></a>
 							<a href="_images/_web/arsonal/sunny_1.jpg" rel="shadowbox[arsonal]" title="It's Always Sunny in Philadelphia :: Social media countdown to premiere graphic"></a>
 							<a href="_images/_web/arsonal/sunny_2.jpg" rel="shadowbox[arsonal]" title="It's Always Sunny in Philadelphia :: Pinterest graphics"></a>
@@ -690,7 +696,7 @@
 						<a href="_images/_print/rich_robinson/6.jpg" class="box PRINT_rich_robinson" rel="shadowbox[rich_robinson]" title="dms.FM/Downtown Music :: Tommy Guerrero CD/DVD Insert"></a>
 						<div class="hideMe">
 							<a href="_images/_print/rich_robinson/7.jpg" rel="shadowbox[rich_robinson]" title="dms.FM/Downtown Music :: Epic Trailer - Glossy, Heavy Stock Marketing Piece (LP Sized)"></a>
-							<a href="_images/_print/rich_robinson/1.jpg" rel="shadowbox[rich_robinson]" title="dms.FM/Downtown Music :: Rich Robinson <i>(The Black Crowes)</i>CD/DVD Packaging"></a>
+							<a href="_images/_print/rich_robinson/1.jpg" rel="shadowbox[rich_robinson]" title="dms.FM/Downtown Music :: Rich Robinson <i>(The Black Crowes)</i> CD/DVD Packaging"></a>
 							<a href="_images/_print/rich_robinson/2.jpg" rel="shadowbox[rich_robinson]" title="dms.FM/Downtown Music :: Rich Robinson <i>(The Black Crowes)</i> CD/DVD Packaging"></a>
 							<a href="_images/_print/rich_robinson/3.jpg" rel="shadowbox[rich_robinson]" title="dms.FM/Downtown Music :: Rich Robinson <i>(The Black Crowes)</i> CD/DVD Packaging"></a>
 							<a href="_images/_print/rich_robinson/4.jpg" rel="shadowbox[rich_robinson]" title="dms.FM/Downtown Music :: Rich Robinson <i>(The Black Crowes)</i> CD/DVD Packaging"></a>

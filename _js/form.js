@@ -19,8 +19,10 @@ $(function() {
       $("input#name").focus();
       return false;
     }
+
 		var email = $("input#email").val();
 
+    // SASHA function checks to see if var is an email
     function IsEmail(email) {
      var regex = /^([a-zA-Z0-9_\.\-\+])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
      if(!regex.test(email)) {
@@ -36,9 +38,26 @@ $(function() {
       return false;
     }
 
+	  var url = $("input#url").val();
+
+    // SASHA unlike the other fields we WANT the hidden URL to be empty
+  	// if (url == "") {
+    //   $("label#url_error").show();
+    //   $("input#url").focus();
+    //   return false;
+    // }
+
 		var email_msg = $("textarea#email_message").val();
 
-		var dataString = 'name='+ name + '&email=' + email + '&email_msg=' + email_msg;
+    // SASHA if message is just an email, then mark as spam
+
+  	if ( IsEmail(email_msg)==true ) {
+      var spamTest2 = 'Spam';
+    } else {
+      var spamTest2 = 'Not Spam'
+    }
+
+		var dataString = 'name='+ name + '&email=' + email + '&url=' + url + '&spamTest2=' + spamTest2 + '&email_msg=' + email_msg;
 		//alert (dataString);return false;
 
 		$.ajax({

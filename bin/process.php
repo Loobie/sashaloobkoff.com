@@ -3,12 +3,31 @@
 if ((isset($_POST['name'])) && (strlen(trim($_POST['name'])) > 0)) {
 	$name = stripslashes(strip_tags($_POST['name']));
 } else {$name = 'No name entered';}
+
 if ((isset($_POST['email'])) && (strlen(trim($_POST['email'])) > 0)) {
 	$email = stripslashes(strip_tags($_POST['email']));
 } else {$email = 'No email entered';}
+
+// SASHA Spam Test 1: this is unnecessary as this is a hidden field to catch bots... was using during development
+if ((isset($_POST['url'])) && (strlen(trim($_POST['url'])) > 0)) {
+	$url = stripslashes(strip_tags($_POST['url']));
+} else {
+	$url = 'Not spam';
+}
+//
+
+// SASHA Spam Test 2:... form.js checked to see if the email_msg was just one email (the spam we were getting) and passed a boolean var spamTest2
+if ( (isset($_POST['spamTest2'])) && ($_POST['spamTest2']) == "Spam" ) {
+	$spamTest2 = "Spam" ;
+} else {
+	$spamTest2 = "Not spam";
+}
+//
+
 if ((isset($_POST['email_msg'])) && (strlen(trim($_POST['email_msg'])) > 0)) {
 	$email_message = stripslashes(strip_tags($_POST['email_msg']));
-} else {$phone = 'No message entered';}
+} else {$email_message = 'No message entered';}
+
 ob_start();
 ?>
 <html>
@@ -41,10 +60,16 @@ $body = ob_get_contents();
 $sasha_body = 'Name:
 '.$name.'
 
-email:
+Email:
 '.$email.'
 
-message:
+Loobie Spam filter 1 (Hidden Field Test):
+'.$url.'
+
+Loobie Spam filter 2 (Random Email Address Test):
+'.$spamTest2.'
+
+Message:
 '.$email_message;
 
 $to = 'sasha@sashaloobkoff.com';
@@ -76,7 +101,12 @@ if(!$mail->Send()) {
 	$recipient = 'sasha@sashaloobkoff.com';
 	$subject = 'Contact message from Sashaloobkoff.com';
 	$content = $sasha_body;
-  mail($recipient, $subject, $content, "From: sasha@sashaloobkoff.com\r\nReply-To: $email\r\nX-Mailer: DT_formmail");
+
+// SASHA spamTest1: if the url field is empty -  only send if hidden url input is empty and if passes spamTest2 from form.js
+if ( isset($_POST['url']) && $_POST['url'] == '' && (strlen(trim($_POST['url'])) < 1) && ($spamTest2 == 'Not spam') ){
+	  mail($recipient, $subject, $content, "From: sasha@sashaloobkoff.com\r\nReply-To: $email\r\nX-Mailer: DT_formmail");
+}
+
   exit;
 }
 ?>
