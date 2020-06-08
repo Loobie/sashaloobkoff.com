@@ -360,6 +360,16 @@
 
 /* xxxxxxxxxx Mobile xxxxxxxxxx */
 
+.MOBILE_summoners_war {
+	background: url(../_images/_mobile/_nav/summoners_war.jpg) no-repeat;
+	background-position:0px 0px;
+}
+
+.MOBILE_summoners_war span.hover {
+	background: url(../_images/_mobile/_nav/summoners_war.jpg) no-repeat;
+	background-position:0px -195px;
+}
+
 .MOBILE_bettye_lavette {
 	background: url(../_images/_mobile/_nav/bettye_lavette.jpg) no-repeat;
 	background-position:0px 0px;
@@ -514,6 +524,26 @@
 
 
 /* xxxxxxxxxx Print xxxxxxxxxx */
+
+.PRINT_flogging_molly {
+	background: url(../_images/_print/_nav/flogging_molly.jpg) no-repeat;
+	background-position:0px 0px;
+}
+
+.PRINT_flogging_molly span.hover {
+	background: url(../_images/_print/_nav/flogging_molly.jpg) no-repeat;
+	background-position:0px -195px;
+}
+
+.PRINT_player_omega {
+	background: url(../_images/_print/_nav/player_omega.jpg) no-repeat;
+	background-position:0px 0px;
+}
+
+.PRINT_player_omega span.hover {
+	background: url(../_images/_print/_nav/player_omega.jpg) no-repeat;
+	background-position:0px -195px;
+}
 
 .PRINT_ult {
 	background:url(../_images/_print/_nav/ult.jpg) no-repeat;

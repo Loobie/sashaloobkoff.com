@@ -210,7 +210,6 @@
 				<!-- xxxxxxxxxx web START xxxxxxxxxx -->
 				<div class="section" id="web">
 
-
 						<a href="_images/_web/player_omega/po_home_1.jpg" class="box WEB_player_omega" rel="shadowbox[player_omega]" title="Player Omega :: Esports Event / Tournament :: Branding, Design, UX/UI, Concepting :: Home Page :: { <i><a href='https://xd.adobe.com/view/d8b9c41a-866b-49d6-6fd6-8d3282e58e83-ae88/grid' target='_newWindow' class='shadowboxLink'>View in Adobe XD</a></i> }"></a>
             <div class="hideMe">
               <a href="_images/_web/player_omega/po_home_2.jpg" class="box WEB_player_omega" rel="shadowbox[player_omega]" title="Player Omega :: Esports Event / Tournament :: Branding, Design, UX/UI, Concepting :: Home Page :: { <i><a href='https://xd.adobe.com/view/d8b9c41a-866b-49d6-6fd6-8d3282e58e83-ae88/grid' target='_newWindow' class='shadowboxLink'>View in Adobe XD</a></i> }"></a>
@@ -222,7 +221,6 @@
               <a href="_images/_web/player_omega/po_company.jpg" class="box WEB_player_omega" rel="shadowbox[player_omega]" title="Player Omega :: Esports Event / Tournament :: Branding, Design, UX/UI, Concepting :: Company Page :: { <i><a href='https://xd.adobe.com/view/d8b9c41a-866b-49d6-6fd6-8d3282e58e83-ae88/grid' target='_newWindow' class='shadowboxLink'>View in Adobe XD</a></i> }"></a>
               <a href="_images/_web/player_omega/po_tos.jpg" class="box WEB_player_omega" rel="shadowbox[player_omega]" title="Player Omega :: Esports Event / Tournament :: Branding, Design, UX/UI, Concepting :: Terms of Service Page :: { <i><a href='https://xd.adobe.com/view/d8b9c41a-866b-49d6-6fd6-8d3282e58e83-ae88/grid' target='_newWindow' class='shadowboxLink'>View in Adobe XD</a></i> }"></a>
             </div>
-
 
 						<a href="_images/_web/fat/fat_home_1.jpg" class="box WEB_fat" rel="shadowbox[fat]" title="Fatwreck.com :: Ecommerce (Shopify) Design, UX/UI, Concepting :: Home Page"></a>
             <div class="hideMe">
@@ -237,7 +235,6 @@
               <a href="_images/_web/fat/fat_cart.jpg" class="box WEB_fat" rel="shadowbox[fat]" title="Fatwreck.com :: Ecommerce (Shopify) Design, UX/UI, Concepting :: Cart"></a>
               <a href="_images/_web/fat/fat_my_account.jpg" class="box WEB_fat" rel="shadowbox[fat]" title="Fatwreck.com :: Ecommerce (Shopify) Design, UX/UI, Concepting :: My Account Page"></a>
             </div>
-
 
 						<a href="_images/_web/ult/ULT_Home_1.jpg" class="box WEB_ult" rel="shadowbox[ult]" title="ULT Esports :: Ecommerce (Shopify) Coding, Management & Design :: Home Page"></a>
             <div class="hideMe">
@@ -600,6 +597,34 @@
 
 				<!-- xxxxxxxxxx print START xxxxxxxxxx -->
 				<div class="section" id="print">
+
+						<a href="_images/_print/flogging_molly/fm_box_1.jpg" class="box PRINT_flogging_molly" rel="shadowbox[flogging_molly_PRINT]" title="Flogging Molly Packaging :: 2 LP, DVD, 22 pg Booklet, Merch, etc :: Box"></a>
+            <div class="hideMe">
+                <a href="_images/_print/flogging_molly/fm_booklet_9a.jpg" class="box PRINT_flogging_molly" rel="shadowbox[flogging_molly_PRINT]" title="Flogging Molly Packaging :: 2 LP, DVD, 22 pg Booklet, Merch, etc :: 22 Page 12x12 Booklet :: { <i><a href='/_images/_print/flogging_molly/fm_booklet.pdf' target='_newWindow' class='shadowboxLink'>View PDF</a></i> }"></a>
+                <a href="_images/_print/flogging_molly/fm_booklet_9b.jpg" class="box PRINT_flogging_molly" rel="shadowbox[flogging_molly_PRINT]" title="Flogging Molly Packaging :: 2 LP, DVD, 22 pg Booklet, Merch, etc :: 22 Page 12x12 Booklet :: { <i><a href='/_images/_print/flogging_molly/fm_booklet.pdf' target='_newWindow' class='shadowboxLink'>View PDF</a></i> }"></a>
+                <a href="_images/_print/flogging_molly/fm_booklet_9c.jpg" class="box PRINT_flogging_molly" rel="shadowbox[flogging_molly_PRINT]" title="Flogging Molly Packaging :: 2 LP, DVD, 22 pg Booklet, Merch, etc :: 22 Page 12x12 Booklet :: { <i><a href='/_images/_print/flogging_molly/fm_booklet.pdf' target='_newWindow' class='shadowboxLink'>View PDF</a></i> }"></a>
+                <a href="_images/_print/flogging_molly/fm_booklet_9d.jpg" class="box PRINT_flogging_molly" rel="shadowbox[flogging_molly_PRINT]" title="Flogging Molly Packaging :: 2 LP, DVD, 22 pg Booklet, Merch, etc :: 22 Page 12x12 Booklet :: { <i><a href='/_images/_print/flogging_molly/fm_booklet.pdf' target='_newWindow' class='shadowboxLink'>View PDF</a></i> }"></a>
+                <a href="_images/_print/flogging_molly/fm_swagger_jacket_2.jpg" class="box PRINT_flogging_molly" rel="shadowbox[flogging_molly_PRINT]" title="Flogging Molly Packaging :: 2 LP, DVD, 22 pg Booklet, Merch, etc :: Swagger LP Jacket"></a>
+                <a href="_images/_print/flogging_molly/fm_bluebird_jacket_2.jpg" class="box PRINT_flogging_molly" rel="shadowbox[flogging_molly_PRINT]" title="Flogging Molly Packaging :: 2 LP, DVD, 22 pg Booklet, Merch, etc :: Bluebird LP Jacket"></a>
+                <a href="_images/_print/flogging_molly/fm_swagger_sleeves_3.jpg" class="box PRINT_flogging_molly" rel="shadowbox[flogging_molly_PRINT]" title="Flogging Molly Packaging :: 2 LP, DVD, 22 pg Booklet, Merch, etc :: Swagger LP Sleeves"></a>
+                <a href="_images/_print/flogging_molly/fm_bluebird_sleeves_3.jpg" class="box PRINT_flogging_molly" rel="shadowbox[flogging_molly_PRINT]" title="Flogging Molly Packaging :: 2 LP, DVD, 22 pg Booklet, Merch, etc :: Bluebird LP Sleeves"></a>
+                <a href="_images/_print/flogging_molly/fm_swagger_labels_4.jpg" class="box PRINT_flogging_molly" rel="shadowbox[flogging_molly_PRINT]" title="Flogging Molly Packaging :: 2 LP, DVD, 22 pg Booklet, Merch, etc :: Swagger LP labels"></a>
+                <a href="_images/_print/flogging_molly/fm_bluebird_labels_4.jpg" class="box PRINT_flogging_molly" rel="shadowbox[flogging_molly_PRINT]" title="Flogging Molly Packaging :: 2 LP, DVD, 22 pg Booklet, Merch, etc :: Bluebird LP Labels"></a>
+                <a href="_images/_print/flogging_molly/fm_swagger_slipmat_5.jpg" class="box PRINT_flogging_molly" rel="shadowbox[flogging_molly_PRINT]" title="Flogging Molly Packaging :: 2 LP, DVD, 22 pg Booklet, Merch, etc :: Swagger Slipmat & Patch"></a>
+                <a href="_images/_print/flogging_molly/fm_swagger_dvd_6.jpg" class="box PRINT_flogging_molly" rel="shadowbox[flogging_molly_PRINT]" title="Flogging Molly Packaging :: 2 LP, DVD, 22 pg Booklet, Merch, etc :: Swagger DVD"></a>
+                <a href="_images/_print/flogging_molly/fm_buttons_7.jpg" class="box PRINT_flogging_molly" rel="shadowbox[flogging_molly_PRINT]" title="Flogging Molly Packaging :: 2 LP, DVD, 22 pg Booklet, Merch, etc :: Swagger Button Set"></a>
+                <a href="_images/_print/flogging_molly/fm_merch_8.jpg" class="box PRINT_flogging_molly" rel="shadowbox[flogging_molly_PRINT]" title="Flogging Molly Packaging :: 2 LP, DVD, 22 pg Booklet, Merch, etc :: Swagger Merch"></a>
+            </div>
+
+						<a href="_images/_print/player_omega/po_branding.jpg" class="box PRINT_player_omega" rel="shadowbox[player_omega_PRINT]" title="Player Omega :: Esports Event / Tournament :: Branding / Logo :: { <i><a href='/_images/_print/player_omega/PlayerOmegaStyleGuide2019.pdf' target='_newWindow' class='shadowboxLink'>View Style Guide (PDF)</a></i> }"></a>
+            <div class="hideMe">
+                <a href="_images/_print/player_omega/po_pitch_deck_1.jpg" class="box PRINT_player_omega" rel="shadowbox[player_omega_PRINT]" title="Player Omega :: Esports Event / Tournament :: Cosplay Pitch Deck :: { <i><a href='/_images/_print/player_omega/PlayerOmegaStyleGuide2019.pdf' target='_newWindow' class='shadowboxLink'>View Style Guide (PDF)</a></i> }"></a>
+                <a href="_images/_print/player_omega/po_pitch_deck_2.jpg" class="box PRINT_player_omega" rel="shadowbox[player_omega_PRINT]" title="Player Omega :: Esports Event / Tournament :: Cosplay Pitch Deck :: { <i><a href='/_images/_print/player_omega/PlayerOmegaStyleGuide2019.pdf' target='_newWindow' class='shadowboxLink'>View Style Guide (PDF)</a></i> }"></a>
+                <a href="_images/_print/player_omega/po_signage.jpg" class="box PRINT_player_omega" rel="shadowbox[player_omega_PRINT]" title="Player Omega :: Esports Event / Tournament :: Event Signage :: { <i><a href='/_images/_print/player_omega/PlayerOmegaStyleGuide2019.pdf' target='_newWindow' class='shadowboxLink'>View Style Guide (PDF)</a></i> }"></a>
+                <a href="_images/_print/player_omega/po_signage_2.jpg" class="box PRINT_player_omega" rel="shadowbox[player_omega_PRINT]" title="Player Omega :: Esports Event / Tournament :: Event Signage :: { <i><a href='/_images/_print/player_omega/PlayerOmegaStyleGuide2019.pdf' target='_newWindow' class='shadowboxLink'>View Style Guide (PDF)</a></i> }"></a>
+                <a href="_images/_print/player_omega/po_social.jpg" class="box PRINT_player_omega" rel="shadowbox[player_omega_PRINT]" title="Player Omega :: Esports Event / Tournament :: Social Elements :: { <i><a href='/_images/_print/player_omega/PlayerOmegaStyleGuide2019.pdf' target='_newWindow' class='shadowboxLink'>View Style Guide (PDF)</a></i> }"></a>
+                <a href="_images/_print/player_omega/po_site.jpg" class="box PRINT_player_omega" rel="shadowbox[player_omega_PRINT]" title="Player Omega :: Esports Event / Tournament :: Website Design & Coding :: { <i><a href='/_images/_print/player_omega/PlayerOmegaStyleGuide2019.pdf' target='_newWindow' class='shadowboxLink'>View Style Guide (PDF)</a></i> }"></a>
+            </div>
 
 						<a href="_images/_print/ult/ult_contact_sheet_1.jpg" class="box PRINT_ult" rel="shadowbox[ult_print]" title="ULT – Esports Inspired Streetwear"></a>
 						<div class="hideMe">
@@ -994,10 +1019,11 @@
 				<!-- xxxxxxxxxx mobile START xxxxxxxxxx -->
 				<div class="section" id="mobile">
 
-						<a href="_images/_mobile/bettye_lavette/1.jpg" class="box MOBILE_bettye_lavette" rel="shadowbox[bettye_lavette]" title="Bettye LaVette Promotional iBook :: Anti-/Epitaph Records :: Concept/Design/Coding (iBook Author)"></a>
+						<a href="_images/_mobile/summoners_war/sw_ipad_1.jpg" class="box MOBILE_summoners_war" rel="shadowbox[summoners_war]" title="Summoners War App :: Video Game Promotional Event :: Experiential Design :: Loading Screen"></a>
 						<div class="hideMe">
-							<a href="_images/_mobile/bettye_lavette/2.jpg" rel="shadowbox[bettye_lavette]" title="Bettye LaVette Promotional iBook :: Anti-/Epitaph Records :: Concept/Design/Coding (iBook Author)"></a>
-							<a href="_images/_mobile/bettye_lavette/3.jpg" rel="shadowbox[bettye_lavette]" title="Bettye LaVette Promotional iBook :: Anti-/Epitaph Records :: Concept/Design/Coding (iBook Author)"></a>
+							<a href="_images/_mobile/summoners_war/sw_ipad_2.jpg" class="box MOBILE_summoners_war" rel="shadowbox[summoners_war]" title="Summoners War App :: Video Game Promotional Event :: Experiential Design :: Station Tablet – Location Map"></a>
+							<a href="_images/_mobile/summoners_war/sw_ipad_3.jpg" class="box MOBILE_summoners_war" rel="shadowbox[summoners_war]" title="Summoners War App :: Video Game Promotional Event :: Experiential Design :: Station Tablet – Location Screen"></a>
+							<a href="_images/_mobile/summoners_war/sw_iphone_4.jpg" class="box MOBILE_summoners_war" rel="shadowbox[summoners_war]" title="Summoners War App :: Video Game Promotional Event :: Experiential Design :: Attendee Phone App – Location Map"></a>
             </div>
 
 						<a href="_images/_mobile/GoTV_partners/ESPN_Fantasy_Cast.jpg" class="box MOBILE_GoTV_Partners" rel="shadowbox[GoTV_Partners]" title="ESPN Fantasy Cast (2010)"></a>
@@ -1086,6 +1112,12 @@
 							<a href="_images/_mobile/Telemundo/6.jpg" rel="shadowbox[Telemundo]" title="Telemundo Novelas – Schedule"></a>
 							<a href="_images/_mobile/Telemundo/7.jpg" rel="shadowbox[Telemundo]" title="Telemundo Novelas – Search"></a>
 						</div>
+
+						<a href="_images/_mobile/bettye_lavette/1.jpg" class="box MOBILE_bettye_lavette" rel="shadowbox[bettye_lavette]" title="Bettye LaVette Promotional iBook :: Anti-/Epitaph Records :: Concept/Design/Coding (iBook Author)"></a>
+						<div class="hideMe">
+							<a href="_images/_mobile/bettye_lavette/2.jpg" rel="shadowbox[bettye_lavette]" title="Bettye LaVette Promotional iBook :: Anti-/Epitaph Records :: Concept/Design/Coding (iBook Author)"></a>
+							<a href="_images/_mobile/bettye_lavette/3.jpg" rel="shadowbox[bettye_lavette]" title="Bettye LaVette Promotional iBook :: Anti-/Epitaph Records :: Concept/Design/Coding (iBook Author)"></a>
+            </div>
 
 						<a href="_images/_mobile/aquatic_discoveries/1.jpg" class="box MOBILE_aquatic_discoveries" rel="shadowbox[aquatic_discoveries]" title="Aquatic Discoveries Photo iBook (100+ images) :: Premier Digital Publishing :: Design/Coding (iBook Author)"></a>
 						<div class="hideMe">
