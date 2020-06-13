@@ -718,6 +718,40 @@
 							<a href="_images/_print/machinima/FP_ad.jpg" rel="shadowbox[machinima]" title="Machinima :: FP Advertisement"></a>
             </div>
 
+						<a href="_images/_print/NOFX/1.jpg" class="box PRINT_NOFX" rel="shadowbox[NOFX]" title="NOFX 7&uml; boxset"></a>
+						<div class="hideMe">
+							<a href="_images/_print/NOFX/2.jpg" rel="shadowbox[NOFX]" title="NOFX 7&uml; boxset"></a>
+							<a href="_images/_print/NOFX/8.jpg" rel="shadowbox[NOFX]" title="NOFX 7&uml; boxset :: New 7&uml; Design for Debut Demo Tape to Match Era (1984)"></a>
+							<a href="_images/_print/NOFX/9.jpg" rel="shadowbox[NOFX]" title="NOFX 7&uml; boxset :: New 7&uml; Design for Debut Demo Tape to Match Era (1984)"></a>
+							<a href="_images/_print/NOFX/3.jpg" rel="shadowbox[NOFX]" title="NOFX 7&uml; boxset – 7&uml; Records :: Digitally Recreated to Match Originals"></a>
+							<a href="_images/_print/NOFX/4.jpg" rel="shadowbox[NOFX]" title="NOFX 7&uml; boxset – 7&uml; Records :: Digitally Recreated to Match Originals"></a>
+							<a href="_images/_print/NOFX/5.jpg" rel="shadowbox[NOFX]" title="NOFX 7&uml; boxset – 7&uml; Records :: Digitally Recreated to Match Originals"></a>
+							<a href="_images/_print/NOFX/6.jpg" rel="shadowbox[NOFX]" title="NOFX 7&uml; boxset – <strong>b</strong>ox Cover Mechanicals"></a>
+							<a href="_images/_print/NOFX/7.jpg" rel="shadowbox[NOFX]" title="NOFX 7&uml; boxset – 7&uml; Records with Felt"></a>
+						</div>
+
+						<a href="_images/_print/Target/1.jpg" class="box PRINT_Target" rel="shadowbox[Target]" title="Target :: Ultimate Dorm Design TV Show Pitch <i>{ <a href='_images/_print/Target/Target_pitch.pdf#view=FitH' target='_target' class='shadowboxLink'>View PDF</a> }</i>"></a>
+						<div class="hideMe">
+							<a href="_images/_print/Target/2.jpg" class="box PRINT_Target" rel="shadowbox[Target]" title="Target :: Ultimate Dorm Design TV Show Pitch <i>{ <a href='_images/_print/Target/Target_pitch.pdf#view=FitH' target='_target' class='shadowboxLink'>View PDF</a> }</i>"></a>
+						</div>
+
+						<a href="_images/_print/VRLA/vrla_sales_presentation_1.jpg" class="box PRINT_VRLA" rel="shadowbox[VRLA]" title="VRLA :: 2017 Sponsorship Sales Presentation :: Cover <i>{ <a href='_images/_print/VRLA/vrla_2017_Deck.pdf#view=FitH' target='_target' class='shadowboxLink'>View PDF</a> }</i>"></a>
+						<div class="hideMe">
+              <a href="_images/_print/VRLA/vrla_sales_presentation_2.jpg" class="box PRINT_VRLA" rel="shadowbox[VRLA]" title="VRLA :: 2017 Sponsorship Sales Presentation :: Interior Pages <i>{ <a href='_images/_print/VRLA/vrla_2017_Deck.pdf#view=FitH' target='_target' class='shadowboxLink'>View PDF</a> }</i>"></a>
+							<a href="_images/_print/VRLA/vrla_theater_slide.jpg" rel="shadowbox[VRLA]" title="VRLA :: 2017 Theater Slide (1 of 60)"></a>
+              <a href="_images/_print/VRLA/vrla_signage.jpg" class="box PRINT_VRLA" rel="shadowbox[VRLA]" title="VRLA :: 2017 Large Format Signage Examples <i>{ <a href='_images/_print/VRLA/vrla_signage.pdf' target='_target' class='shadowboxLink'>View PDF</a> }</i>"></a>
+              <a href="_images/_print/VRLA/vrla_trifold_1.jpg" class="box PRINT_VRLA" rel="shadowbox[VRLA]" title="VRLA :: 2017 Attendee Trifold :: Schedule <i>{ <a href='_images/_print/VRLA/vrla_trifold.pdf' target='_target' class='shadowboxLink'>View PDF</a> }</i>"></a>
+              <a href="_images/_print/VRLA/vrla_trifold_2.jpg" class="box PRINT_VRLA" rel="shadowbox[VRLA]" title="VRLA :: 2017 Attendee Trifold :: Map <i>{ <a href='_images/_print/VRLA/vrla_trifold.pdf' target='_target' class='shadowboxLink'>View PDF</a> }</i>"></a>
+              <a href="_images/_print/VRLA/1.jpg" class="box PRINT_VRLA" rel="shadowbox[VRLA]" title="VRLA :: 2015 Proto Awards Sponsorship Brochures <i>(multple tiers/docs) { <a href='_images/_print/VRLA/VRLA_proto.pdf' target='_target' class='shadowboxLink'>View PDF</a> }</i>"></a>
+              <a href="_images/_print/VRLA/2.jpg" class="box PRINT_VRLA" rel="shadowbox[VRLA]" title="VRLA :: Winter Expo Brochure  <i>{ <a href='_images/_print/VRLA/VRLA_expo.pdf' target='_target' class='shadowboxLink'>View PDF</a> }</i>"></a>
+							<a href="_images/_print/VRLA/3.jpg" class="box PRINT_VRLA" rel="shadowbox[VRLA]" title="VRLA :: School Sponsorship Brochure  <i>{ <a href='_images/_print/VRLA/VRLA_School.pdf' target='_target' class='shadowboxLink'>View PDF</a> }</i>"></a>
+						</div>
+
+						<a href="_images/_print/LAT/vegas.jpg" class="box PRINT_LAT" rel="shadowbox[LAT]" title="Los Angeles Times :: Las Vegas Guide – 40+ pg. full color, glossy supplement"></a>
+						<div class="hideMe">
+							<a href="_images/_print/LAT/taste.jpg" class="box PRINT_LAT" rel="shadowbox[LAT]" title="Los Angeles Times :: Taste – 40+ pg. full color, glossy supplement/event program"></a>
+						</div>
+
 						<a href="_images/_print/rich_robinson/6.jpg" class="box PRINT_rich_robinson" rel="shadowbox[rich_robinson]" title="dms.FM/Downtown Music :: Tommy Guerrero CD/DVD Insert"></a>
 						<div class="hideMe">
 							<a href="_images/_print/rich_robinson/7.jpg" rel="shadowbox[rich_robinson]" title="dms.FM/Downtown Music :: Epic Trailer - Glossy, Heavy Stock Marketing Piece (LP Sized)"></a>
@@ -742,28 +776,6 @@
 							<a href="_images/_print/book_design/9.jpg" rel="shadowbox[book_design]" title="Book Design – Print, eBook & iBook"></a>
 							<a href="_images/_print/book_design/2.jpg" rel="shadowbox[book_design]" title="Book Design – Print, eBook & iBook"></a>
             </div>
-
-						<a href="_images/_print/NOFX/1.jpg" class="box PRINT_NOFX" rel="shadowbox[NOFX]" title="NOFX 7&uml; boxset"></a>
-						<div class="hideMe">
-							<a href="_images/_print/NOFX/2.jpg" rel="shadowbox[NOFX]" title="NOFX 7&uml; boxset"></a>
-							<a href="_images/_print/NOFX/8.jpg" rel="shadowbox[NOFX]" title="NOFX 7&uml; boxset :: New 7&uml; Design for Debut Demo Tape to Match Era (1984)"></a>
-							<a href="_images/_print/NOFX/9.jpg" rel="shadowbox[NOFX]" title="NOFX 7&uml; boxset :: New 7&uml; Design for Debut Demo Tape to Match Era (1984)"></a>
-							<a href="_images/_print/NOFX/3.jpg" rel="shadowbox[NOFX]" title="NOFX 7&uml; boxset – 7&uml; Records :: Digitally Recreated to Match Originals"></a>
-							<a href="_images/_print/NOFX/4.jpg" rel="shadowbox[NOFX]" title="NOFX 7&uml; boxset – 7&uml; Records :: Digitally Recreated to Match Originals"></a>
-							<a href="_images/_print/NOFX/5.jpg" rel="shadowbox[NOFX]" title="NOFX 7&uml; boxset – 7&uml; Records :: Digitally Recreated to Match Originals"></a>
-							<a href="_images/_print/NOFX/6.jpg" rel="shadowbox[NOFX]" title="NOFX 7&uml; boxset – <strong>b</strong>ox Cover Mechanicals"></a>
-							<a href="_images/_print/NOFX/7.jpg" rel="shadowbox[NOFX]" title="NOFX 7&uml; boxset – 7&uml; Records with Felt"></a>
-						</div>
-
-						<a href="_images/_print/Target/1.jpg" class="box PRINT_Target" rel="shadowbox[Target]" title="Target :: Ultimate Dorm Design TV Show Pitch <i>{ <a href='_images/_print/Target/Target_pitch.pdf#view=FitH' target='_target' class='shadowboxLink'>View PDF</a> }</i>"></a>
-						<div class="hideMe">
-							<a href="_images/_print/Target/2.jpg" class="box PRINT_Target" rel="shadowbox[Target]" title="Target :: Ultimate Dorm Design TV Show Pitch <i>{ <a href='_images/_print/Target/Target_pitch.pdf#view=FitH' target='_target' class='shadowboxLink'>View PDF</a> }</i>"></a>
-						</div>
-
-						<a href="_images/_print/LAT/vegas.jpg" class="box PRINT_LAT" rel="shadowbox[LAT]" title="Los Angeles Times :: Las Vegas Guide – 40+ pg. full color, glossy supplement"></a>
-						<div class="hideMe">
-							<a href="_images/_print/LAT/taste.jpg" class="box PRINT_LAT" rel="shadowbox[LAT]" title="Los Angeles Times :: Taste – 40+ pg. full color, glossy supplement/event program"></a>
-						</div>
 
 						<a href="_images/_print/movie_promotion/1.jpg" class="box PRINT_movie_promotion" rel="shadowbox[movie_promotion]" title="Star Trek - Into Darkness :: Paramont Pictures :: Multi-City Subway Wrap"></a>
 						<div class="hideMe">
@@ -796,12 +808,6 @@
 							<a href="_images/_print/AL_marketing/9.jpg" rel="shadowbox[AL_marketing]" title="ArcLight Marketing Campaign :: Wreck It Ralph Movie Promotion - Stand Alone & Postcard"></a>
 							<a href="_images/_print/AL_marketing/10.jpg" rel="shadowbox[AL_marketing]" title="ArcLight Marketing Campaign :: Wreck It Ralph Movie Promotion - In-Theater Promotion"></a>
             </div>
-
-						<a href="_images/_print/VRLA/1.jpg" class="box PRINT_VRLA" rel="shadowbox[VRLA]" title="VRLA :: 2015 Proto Awards Sponsorship Brochures <i>(multple tiers/docs) { <a href='_images/_print/VRLA/VRLA_proto.pdf#view=FitH' target='_target' class='shadowboxLink'>View PDF</a> }</i>"></a>
-						<div class="hideMe">
-							<a href="_images/_print/VRLA/2.jpg" class="box PRINT_VRLA" rel="shadowbox[VRLA]" title="VRLA :: Winter Expo Brochure  <i>{ <a href='_images/_print/VRLA/VRLA_expo.pdf#view=FitH' target='_target' class='shadowboxLink'>View PDF</a> }</i>"></a>
-							<a href="_images/_print/VRLA/3.jpg" class="box PRINT_VRLA" rel="shadowbox[VRLA]" title="VRLA :: School Sponsorship Brochure  <i>{ <a href='_images/_print/VRLA/VRLA_School.pdf#view=FitH' target='_target' class='shadowboxLink'>View PDF</a> }</i>"></a>
-						</div>
 
 						<a href="_images/_print/aeg/1.jpg" class="box PRINT_aeg" rel="shadowbox[aeg]" title="AEG Digital Media :: Retractable Banner Stands 33 in. x 80 in. "></a>
 						<div class="hideMe">
