@@ -740,7 +740,7 @@
               <a href="_images/_print/VRLA/vrla_sales_presentation_2.jpg" class="box PRINT_VRLA" rel="shadowbox[VRLA]" title="VRLA :: 2017 Sponsorship Sales Presentation :: Interior Pages <i>{ <a href='_images/_print/VRLA/vrla_2017_Deck.pdf#view=FitH' target='_target' class='shadowboxLink'>View PDF</a> }</i>"></a>
 							<a href="_images/_print/VRLA/vrla_theater_slide.jpg" rel="shadowbox[VRLA]" title="VRLA :: 2017 Theater Slide (1 of 60)"></a>
               <a href="_images/_print/VRLA/vrla_signage.jpg" class="box PRINT_VRLA" rel="shadowbox[VRLA]" title="VRLA :: 2017 Large Format Signage Examples <i>{ <a href='_images/_print/VRLA/vrla_signage.pdf' target='_target' class='shadowboxLink'>View PDF</a> }</i>"></a>
-              <a href="_images/_print/VRLA/vrla_trifold_1.jpg" class="box PRINT_VRLA" rel="shadowbox[VRLA]" title="VRLA :: 2017 Attendee Trifold :: Schedule <i>{ <a href='_images/_print/VRLA/vrla_trifold.pdf' target='_target' class='shadowboxLink'>View PDF</a> }</i>"></a>
+              <!-- <a href="_images/_print/VRLA/vrla_trifold_1.jpg" class="box PRINT_VRLA" rel="shadowbox[VRLA]" title="VRLA :: 2017 Attendee Trifold :: Schedule <i>{ <a href='_images/_print/VRLA/vrla_trifold.pdf' target='_target' class='shadowboxLink'>View PDF</a> }</i>"></a> -->
               <a href="_images/_print/VRLA/vrla_trifold_2.jpg" class="box PRINT_VRLA" rel="shadowbox[VRLA]" title="VRLA :: 2017 Attendee Trifold :: Map <i>{ <a href='_images/_print/VRLA/vrla_trifold.pdf' target='_target' class='shadowboxLink'>View PDF</a> }</i>"></a>
               <a href="_images/_print/VRLA/1.jpg" class="box PRINT_VRLA" rel="shadowbox[VRLA]" title="VRLA :: 2015 Proto Awards Sponsorship Brochures <i>(multple tiers/docs) { <a href='_images/_print/VRLA/VRLA_proto.pdf' target='_target' class='shadowboxLink'>View PDF</a> }</i>"></a>
               <a href="_images/_print/VRLA/2.jpg" class="box PRINT_VRLA" rel="shadowbox[VRLA]" title="VRLA :: Winter Expo Brochure  <i>{ <a href='_images/_print/VRLA/VRLA_expo.pdf' target='_target' class='shadowboxLink'>View PDF</a> }</i>"></a>
@@ -1186,6 +1186,16 @@
 							<a href="_images/_motion/MLG_CSGO/iphone.html" rel="shadowbox[MLG_CSGO]" title="MLG CSGO :: Crummy iPhone Video That Does A Poor Job Of Showing How Crisp And Bright These Displays Were."></a>
             </div>
 
+						<a href="_images/_motion/bots/bots_intro_1.html" class="box MOTION_BOTS" rel="shadowbox[BOTS]" title="Battle on the Strip :: SLS Las Vegas, NV :: Animated Theater Graphics - Art Direction/Animation/Concepting :: Intro Branding"></a>
+						<div class="hideMe">
+							<a href="_images/_motion/bots/bots_sls_marquee.jpg" rel="shadowbox[BOTS]" title="BOTS :: SLS Las Vegas, NV :: Animated Theater Graphics :: SLS Animated Marquee Board"></a>
+              <a href="_images/_motion/bots/bots_marquee_2.html" class="box MOTION_BOTS" rel="shadowbox[BOTS]" title="BOTS :: SLS Las Vegas, NV :: Animated Theater Graphics :: SLS Animated Marquee Board"></a>
+              <a href="_images/_motion/bots/bots_bg_3.html" class="box MOTION_BOTS" rel="shadowbox[BOTS]" title="BOTS :: SLS Las Vegas, NV :: Animated Theater Graphics :: SLS Animated Background"></a>
+              <a href="_images/_motion/bots/bots_brackets_4.html" class="box MOTION_BOTS" rel="shadowbox[BOTS]" title="BOTS :: SLS Las Vegas, NV :: Animated Theater Graphics :: SLS Animated Bracket Board"></a>
+              <a href="_images/_motion/bots/bots_sponsor_5.html" class="box MOTION_BOTS" rel="shadowbox[BOTS]" title="BOTS :: SLS Las Vegas, NV :: Animated Theater Graphics :: SLS Animated Sponsor Board"></a>
+              <a href="_images/_motion/bots/bots_marquee_6.html" class="box MOTION_BOTS" rel="shadowbox[BOTS]" title="BOTS :: SLS Las Vegas, NV :: Animated Theater Graphics :: SLS Animated Marquee Board"></a>
+            </div>
+
 						<a href="_images/_motion/BID/BID_highlights.html" class="box MOTION_BID" rel="shadowbox[BID]" title="Break It Down :: Disney XD :: Animated Show Graphics - Art Direction/Animation/Concepting"></a>
             <div class="hideMe">
                 <a href="_images/_motion/BID/BID_extras.html" rel="shadowbox[BID]" title="Break It Down :: Disney XD :: Initial concepting/design exploration"></a>
@@ -1253,7 +1263,9 @@
 
   						<a href="_images/_motion/music_promo/lake_effect.html" class="box MOTION_music_promo" rel="shadowbox[music_promo]" title="Lake Effect :: Indie Rock Band Teaser Video"></a>
               <div class="hideMe">
-                <a href="_images/_motion/music_promo/cutlass_supreme.html" class="box MOTION_music_promo" rel="shadowbox[music_promo]" title="Cutlass Supreme :: Indie Rock Band Teaser Video"></a>
+              <a href="_images/_motion/music_promo/samiam.html" class="box MOTION_music_promo" rel="shadowbox[music_promo]" title="Samiam :: Social Video"></a>
+              <a href="_images/_motion/music_promo/cutlass_supreme.html" class="box MOTION_music_promo" rel="shadowbox[music_promo]" title="Cutlass Supreme :: Indie Rock Band Teaser Video"></a>
+
               </div>
 
 

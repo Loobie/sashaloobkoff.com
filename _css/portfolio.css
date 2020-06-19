@@ -848,6 +848,16 @@
 	background-position:0px -195px;
 }
 
+.MOTION_BOTS {
+	background: url(../_images/_motion/_nav/bots.jpg) no-repeat;
+	background-position:0px 0px;
+}
+
+.MOTION_BOTS span.hover {
+	background: url(../_images/_motion/_nav/bots.jpg) no-repeat;
+	background-position:0px -195px;
+}
+
 .MOTION_machinima {
 	background: url(../_images/_motion/_nav/machinima.jpg) no-repeat;
 	background-position:0px 0px;
