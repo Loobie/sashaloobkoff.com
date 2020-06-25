@@ -525,6 +525,16 @@
 
 /* xxxxxxxxxx Print xxxxxxxxxx */
 
+.PRINT_esports_branding {
+	background: url(../_images/_print/_nav/esports_branding.jpg) no-repeat;
+	background-position:0px 0px;
+}
+
+.PRINT_esports_branding span.hover {
+	background: url(../_images/_print/_nav/esports_branding.jpg) no-repeat;
+	background-position:0px -195px;
+}
+
 .PRINT_flogging_molly {
 	background: url(../_images/_print/_nav/flogging_molly.jpg) no-repeat;
 	background-position:0px 0px;

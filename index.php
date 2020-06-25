@@ -652,6 +652,29 @@
 							<a href="_images/_print/X/8.jpg" rel="shadowbox[X]" title="X - 20 page 12x12 booklet cover <i>'punk' version</i> <i>{ <a href='_images/_print/X/X_booklet_punk.pdf' class='shadowboxLink' target='_newWindow'>PDF</a> }</i>"></a>
             </div>
 
+						<a href="_images/_print/esports_branding/celebrity_league.jpg" class="box PRINT_esports_branding" rel="shadowbox[esports_branding]" title="Celebrity League :: Esports Tournament Series"></a>
+						<div class="hideMe">
+							<a href="_images/_print/esports_branding/battle_series.jpg" class="box PRINT_esports_branding" rel="shadowbox[esports_branding]" title="Battle Series :: Esports Tournament Series"></a>
+							<a href="_images/_print/esports_branding/battle_series_1.jpg" class="box PRINT_esports_branding" rel="shadowbox[esports_branding]" title="Battle Series :: Esports Tournament Series"></a>
+							<a href="_images/_print/esports_branding/hvh_1.jpg" class="box PRINT_esports_branding" rel="shadowbox[esports_branding]" title="H3RO V HERO :: Video Game"></a>
+							<a href="_images/_print/esports_branding/hvh_2.jpg" class="box PRINT_esports_branding" rel="shadowbox[esports_branding]" title="H3RO V HERO (Secondary Logo) :: Video Game"></a>
+							<a href="_images/_print/esports_branding/squad.jpg" class="box PRINT_esports_branding" rel="shadowbox[esports_branding]" title="Squad Logo & Title Screen :: Esports Broadcast / Show (Twitch, YouTube, etc.)"></a>
+							<a href="_images/_print/esports_branding/redbull_conquest.jpg" class="box PRINT_esports_branding" rel="shadowbox[esports_branding]" title="Red Bull Conquest :: Esports Tournament Series"></a>
+							<a href="_images/_print/esports_branding/retro_rewind.jpg" class="box PRINT_esports_branding" rel="shadowbox[esports_branding]" title="Retro Rewind Logo & Title Screen :: Esports Broadcast / Show (Twitch, YouTube, etc.)"></a>
+							<a href="_images/_print/esports_branding/charity_cup.jpg" class="box PRINT_esports_branding" rel="shadowbox[esports_branding]" title="Charity Cup :: Esports Tournament Series"></a>
+							<a href="_images/_print/esports_branding/wesg.jpg" class="box PRINT_esports_branding" rel="shadowbox[esports_branding]" title="WESG :: Esports Tournament Series"></a>
+							<a href="_images/_print/esports_branding/wg.jpg" class="box PRINT_esports_branding" rel="shadowbox[esports_branding]" title="Weapons Grade Studios :: Esports Broadcast Production Studio Logo"></a>
+							<a href="_images/_print/esports_branding/clash_royale.jpg" class="box PRINT_esports_branding" rel="shadowbox[esports_branding]" title="Super Cell Clash Royale :: Esports Broadcast / Show (Twitch, YouTube, etc.)"></a>
+							<a href="_images/_print/esports_branding/battle_bands.jpg" class="box PRINT_esports_branding" rel="shadowbox[esports_branding]" title="Battle Bands :: Esports Broadcast / Show (Twitch, YouTube, etc.)"></a>
+							<a href="_images/_print/esports_branding/battle_of_the_bands.jpg" class="box PRINT_esports_branding" rel="shadowbox[esports_branding]" title="Battle of the Bands :: Esports Broadcast / Show (Twitch, YouTube, etc.)"></a>
+							<a href="_images/_print/esports_branding/play.jpg" class="box PRINT_esports_branding" rel="shadowbox[esports_branding]" title="Play :: Esports Broadcast / Show (Twitch, YouTube, etc.) :: Music / Pop Culture"></a>
+							<a href="_images/_print/esports_branding/landline.jpg" class="box PRINT_esports_branding" rel="shadowbox[esports_branding]" title="2GG UMV Land Line :: Esports Tournament Series"></a>
+							<a href="_images/_print/esports_branding/landline_2.jpg" class="box PRINT_esports_branding" rel="shadowbox[esports_branding]" title="2GG UMV Land Line :: Esports Tournament Series :: Subway Wrap Proposal"></a>
+							<a href="_images/_print/esports_branding/gmhl.jpg" class="box PRINT_esports_branding" rel="shadowbox[esports_branding]" title="Good Morning, Happy Lunch :: Esports Broadcast / Show (Twitch, YouTube, etc.) :: Podcast Style Talk Show"></a>
+							<a href="_images/_print/esports_branding/faith_xp.jpg" class="box PRINT_esports_branding" rel="shadowbox[esports_branding]" title="Faith XP :: Esports Broadcast / Show (Twitch, YouTube, etc.) :: Christian Gaming"></a>
+							<a href="_images/_print/esports_branding/ult.jpg" class="box PRINT_esports_branding" rel="shadowbox[esports_branding]" title="ULT Esports :: Esports Streetwear / Apparel Logo"></a>
+						</div>
+
 						<a href="_images/_print/AL_signage/3b.jpg" class="box PRINT_AL_signage" rel="shadowbox[AL_signage]" title="ArcLight Theaters :: Bus Wrap - Instagram Campaign :: Recognized as 'Cool Campaign of 2013' by CBS Outdoor"></a>
 						<div class="hideMe">
 							<a href="_images/_print/AL_signage/3.jpg" rel="shadowbox[AL_signage]" title="ArcLight Theaters :: Bus Wrap - Instagram Campaign :: Recognized as 'Cool Campaign of 2013' by CBS Outdoor"></a>
@@ -751,7 +774,6 @@
 						<div class="hideMe">
 							<a href="_images/_print/LAT/taste.jpg" class="box PRINT_LAT" rel="shadowbox[LAT]" title="Los Angeles Times :: Taste – 40+ pg. full color, glossy supplement/event program"></a>
 						</div>
-
 						<a href="_images/_print/rich_robinson/6.jpg" class="box PRINT_rich_robinson" rel="shadowbox[rich_robinson]" title="dms.FM/Downtown Music :: Tommy Guerrero CD/DVD Insert"></a>
 						<div class="hideMe">
 							<a href="_images/_print/rich_robinson/7.jpg" rel="shadowbox[rich_robinson]" title="dms.FM/Downtown Music :: Epic Trailer - Glossy, Heavy Stock Marketing Piece (LP Sized)"></a>
