@@ -1286,7 +1286,9 @@
   						<a href="_images/_motion/music_promo/lake_effect.html" class="box MOTION_music_promo" rel="shadowbox[music_promo]" title="Lake Effect :: Indie Rock Band Teaser Video"></a>
               <div class="hideMe">
               <a href="_images/_motion/music_promo/samiam.html" class="box MOTION_music_promo" rel="shadowbox[music_promo]" title="Samiam :: Social Video"></a>
+              <a href="_images/_motion/music_promo/cutlass_supreme_bansuelo.html" class="box MOTION_music_promo" rel="shadowbox[music_promo]" title="Cutlass Supreme :: Indie Rock Band Social Video"></a>
               <a href="_images/_motion/music_promo/cutlass_supreme.html" class="box MOTION_music_promo" rel="shadowbox[music_promo]" title="Cutlass Supreme :: Indie Rock Band Teaser Video"></a>
+              <a href="_images/_motion/music_promo/cutlass_supreme_key_of_h.html" class="box MOTION_music_promo" rel="shadowbox[music_promo]" title="Cutlass Supreme :: Indie Rock Band Social Video"></a>
 
               </div>
 
