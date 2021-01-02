@@ -1,6 +1,16 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
     <head>
+
+      <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-5NQJZVQ');</script>
+<!-- End Google Tag Manager -->
+
+
       <title>Sasha Loobkoff  |  Art Director</title>
       <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -28,6 +38,11 @@
 
 </head>
 <body>
+
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5NQJZVQ"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
 
     <div id="alert">
             <div class="alert"><img src="http://www.sashaloobkoff.com/_images/ie_sm.png" style="float: left;" />Hiya! This site is not currently optimized for Internet Explorer. Please use ANY other browser. [ <a id="close_alert" href="#">close</a> ] &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
@@ -1176,7 +1191,7 @@
 							<a href="_images/_mobile/TB_Bucs/5.jpg" rel="shadowbox[TB_Bucs]" title="Tampa Bay Buccaneers App – Video Loading"></a>
 						</div>
 
-						<a href="_images/_mobile/demo_pitches/nat_geo_demo.swf" class="box MOBILE_demos" rel="shadowbox[demos]; title="National Geographic App Demo"></a>
+						<a href="_images/_mobile/demo_pitches/nat_geo_demo.swf" class="box MOBILE_demos" rel="shadowbox[demos]" title="National Geographic App Demo"></a>
 						<div class="hideMe">
 							<a rel="shadowbox[demos];width=240;height=260" href="_images/_mobile/demo_pitches/rachael_ray_demo.swf" title="Rachel Ray App Demo"></a>
 						</div>
@@ -1318,7 +1333,7 @@
 						<a href="_images/_motion/TVGasm/1.html" class="box MOTION_TVGasm" rel="shadowbox[TVGasm]" title="TVGasm.com :: Parent of the Week"></a>
 						<div class="hideMe">
 							<a href="_images/_motion/TVGasm/2.html" rel="shadowbox[TVGasm]" title="TVGasm.com :: Parent of the Week"></a>
-							<a href="_images/_motion/TVGasm/3.html" rel="shadowbox[TVGasm]" title="TVGasm.com :: Parent of the Week"></a>
+							<a href="_images/_motion/TVGasm/3.html" rel="shadowbox[TVGasm]" title="TVGasm.com :: Show Open"></a>
 							<a href="_images/_motion/TVGasm/4.html" rel="shadowbox[TVGasm]" title="TVGasm.com :: Parent of the Week"></a>
             </div>
 
