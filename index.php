@@ -1,15 +1,14 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html xmlns="https://www.w3.org/1999/xhtml">
     <head>
 
       <!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-5NQJZVQ');</script>
-<!-- End Google Tag Manager -->
-
+      <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+      'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+      })(window,document,'script','dataLayer','GTM-5NQJZVQ');</script>
+      <!-- End Google Tag Manager -->
 
       <title>Sasha Loobkoff  |  Art Director</title>
       <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
@@ -17,7 +16,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       <meta name="description" content="Sasha Loobkoff |  Art Director" />
       <meta name="keywords" content="Art, mobile, web, print, design, html, php, css, jquery"/>
 
-  		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js" type="text/javascript"></script>
+  		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js" type="text/javascript"></script>
   		<script src="_js/runonload.js" type="text/javascript"></script>
   		<script src="_js/nav_bar.js" type="text/javascript"></script>
       <script src="_js/form.js" type="text/javascript"></script>
@@ -45,7 +44,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <!-- End Google Tag Manager (noscript) -->
 
     <div id="alert">
-            <div class="alert"><img src="http://www.sashaloobkoff.com/_images/ie_sm.png" style="float: left;" />Hiya! This site is not currently optimized for Internet Explorer. Please use ANY other browser. [ <a id="close_alert" href="#">close</a> ] &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+            <div class="alert"><img src="https://www.sashaloobkoff.com/_images/ie_sm.png" style="float: left;" />Hiya! This site is not currently optimized for Internet Explorer. Please use ANY other browser. [ <a id="close_alert" href="#">close</a> ] &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
             <!-- end floats -->
             <div style="clear: both"></div>
     </div>
@@ -123,19 +122,19 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 					<div id="links_box" class="content_box">
             <img id="link_head" src="../_images/links.png" />
 						<div id="link_box_1">
-							<p class="link">>> <a href="http://www.sashaloobkoff.com/Loobkoff_resume.pdf" onclick="this.target='_blank';">Resume</a></p>
+							<p class="link">>> <a href="https://www.sashaloobkoff.com/Loobkoff_resume.pdf" onclick="this.target='_blank';">Resume</a></p>
 
-							<p class="link"><a href="http://www.sashaloobkoff.com/_guitar" onclick="this.target='_blank';">My guitar theory site</a></p>
+							<p class="link"><a href="https://g.page/sasha-loobkoff?gm" onclick="this.target='_blank';">Google Business Profile (w/ reviews)</a></p>
 
-							<p class="link"><a href="http://www.sashaloobkoff.com/store/frameset.php" onclick="this.target='_blank';">My record store (2009)</a></p>
+            	<p class="link"><a href="https://www.sashaloobkoff.com/_guitar" onclick="this.target='_blank';">My guitar theory site</a></p>
 
-							<p class="link"><a href="http://www.sashaloobkoff.com/japan" onclick="this.target='_blank';">My trip to Japan (Flash)</a></p>
+              <p class="link"><a href="https://open.spotify.com/artist/5oBGzkPQuk5gBaGikJsj0B" onclick="this.target='_blank';">My indie rock band</a></p>
 
-							<p class="link"><a href="http://soundcloud.com/tracks/search?q=sasha+loobkoff" onclick="this.target='_blank';">My SoundCloud</a></p>
+							<p class="link"><a href="https://github.com/Loobie" onclick="this.target='_blank';">My GitHub</a></p>
+
+            	<p class="link"><a href="http://soundcloud.com/tracks/search?q=sasha+loobkoff" onclick="this.target='_blank';">My SoundCloud</a></p>
 
 							<p class="link"><a href="http://www.w3schools.com/css/" onclick="this.target='_blank';">wc3 schools</a></p>
-
-							<p class="link"><a href="http://jquery.com/" onclick="this.target='_blank';">jQuery</a></p>
 
 							<p class="link"><a href="http://tympanus.net/codrops/" onclick="this.target='_blank';">codrops</a></p>
 
@@ -287,7 +286,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 							<a href="_images/_web/avatar_labs/_progressives/pride_progressive.html" rel="shadowbox[avatar_labs]" title="Avatar Labs :: Pride rich media"></a>
 							<a href="_images/_web/avatar_labs/2.jpg" rel="shadowbox[avatar_labs]" title="Avatar Labs :: The Interview rich media"></a>
 							<a href="_images/_web/avatar_labs/_progressives/the interview progressive.html" rel="shadowbox[avatar_labs]" title="Avatar Labs :: The Interview rich media"></a>
-							<a href="_images/_web/avatar_labs/5.jpg" rel="shadowbox[avatar_labs]" title="Avatar Labs :: Shameless site takeover proposal { <a href='http://www.sashaloobkoff.com/_images/_web/avatar_labs/shamelessTest/test.html' target='_shameless' class='shadowBoxLink'>view animated page</a> }</i>"></a>
+							<a href="_images/_web/avatar_labs/5.jpg" rel="shadowbox[avatar_labs]" title="Avatar Labs :: Shameless site takeover proposal { <a href='https://www.sashaloobkoff.com/_images/_web/avatar_labs/shamelessTest/test.html' target='_shameless' class='shadowBoxLink'>view animated page</a> }</i>"></a>
 							<a href="_images/_web/avatar_labs/american_sniper.jpg" rel="shadowbox[avatar_labs]" title="Avatar Labs :: American Sniper statics"></a>
 							<a href="_images/_web/avatar_labs/book_of_life.jpg" rel="shadowbox[avatar_labs]" title="Avatar Labs :: Additional takeovers and rich media units"></a>
 							<a href="_images/_web/avatar_labs/7.jpg" rel="shadowbox[avatar_labs]" title="Avatar Labs :: The Judge statics"></a>
@@ -398,7 +397,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 						<div class="hideMe">
 							<a href="_images/_web/LATimesDotCom/LAT_rs2.jpg" rel="shadowbox[Latimes]" title="latimes.com Rockstyle :: 5 pages :: Wordpress (PHP & MySQL), CSS & jQuery"></a>
 							<a href="_images/_web/LATimesDotCom/LAT_Ketel_one.jpg" rel="shadowbox[Latimes]"title="Los Angeles Times / LATimes.com – 2012 Ketel One Special Section"></a>
-              <a href="_images/_web/LATimesDotCom/ketel_one" rel="shadowbox[Latimes];width=1000;height=700" title="Los Angeles Times / LATimes.com – 2012 Ketel One Special Section DEMO - Click links under Ketel One logo to see more."></a>
+              <a href="_images/_web/LATimesDotCom/ketel_one/index.html" rel="shadowbox[Latimes];width=1000;height=700" title="Los Angeles Times / LATimes.com – 2012 Ketel One Special Section DEMO - Click links under Ketel One logo to see more."></a>
               <a href="_images/_web/LATimesDotCom/wordGame.swf" rel="shadowbox[Latimes];width=650;height=500" title="Los Angeles Times / LATimes.com – 2005 Oscars Speech Game :: Design/Coding (Flash)"></a>
 							<a href="_images/_web/LATimesDotCom/box_office_chart.swf" rel="shadowbox[Latimes];width=760;height=500" title="Los Angeles Times / LATimes.com – 2005 Oscars Box Office Chart :: Design/Coding (Flash)"></a>
 							<a href="_images/_web/LATimesDotCom/ncaa_pickem_2011.swf" rel="shadowbox[Latimes];width=750;height=570" title="Los Angeles Times / LATimes.com – 2005 NCAA Final Four User Predictions :: Design/Coding (Flash)"></a>
@@ -459,7 +458,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 							<a href="_images/_web/coding/cb1.jpg" rel="shadowbox[coding]" title="Captain Blankenship eStore :: Minimal Design - Wordpress (PHP, MySQL & Child Theme Creation), CSS & jQuery"></a>
 							<a href="_images/_web/coding/cb2.jpg" rel="shadowbox[coding]" title="Captain Blankenship eStore :: Minimal Design - Wordpress (PHP, MySQL & Child Theme Creation), CSS & jQuery"></a>
 							<a href="_images/_web/coding/cb3.jpg" rel="shadowbox[coding]" title="Captain Blankenship eStore :: Minimal Design - Wordpress (PHP, MySQL & Child Theme Creation), CSS & jQuery"></a>
-							<a href="http://sashaloobkoff.com/Heavy_Duty/" rel="shadowbox[coding]" title="Heavy Duty Music - Coming Soon :: HTML 5"></a>
+							<a href="_images/_web/heavy_duty/" rel="shadowbox[coding]" title="Heavy Duty Music - Coming Soon :: HTML 5"></a>
 							<a href="_images/_web/coding/wine_guy.jpg" rel="shadowbox[coding]" title="California Wine Guy :: Minimal Design - Wordpress (PHP & CSS)"></a>
 							<a href="_images/_web/coding/disaster_hunter.jpg" rel="shadowbox[coding]" title="The Disaster Hunter - Tom Viscount :: Minimal Design - Wordpress (PHP & CSS)"></a>
             </div>
@@ -532,21 +531,21 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 							<a href="_images/_web/Universal/mobile_component.jpg" rel="shadowbox[universal]" title="Universal Music Group – Mobile Component"></a>
 						</div>
 
-						<a href="_images/_web/myPlace/1.jpg" class="box WEB_myPlace" rel="shadowbox[myPlace]" title="myPlace – E-Comm / Social Destination Pitch to P&G <i>{ <a href='http://www.sashaloobkoff.com/proctor_gamble' class='shadowBoxLink'>demo</a> }</i>"></a>
+						<a href="_images/_web/myPlace/1.jpg" class="box WEB_myPlace" rel="shadowbox[myPlace]" title="myPlace – E-Comm / Social Destination Pitch to P&G"></a>
 						<div class="hideMe">
-							<a href="_images/_web/myPlace/2.jpg" rel="shadowbox[myPlace]" title="myPlace – E-Comm / Social Destination Pitch to P&G <i>{ <a href='http://www.sashaloobkoff.com/proctor_gamble' class='shadowBoxLink'>demo</a> } </i> – Select a Host"></a>
-							<a href="_images/_web/myPlace/3.jpg" rel="shadowbox[myPlace]" title="myPlace – E-Comm / Social Destination Pitch to P&G <i>{ <a href='http://www.sashaloobkoff.com/proctor_gamble' class='shadowBoxLink'>demo</a> }</i> – Select a Room to Visit"></a>
-							<a href="_images/_web/myPlace/4.jpg" rel="shadowbox[myPlace]" title="myPlace – E-Comm / Social Destination Pitch to P&G <i>{ <a href='http://www.sashaloobkoff.com/proctor_gamble' class='shadowBoxLink'>demo</a> }</i> – Enter the Living Room"></a>
-							<a href="_images/_web/myPlace/4b.jpg" rel="shadowbox[myPlace]" title="myPlace – E-Comm / Social Destination Pitch to P&G <i>{ <a href='http://www.sashaloobkoff.com/proctor_gamble' class='shadowBoxLink'>demo</a> }</i> – Click on Chair"></a>
-							<a href="_images/_web/myPlace/4c.jpg" rel="shadowbox[myPlace]" title="myPlace – E-Comm / Social Destination Pitch to P&G <i>{ <a href='http://www.sashaloobkoff.com/proctor_gamble' class='shadowBoxLink'>demo</a> }</i> – Select a New Chair"></a>
-							<a href="_images/_web/myPlace/4d.jpg" rel="shadowbox[myPlace]" title="myPlace – E-Comm / Social Destination Pitch to P&G <i>{ <a href='http://www.sashaloobkoff.com/proctor_gamble' class='shadowBoxLink'>demo</a> }</i> – See New Chair in Room"></a>
-							<a href="_images/_web/myPlace/5.jpg" rel="shadowbox[myPlace]" title="myPlace – E-Comm / Social Destination Pitch to P&G <i>{ <a href='http://www.sashaloobkoff.com/proctor_gamble' class='shadowBoxLink'>demo</a> }</i> – Enter the Kitchen"></a>
-							<a href="_images/_web/myPlace/6.jpg" rel="shadowbox[myPlace]" title="myPlace – E-Comm / Social Destination Pitch to P&G <i>{ <a href='http://www.sashaloobkoff.com/proctor_gamble' class='shadowBoxLink'>demo</a> }</i> – Enter the Bedroom"></a>
-							<a href="_images/_web/myPlace/7.jpg" rel="shadowbox[myPlace]" title="myPlace – E-Comm / Social Destination Pitch to P&G <i>{ <a href='http://www.sashaloobkoff.com/proctor_gamble' class='shadowBoxLink'>demo</a> }</i> – Listen To, Share, Rate & Buy Music"></a>
-							<a href="_images/_web/myPlace/8.jpg" rel="shadowbox[myPlace]" title="myPlace – E-Comm / Social Destination Pitch to P&G <i>{ <a href='http://www.sashaloobkoff.com/proctor_gamble' class='shadowBoxLink'>demo</a> }</i> – Shop, eMail Friends or See 'Their' myPlace"></a>
-							<a href="_images/_web/myPlace/9.jpg" rel="shadowbox[myPlace]" title="myPlace – E-Comm / Social Destination Pitch to P&G <i>{ <a href='http://www.sashaloobkoff.com/proctor_gamble' class='shadowBoxLink'>demo</a> }</i> – P&G Can Promote Products with eCoupons"></a>
-							<a href="_images/_web/myPlace/10.jpg" rel="shadowbox[myPlace]" title="myPlace – E-Comm / Social Destination Pitch to P&G <i>{ <a href='http://www.sashaloobkoff.com/proctor_gamble' class='shadowBoxLink'>demo</a> }</i> – Users May Decorate Their myPlace As They Wish"></a>
-							<a href="_images/_web/myPlace/11.jpg" rel="shadowbox[myPlace]" title="myPlace – E-Comm / Social Destination Pitch to P&G <i>{ <a href='http://www.sashaloobkoff.com/proctor_gamble' class='shadowBoxLink'>demo</a> }</i> – Users May Decorate Their myPlace As They Wish"></a>
+							<a href="_images/_web/myPlace/2.jpg" rel="shadowbox[myPlace]" title="myPlace – E-Comm / Social Destination Pitch to P&G – Select a Host"></a>
+							<a href="_images/_web/myPlace/3.jpg" rel="shadowbox[myPlace]" title="myPlace – E-Comm / Social Destination Pitch to P&G – Select a Room to Visit"></a>
+							<a href="_images/_web/myPlace/4.jpg" rel="shadowbox[myPlace]" title="myPlace – E-Comm / Social Destination Pitch to P&G – Enter the Living Room"></a>
+							<a href="_images/_web/myPlace/4b.jpg" rel="shadowbox[myPlace]" title="myPlace – E-Comm / Social Destination Pitch to P&G – Click on Chair"></a>
+							<a href="_images/_web/myPlace/4c.jpg" rel="shadowbox[myPlace]" title="myPlace – E-Comm / Social Destination Pitch to P&G – Select a New Chair"></a>
+							<a href="_images/_web/myPlace/4d.jpg" rel="shadowbox[myPlace]" title="myPlace – E-Comm / Social Destination Pitch to P&G – See New Chair in Room"></a>
+							<a href="_images/_web/myPlace/5.jpg" rel="shadowbox[myPlace]" title="myPlace – E-Comm / Social Destination Pitch to P&G – Enter the Kitchen"></a>
+							<a href="_images/_web/myPlace/6.jpg" rel="shadowbox[myPlace]" title="myPlace – E-Comm / Social Destination Pitch to P&G – Enter the Bedroom"></a>
+							<a href="_images/_web/myPlace/7.jpg" rel="shadowbox[myPlace]" title="myPlace – E-Comm / Social Destination Pitch to P&G – Listen To, Share, Rate & Buy Music"></a>
+							<a href="_images/_web/myPlace/8.jpg" rel="shadowbox[myPlace]" title="myPlace – E-Comm / Social Destination Pitch to P&G – Shop, eMail Friends or See 'Their' myPlace"></a>
+							<a href="_images/_web/myPlace/9.jpg" rel="shadowbox[myPlace]" title="myPlace – E-Comm / Social Destination Pitch to P&G – P&G Can Promote Products with eCoupons"></a>
+							<a href="_images/_web/myPlace/10.jpg" rel="shadowbox[myPlace]" title="myPlace – E-Comm / Social Destination Pitch to P&G – Users May Decorate Their myPlace As They Wish"></a>
+							<a href="_images/_web/myPlace/11.jpg" rel="shadowbox[myPlace]" title="myPlace – E-Comm / Social Destination Pitch to P&G – Users May Decorate Their myPlace As They Wish"></a>
 						</div>
 
 						<a href="_images/_web/verizon_widget/2.jpg" class="box WEB_verizon_widget" rel="shadowbox[verizon_widget]" title="Verizon My TV To Go Widget"></a>
@@ -554,13 +553,13 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 							<a href="_images/_web/verizon_widget//1.jpg" rel="shadowbox[verizon_widget]" title="Verizon My TV To Go Widget"></a>
 						</div>
 
-					<a href="_images/_web/momibello/inventory.jpg" class="box WEB_momibello" rel="shadowbox[momibello]" title="Momibello Recording Company eCommerce Site (now defunct but operational) <i>{ <a href='http://www.sashaloobkoff.com/store' class='shadowBoxLink'>demo</a> }</i>"></a>
+					<a href="_images/_web/momibello/inventory.jpg" class="box WEB_momibello" rel="shadowbox[momibello]" title="Momibello Recording Company eCommerce Site"></a>
 						<div class="hideMe">
-							<a href="_images/_web/momibello/news.jpg" rel="shadowbox[momibello]" title="Momibello Recording Company eCommerce Site (now defunct but operational) <i>{ <a href='http://www.sashaloobkoff.com/store' class='shadowBoxLink'>demo</a> }</i> – News"></a>
-							<a href="_images/_web/momibello/band.jpg" rel="shadowbox[momibello]" title="Momibello Recording Company eCommerce Site (now defunct but operational) <i>{ <a href='http://www.sashaloobkoff.com/store' class='shadowBoxLink'>demo</a> }</i> – Band"></a>
-							<a href="_images/_web/momibello/product.jpg" rel="shadowbox[momibello]" title="Momibello Recording Company eCommerce Site (now defunct but operational) <i>{ <a href='http://www.sashaloobkoff.com/store' class='shadowBoxLink'>demo</a> }</i> – Product"></a>
-							<a href="_images/_web/momibello/shopping.jpg" rel="shadowbox[momibello]" title="Momibello Recording Company eCommerce Site (now defunct but operational) <i>{ <a href='http://www.sashaloobkoff.com/store' class='shadowBoxLink'>demo</a> }</i> – Shopping Cart"></a>
-							<a href="_images/_web/momibello/feedback.jpg" rel="shadowbox[momibello]" title="Momibello Recording Company eCommerce Site (now defunct but operational) <i>{ <a href='http://www.sashaloobkoff.com/store' class='shadowBoxLink'>demo</a> }</i> – Feedback"></a>
+							<a href="_images/_web/momibello/news.jpg" rel="shadowbox[momibello]" title="Momibello Recording Company eCommerce Site – News"></a>
+							<a href="_images/_web/momibello/band.jpg" rel="shadowbox[momibello]" title="Momibello Recording Company eCommerce Site – Band"></a>
+							<a href="_images/_web/momibello/product.jpg" rel="shadowbox[momibello]" title="Momibello Recording Company eCommerce Site – Product"></a>
+							<a href="_images/_web/momibello/shopping.jpg" rel="shadowbox[momibello]" title="Momibello Recording Company eCommerce Site – Shopping Cart"></a>
+							<a href="_images/_web/momibello/feedback.jpg" rel="shadowbox[momibello]" title="Momibello Recording Company eCommerce Site – Feedback"></a>
 						</div>
 
 						<a href="_images/_web/music_sites/DLP1.jpg" class="box WEB_music_sites" rel="shadowbox[music_sites]" title="DownloadPunk.com – Hopeless Records"></a>
@@ -578,8 +577,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 							<a href="_images/_web/music_sites/solea2.jpg" rel="shadowbox[music_sites]" title="Solea Official Website"></a>
 							<a href="_images/_web/music_sites/solea3.jpg" rel="shadowbox[music_sites]" title="Solea Official Website"></a>
 							<a href="_images/_web/music_sites/solea4.jpg" rel="shadowbox[music_sites]" title="Solea Official Website"></a>
-							<a href="_images/_web/music_sites/japan_1.jpg" rel="shadowbox[music_sites]" title="My Solea Tour Gallery from Japan 2004 <i>{ <a href='http://www.sashaloobkoff.com/japan' class='shadowBoxLink'>demo</a> }</i>"></a>
-							<a href="_images/_web/music_sites/japan_2.jpg" rel="shadowbox[music_sites]" title="My Solea Tour Gallery from Japan 2004 <i>{ <a href='http://www.sashaloobkoff.com/japan' class='shadowBoxLink'>demo</a> }</i>"></a>
+							<a href="_images/_web/music_sites/japan_1.jpg" rel="shadowbox[music_sites]" title="My Solea Tour Gallery from Japan 2004"></a>
+							<a href="_images/_web/music_sites/japan_2.jpg" rel="shadowbox[music_sites]" title="My Solea Tour Gallery from Japan 2004"></a>
 							<a href="_images/_web/music_sites/speed1.jpg" rel="shadowbox[music_sites]" title="Speed Not Steel Official Website"></a>
 							<a href="_images/_web/music_sites/speed2.jpg" rel="shadowbox[music_sites]" title="Speed Not Steel Official Website – Flash Video Game"></a>
 							<a href="_images/_web/music_sites/Joshua_Myers.jpg" rel="shadowbox[music_sites]" title="Television & Film Composer, Joshua Myer's Website"></a>
@@ -1005,7 +1004,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 							<a href="_images/_print/GoTV_guides/HHO_programming_guide.jpg" rel="shadowbox[guides]" title="HHO – Programming Guide"></a>
 						</div>
 
-						<a href="_images/_print/Sprint_SEE/SEE_presentation.jpg" class="box PRINT_SEE" rel="shadowbox[SEE]" title="Sprint SEE – 2011 Renewal Presentation <i>{ <a href='http://www.sashaloobkoff.com/_image/_print/Sprint_SEE/Sprint_SEE.pdf' class='shadowboxLink' target='_newWindow'>Download</a> }</i>"></a>
+						<a href="_images/_print/Sprint_SEE/SEE_presentation.jpg" class="box PRINT_SEE" rel="shadowbox[SEE]" title="Sprint SEE – 2011 Renewal Presentation <i>{ <a href='https://www.sashaloobkoff.com/_image/_print/Sprint_SEE/Sprint_SEE.pdf' class='shadowboxLink' target='_newWindow'>Download</a> }</i>"></a>
 						<div class="hideMe">
 							<a href="_images/_print/Sprint_SEE/SEE_shows.jpg" rel="shadowbox[SEE]" title="Sprint SEE – Partial Show List"></a>
 							<a href="_images/_print/Sprint_SEE/SEE_website.jpg" rel="shadowbox[SEE]" title="Sprint SEE – Website"></a>
