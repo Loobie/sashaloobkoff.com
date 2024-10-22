@@ -19,7 +19,7 @@
   		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js" type="text/javascript"></script>
   		<script src="_js/runonload.js" type="text/javascript"></script>
   		<script src="_js/nav_bar.js" type="text/javascript"></script>
-      <script src="_js/form.js" type="text/javascript"></script>
+     	<script src="_js/form.js" type="text/javascript"></script>
   		<script src="_js/shadowbox.js" type="text/javascript"></script>
   		<script src="_js/jquery.easing.1.3.js" type="text/javascript"></script>
   		<script src="_js/jquery.innerfade.js" type="text/javascript"></script>
@@ -124,15 +124,15 @@
 						<div id="link_box_1">
 							<p class="link">>> <a href="https://www.sashaloobkoff.com/Loobkoff_resume.pdf" onclick="this.target='_blank';">Resume</a></p>
 
-							<p class="link"><a href="https://g.page/sasha-loobkoff?gm" onclick="this.target='_blank';">Google Business Profile (w/ reviews)</a></p>
+							<p class="link"><a href="https://g.page/sasha-loobkoff?gm" onclick="this.target='_blank';">My Business Profile</a></p>
 
-            	<p class="link"><a href="https://www.sashaloobkoff.com/_guitar" onclick="this.target='_blank';">My guitar theory site</a></p>
+            				<p class="link"><a href="https://www.sashaloobkoff.com/_guitar" onclick="this.target='_blank';">My guitar theory site</a></p>
 
-              <p class="link"><a href="https://open.spotify.com/artist/5oBGzkPQuk5gBaGikJsj0B" onclick="this.target='_blank';">My indie rock band</a></p>
+             				<p class="link"><a href="https://open.spotify.com/artist/5oBGzkPQuk5gBaGikJsj0B" onclick="this.target='_blank';">My indie rock band</a></p>
 
 							<p class="link"><a href="https://github.com/Loobie" onclick="this.target='_blank';">My GitHub</a></p>
 
-            	<p class="link"><a href="http://soundcloud.com/tracks/search?q=sasha+loobkoff" onclick="this.target='_blank';">My SoundCloud</a></p>
+            				<p class="link"><a href="http://soundcloud.com/tracks/search?q=sasha+loobkoff" onclick="this.target='_blank';">My SoundCloud</a></p>
 
 							<p class="link"><a href="http://www.w3schools.com/css/" onclick="this.target='_blank';">wc3 schools</a></p>
 
